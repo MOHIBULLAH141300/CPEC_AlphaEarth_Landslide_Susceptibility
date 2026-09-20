@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript."
+title: "CPEC AlphaEarth landslide-susceptibility analysis"
+type: software
+authors:
+  - family-names: Ullah
+    given-names: Mohib
+  - family-names: Ding
+    given-names: Mingtao
+  - family-names: Xue
+    given-names: Qiang
+  - family-names: Dong
+    given-names: Ying
+  - family-names: Li
+    given-names: Zhenhong
+    email: zhenhong.li@chd.edu.cn
+version: "1.0"
+date-released: 2026-09-20
+repository-code: "https://github.com/MOHIBULLAH141300/CPEC_AlphaEarth_Landslide_Susceptibility"
+license: CC-BY-4.0
+preferred-citation:
+  type: article
+  title: "Evaluating AlphaEarth embeddings for cross-regional landslide susceptibility mapping: A transferability-aware framework for the China-Pakistan Economic Corridor"
+  authors:
+    - family-names: Ullah
+      given-names: Mohib
+    - family-names: Ding
+      given-names: Mingtao
+    - family-names: Xue
+      given-names: Qiang
+    - family-names: Dong
+      given-names: Ying
+    - family-names: Li
+      given-names: Zhenhong
+  year: 2026
+  journal: "Geoscience Frontiers"
+

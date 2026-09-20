@@ -1,121 +1,82 @@
-# CPEC AlphaEarth Landslide Susceptibility Mapping - Data and Code Repository
+# CPEC AlphaEarth landslide-susceptibility analysis
 
-This repository contains the analysis code, data, and supplementary materials for the manuscript:
+Data, code, derived results, and supplementary material for:
 
-**"A transferability-aware framework for evaluating AlphaEarth embeddings in cross-regional landslide susceptibility mapping"**
+> **Evaluating AlphaEarth embeddings for cross-regional landslide susceptibility mapping: A transferability-aware framework for the China-Pakistan Economic Corridor**
 
-**Authors:** Mohib Ullah, Mingtao Ding, Qiang Xue, Ying Dong, Zhenhong Li  
-**Journal:** Geoscience Frontiers  
-**DOI:** [To be assigned upon publication]
+Mohib Ullah, Mingtao Ding, Qiang Xue, Ying Dong, and Zhenhong Li
+Submitted to *Geoscience Frontiers*
 
----
+## Study purpose
 
-## Overview
+The study evaluates three predictor configurations for landslide-susceptibility mapping across the China-Pakistan Economic Corridor (CPEC):
 
-This study develops a three-dimensional evaluation framework (PPS–CDT–PDS) to assess AlphaEarth embeddings for landslide susceptibility mapping across the China–Pakistan Economic Corridor (CPEC). The repository includes:
+- 19 conventional conditioning factors;
+- 64 AlphaEarth embedding axes; and
+- their fusion.
 
-- Analysis code for spatial cross-validation and stacked ensemble modeling
-- Fixed fold assignments for reproducibility
-- Derived sample tables and model manifests
-- Bootstrap summaries and figure-generation scripts
-- Supplementary data (domain partition rules, LODO estimates, AoA sensitivity grid)
+The PPS-CDT-PDS framework distinguishes three questions that should not be conflated:
 
----
+1. **Pooled predictive skill (PPS):** performance under fully nested, buffered spatial cross-validation.
+2. **Cross-domain transferability (CDT):** performance when a complete geographic domain is excluded from model fitting.
+3. **Predictor-domain support (PDS):** whether target conditions are represented by the source-domain predictor space.
 
-## Directory Structure
+The main scientific result is methodological rather than a large accuracy gain. Fusion increased pooled ROC-AUC from 0.960 to 0.967, while statistically resolved transfer improvement was geographically selective and predictor support was narrower than for conventional predictors.
 
-```
-├── 06_scripts/                    # Analysis scripts
-│   ├── python/                    # Python modeling scripts
-│   │   └── run_2018_v3_model_family.py
-│   └── [other analysis scripts]
-├── 03_models/                     # Model outputs and results
-│   ├── v3_model_family_2018_spatial_cv/
-│   │   ├── v3_model_family_summary.csv
-│   │   ├── v3_model_family_meta_coefficients.csv
-│   │   ├── v3_model_family_fold_metrics.csv
-│   │   └── [other model outputs]
-│   └── stacked_ensemble_paper_outputs/
-│       └── stacked_ensemble_metrics_pooled.csv
-├── 00_READ_ME_FIRST_2018_V3_RESULTS/  # Comprehensive results documentation
-│   ├── 06_samples_factors_and_vif/
-│   │   └── cpec_2018_lsm_samples_v3.csv
-│   ├── 10_domain_specific_2018_results/
-│   └── [other results directories]
-└── Supplementary_Data_S1.xlsx      # Domain partition rules and LODO results
+## Repository map
+
+```text
+Supplementary_Data_S1.xlsx     Submission supplement and complete sensitivity grids
+scripts/
+  python/                      Analysis and figure-generation scripts
+  gee/                         Google Earth Engine preparation/export scripts
+model_outputs/                 Derived metrics, predictions, manifests, and diagnostics
+documentation/                 Organised methods, figures, tables, and supporting outputs
 ```
 
----
+The most relevant result directories are:
 
-## Key Files
+- `model_outputs/manuscript_v3_nested_spatial_cv/`
+- `model_outputs/manuscript_v3_leave_one_domain_out/`
+- `model_outputs/manuscript_v3_harmonised_aoa/`
+- `model_outputs/manuscript_v3_robustness_experiments/`
+- `model_outputs/manuscript_v3_spatial_block_comparisons/`
+- `model_outputs/manuscript_v6_audit_resolutions/`
+- `model_outputs/manuscript_v6_partition_sensitivity/`
+- `model_outputs/manuscript_v6_spatial_design_sensitivity/`
 
-### Data Files
-- `cpec_2018_lsm_samples_v3.csv` - Final sample table with 3,316 observations (45.5% failures, 54.5% controls)
-- `Supplementary_Data_S1.xlsx` - Deterministic partition rules, LODO estimates, AoA sensitivity grid
+Core analysis entry points include:
 
-### Model Outputs
-- `v3_model_family_summary.csv` - Pooled performance metrics across feature sets and models
-- `v3_model_family_meta_coefficients.csv` - Stacked ensemble meta-learner coefficients per fold
-- `v3_model_family_fold_metrics.csv` - Detailed fold-level performance metrics
+- `scripts/python/run_manuscript_v3_nested_spatial_cv.py`
+- `scripts/python/run_manuscript_v3_leave_one_domain_out.py`
+- `scripts/python/run_manuscript_v3_harmonised_aoa.py`
+- `scripts/python/run_manuscript_v3_robustness_experiments.py`
+- `scripts/python/run_manuscript_v3_spatial_block_model_comparisons.py`
+- `scripts/python/run_manuscript_v6_partition_sensitivity.py`
+- `scripts/python/run_manuscript_v6_spatial_design_sensitivity.py`
+- `scripts/python/run_manuscript_v3_road_exposure.py`
 
-### Analysis Scripts
-- `run_2018_v3_model_family.py` - Main script for spatial cross-validation and ensemble training
+## Reproducibility scope
 
----
+This repository is a publication archive of the executed workflow and its derived outputs. The analysis used a deterministic random seed of `141300`, fixed spatial-block assignments, five outer and five inner spatial folds, and a 20 km exclusion buffer in the primary design.
 
-## Reproducibility
+Some archived scripts retain absolute workstation paths from the executed analysis. These paths do not contain credentials, but they must be replaced with local paths before rerunning the workflow. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the expected directory layout, dependency groups, and execution order.
 
-### Fixed Fold Assignments
-Spatial 5-fold cross-validation uses deterministic block assignment:
-- Block assignment: `(|31 × longitude_block + 17 × latitude_block| mod 5) + 1`
-- 20 km exclusion buffer enforced between training and test folds
-- Random seed: 141300 (for sample reproducibility)
+Raw satellite, terrain, climate, land-cover, geological, seismic, road, and inventory datasets are not all redistributed here because their licences and download services differ. The manuscript and Table 1 identify the authoritative sources. The primary CPEC slope-failure inventory is available from Science Data Bank (Yi et al., 2021), and the other public predictors are available through their respective services.
 
-### Model Configuration
-- Base learners: Logistic Regression, Random Forest, Extra Trees, XGBoost, LightGBM, CatBoost
-- Meta-learner: L2-regularized logistic regression
-- Hyperparameters: See `run_2018_v3_model_family.py` for complete specifications
+## Supplementary data
 
----
+`Supplementary_Data_S1.xlsx` contains the deterministic alternative partition, all alternative-domain leave-one-domain-out results and paired contrasts, and the complete area-of-applicability sensitivity grid used in the manuscript.
 
 ## Citation
 
-If you use this code or data, please cite our manuscript:
+Citation metadata are provided in [`CITATION.cff`](CITATION.cff). The article DOI will be added after publication.
 
-```
-Ullah, M., Ding, M., Xue, Q., Dong, Y., & Li, Z. (2026). 
-A transferability-aware framework for evaluating AlphaEarth embeddings 
-in cross-regional landslide susceptibility mapping. 
-Geoscience Frontiers.
-```
+## Licence
 
----
-
-## License
-
-This repository is made available under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
-
----
+Unless a file states otherwise, the original repository content is distributed under the [Creative Commons Attribution 4.0 International licence](LICENSE). Third-party datasets remain subject to their source licences and are not relicensed by this repository.
 
 ## Contact
 
-**Corresponding Author:**  
-Zhenhong Li  
-Email: zhenhong.li@chd.edu.cn  
-Institution: Chang'an University, Xi'an 710054, China
-
----
-
-## Acknowledgements
-
-This work was supported by:
-- Fundamental and Interdisciplinary Disciplines Breakthrough Plan of the Ministry of Education of China (Grant JYB2025XDXM104)
-- National Natural Science Foundation of China (Grant 42374027)
-- Fundamental Research Funds for the Central Universities (Grant 300112266411)
-
----
-
-## Data Sources
-
-The primary CPEC landslide and rockfall inventory is available from Science Data Bank (Yi et al., 2021).  
-Copernicus DEM, CHIRPS, MODIS, and Google Satellite Embedding products are available through their respective public data services.
+Zhenhong Li: `zhenhong.li@chd.edu.cn`
+Qiang Xue: `xueqiang_79@163.com`
