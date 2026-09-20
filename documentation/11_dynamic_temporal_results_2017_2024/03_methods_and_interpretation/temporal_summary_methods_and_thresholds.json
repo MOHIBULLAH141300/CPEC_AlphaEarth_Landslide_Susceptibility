@@ -1,0 +1,19 @@
+{
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "feature_set": "Conventional + AlphaEarth Embeddings",
+  "model": "Spatial-CV Stacked Ensemble",
+  "temporal_strategy": "fixed_2018_v3_model_applied_to_annual_predictors",
+  "fused_p80_threshold_from_2018": 0.12633591890335083,
+  "persistent_high_definition": "probability >= P80 in at least 6 of 8 years",
+  "outputs_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\00_multi_year_summary_outputs",
+  "change_maps_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\00_multi_year_summary_outputs\\01_year_to_year_change_maps"
+}

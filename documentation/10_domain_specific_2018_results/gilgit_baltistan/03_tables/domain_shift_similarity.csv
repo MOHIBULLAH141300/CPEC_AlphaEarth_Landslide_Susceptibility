@@ -1,0 +1,4 @@
+feature_set,held_out_domain,mean_abs_standardized_mean_difference,mean_js_divergence
+Conventional,Gilgit-Baltistan,0.5662229943886765,0.1212323268112187
+AlphaEarth Embeddings,Gilgit-Baltistan,0.5449402697354627,0.0774998341942059
+Conventional + AlphaEarth Embeddings,Gilgit-Baltistan,0.5498122187524634,0.0875108867209919

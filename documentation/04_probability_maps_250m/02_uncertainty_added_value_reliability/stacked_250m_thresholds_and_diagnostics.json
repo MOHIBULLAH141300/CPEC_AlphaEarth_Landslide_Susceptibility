@@ -1,0 +1,10 @@
+{
+  "fused_probability_p20": 0.022522401064634323,
+  "fused_probability_p40": 0.02668776735663414,
+  "fused_probability_p60": 0.04012589529156685,
+  "fused_probability_p80": 0.12633591890335083,
+  "fused_probability_p90": 0.4417957067489624,
+  "uncertainty_std_p25": 0.007681888062506914,
+  "uncertainty_std_p50": 0.01357282418757677,
+  "uncertainty_std_p75": 0.05905983969569206
+}

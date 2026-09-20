@@ -1,0 +1,27 @@
+﻿factor,factor_name,r2_against_other_factors,vif
+annual_mag_weighted_eq_density_m4plus_per_1000km2,Annual magnitude-weighted earthquake density M4+,0.9978838536659899,472.5571119200347
+annual_eq_kernel_density_m4plus_per_1000km2,Annual earthquake density M4+,0.9978687498499589,469.2081781111928
+rain_monsoon_total,rain_monsoon_total,0.762418383474248,4.209079871681097
+rain_max_1day,rain_max_1day,0.7383267526327667,3.821559941878949
+elevation_m,elevation_m,0.7026116738115669,3.36260677349646
+annual_max_shakemap_mmi,Annual maximum ShakeMap MMI,0.6674655367594816,3.007207103453549
+ndvi_median,ndvi_median,0.6551646005653722,2.89993429224361
+lithology_code,lithology_code,0.554572226668135,2.2450328871948275
+distance_to_annual_eq_m4plus_km,Distance to annual M4+ earthquake,0.5319474822934163,2.136512383054603
+valley_depth,valley_depth,0.5097313567353481,2.03969805888685
+distance_to_annual_eq_m5plus_km,Distance to annual M5+ earthquake,0.5018468032017476,2.0074145994188832
+ndvi_amplitude,ndvi_amplitude,0.4619845706110224,1.858682754016361
+gem_pga_475yr_rock_g,GEM PGA 475-year hazard,0.45692663054938587,1.8413718223959752
+tri,tri,0.4527319439915257,1.8272581215383696
+annual_max_shakemap_pga_percent_g,Annual maximum ShakeMap PGA,0.4326709852205821,1.7626456147123166
+aspect_deg,aspect_deg,0.4195952802538474,1.7229356791539578
+log1p_dist_fault_m,log1p_dist_fault_m,0.40854611280516484,1.690748884486717
+slope_deg,slope_deg,0.3785719019156577,1.6091966280293246
+log1p_dist_river_m,log1p_dist_river_m,0.37761650060482743,1.6067264009598459
+modis_lc_type1,modis_lc_type1,0.3374136390735667,1.5092372239624618
+twi,twi,0.3247936808165852,1.4810287931093213
+eq_density_ms5,eq_density_ms5,0.2926181123485162,1.4136635634254247
+plan_curvature,plan_curvature,0.281133416497374,1.3910787104994804
+soil_type,soil_type,0.27853485637000386,1.386068348317671
+log1p_dist_road_m,log1p_dist_road_m,0.2462760929395431,1.3267457627820596
+profile_curvature,profile_curvature,0.18918057948534728,1.2333202371562195

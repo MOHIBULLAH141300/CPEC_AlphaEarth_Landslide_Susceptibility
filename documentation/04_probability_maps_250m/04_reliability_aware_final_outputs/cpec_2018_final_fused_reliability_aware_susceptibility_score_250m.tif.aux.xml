@@ -1,0 +1,11 @@
+<PAMDataset>
+  <Metadata />
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="DESCRIPTION">final_fused_reliability_aware_susceptibility_score</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

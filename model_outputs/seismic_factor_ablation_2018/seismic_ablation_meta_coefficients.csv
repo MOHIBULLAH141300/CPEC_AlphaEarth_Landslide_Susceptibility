@@ -1,0 +1,211 @@
+﻿feature_set,feature_set_name,fold,base_model,base_model_name,meta_coefficient
+conventional_current,Conventional,1,logistic_l2,Logistic Regression (L2),-0.09636223482566414
+conventional_current,Conventional,1,random_forest,Random Forest,1.1576740891393058
+conventional_current,Conventional,1,extra_trees,Extra Trees,2.0085741784739968
+conventional_current,Conventional,1,xgboost,XGBoost,0.8743492937391439
+conventional_current,Conventional,1,lightgbm,LightGBM,-0.8764949991856701
+conventional_current,Conventional,1,catboost,CatBoost,0.4821219155091731
+conventional_current,Conventional,2,logistic_l2,Logistic Regression (L2),0.17326648698259606
+conventional_current,Conventional,2,random_forest,Random Forest,1.7984925703264558
+conventional_current,Conventional,2,extra_trees,Extra Trees,1.399393679199857
+conventional_current,Conventional,2,xgboost,XGBoost,-0.3064204984889877
+conventional_current,Conventional,2,lightgbm,LightGBM,0.00823383114017591
+conventional_current,Conventional,2,catboost,CatBoost,0.33189073071709024
+conventional_current,Conventional,3,logistic_l2,Logistic Regression (L2),0.4175226762429816
+conventional_current,Conventional,3,random_forest,Random Forest,1.2206957271485805
+conventional_current,Conventional,3,extra_trees,Extra Trees,1.7558770682548301
+conventional_current,Conventional,3,xgboost,XGBoost,-0.05123909309526643
+conventional_current,Conventional,3,lightgbm,LightGBM,0.1859305194192522
+conventional_current,Conventional,3,catboost,CatBoost,0.029181750545733715
+conventional_current,Conventional,4,logistic_l2,Logistic Regression (L2),0.08266876179474213
+conventional_current,Conventional,4,random_forest,Random Forest,2.2318654810679703
+conventional_current,Conventional,4,extra_trees,Extra Trees,1.1819275925644972
+conventional_current,Conventional,4,xgboost,XGBoost,0.1326117400841554
+conventional_current,Conventional,4,lightgbm,LightGBM,0.016046507585773973
+conventional_current,Conventional,4,catboost,CatBoost,-0.15711237621422697
+conventional_current,Conventional,5,logistic_l2,Logistic Regression (L2),0.025085258825561604
+conventional_current,Conventional,5,random_forest,Random Forest,1.3913416357225816
+conventional_current,Conventional,5,extra_trees,Extra Trees,1.6874781818294653
+conventional_current,Conventional,5,xgboost,XGBoost,0.05174348784806315
+conventional_current,Conventional,5,lightgbm,LightGBM,0.08366253191932117
+conventional_current,Conventional,5,catboost,CatBoost,0.16954024447110433
+conventional_gem_pga,Conventional + GEM PGA,1,logistic_l2,Logistic Regression (L2),-0.1311469093297237
+conventional_gem_pga,Conventional + GEM PGA,1,random_forest,Random Forest,1.1106937493487306
+conventional_gem_pga,Conventional + GEM PGA,1,extra_trees,Extra Trees,2.0283742778789504
+conventional_gem_pga,Conventional + GEM PGA,1,xgboost,XGBoost,0.6365356130568115
+conventional_gem_pga,Conventional + GEM PGA,1,lightgbm,LightGBM,-0.8224725110911278
+conventional_gem_pga,Conventional + GEM PGA,1,catboost,CatBoost,0.7981431241798087
+conventional_gem_pga,Conventional + GEM PGA,2,logistic_l2,Logistic Regression (L2),0.08249033427862709
+conventional_gem_pga,Conventional + GEM PGA,2,random_forest,Random Forest,1.6756609073410282
+conventional_gem_pga,Conventional + GEM PGA,2,extra_trees,Extra Trees,1.445347466968672
+conventional_gem_pga,Conventional + GEM PGA,2,xgboost,XGBoost,-0.6026538419681033
+conventional_gem_pga,Conventional + GEM PGA,2,lightgbm,LightGBM,-0.03291496801593298
+conventional_gem_pga,Conventional + GEM PGA,2,catboost,CatBoost,0.9316732834283084
+conventional_gem_pga,Conventional + GEM PGA,3,logistic_l2,Logistic Regression (L2),0.26059235849416273
+conventional_gem_pga,Conventional + GEM PGA,3,random_forest,Random Forest,1.0132405495415058
+conventional_gem_pga,Conventional + GEM PGA,3,extra_trees,Extra Trees,1.6457162699201011
+conventional_gem_pga,Conventional + GEM PGA,3,xgboost,XGBoost,-0.6544651552075723
+conventional_gem_pga,Conventional + GEM PGA,3,lightgbm,LightGBM,0.2530947047442789
+conventional_gem_pga,Conventional + GEM PGA,3,catboost,CatBoost,1.0711974607254424
+conventional_gem_pga,Conventional + GEM PGA,4,logistic_l2,Logistic Regression (L2),-0.002355962407003769
+conventional_gem_pga,Conventional + GEM PGA,4,random_forest,Random Forest,1.9641045188878103
+conventional_gem_pga,Conventional + GEM PGA,4,extra_trees,Extra Trees,1.4069791561886578
+conventional_gem_pga,Conventional + GEM PGA,4,xgboost,XGBoost,-0.36055019806447125
+conventional_gem_pga,Conventional + GEM PGA,4,lightgbm,LightGBM,0.050303764879485915
+conventional_gem_pga,Conventional + GEM PGA,4,catboost,CatBoost,0.5132205907887076
+conventional_gem_pga,Conventional + GEM PGA,5,logistic_l2,Logistic Regression (L2),-0.1207818508337189
+conventional_gem_pga,Conventional + GEM PGA,5,random_forest,Random Forest,1.1514581203268033
+conventional_gem_pga,Conventional + GEM PGA,5,extra_trees,Extra Trees,1.682490173783558
+conventional_gem_pga,Conventional + GEM PGA,5,xgboost,XGBoost,-0.2843128578459505
+conventional_gem_pga,Conventional + GEM PGA,5,lightgbm,LightGBM,-0.06607228116422008
+conventional_gem_pga,Conventional + GEM PGA,5,catboost,CatBoost,1.121728082057786
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,1,logistic_l2,Logistic Regression (L2),-0.08920925616939183
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,1,random_forest,Random Forest,0.9335835214712194
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,1,extra_trees,Extra Trees,2.054468047321556
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,1,xgboost,XGBoost,0.5570359692749997
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,1,lightgbm,LightGBM,-0.5145674685788206
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,1,catboost,CatBoost,0.7322269066595906
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,2,logistic_l2,Logistic Regression (L2),-0.05666456783704518
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,2,random_forest,Random Forest,1.2412371096732162
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,2,extra_trees,Extra Trees,1.7451673344911103
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,2,xgboost,XGBoost,-0.009855582686571183
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,2,lightgbm,LightGBM,-0.1614872028340603
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,2,catboost,CatBoost,0.9140172855587451
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,3,logistic_l2,Logistic Regression (L2),0.29934854607259936
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,3,random_forest,Random Forest,0.64741008516972
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,3,extra_trees,Extra Trees,2.0130155233447793
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,3,xgboost,XGBoost,-0.02550238066574421
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,3,lightgbm,LightGBM,0.5608487332568785
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,3,catboost,CatBoost,0.2570607505687787
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,4,logistic_l2,Logistic Regression (L2),-0.09615326217372683
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,4,random_forest,Random Forest,1.5383158911693708
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,4,extra_trees,Extra Trees,1.6351878380500615
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,4,xgboost,XGBoost,-0.01844847885501842
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,4,lightgbm,LightGBM,0.28491739953850215
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,4,catboost,CatBoost,0.3399578020447938
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,5,logistic_l2,Logistic Regression (L2),-0.12391959732518436
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,5,random_forest,Random Forest,0.9233533956057411
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,5,extra_trees,Extra Trees,1.7563963257756445
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,5,xgboost,XGBoost,0.17174380281994828
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,5,lightgbm,LightGBM,0.1501738569918617
+conventional_usgs_annual_seismic,Conventional + annual USGS seismic factors,5,catboost,CatBoost,0.7157605108669678
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,1,logistic_l2,Logistic Regression (L2),-0.07613450254229809
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,1,random_forest,Random Forest,0.6391769432113268
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,1,extra_trees,Extra Trees,2.3957647816637127
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,1,xgboost,XGBoost,0.7310060128469473
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,1,lightgbm,LightGBM,-0.42728594231429173
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,1,catboost,CatBoost,0.4413597132797104
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,2,logistic_l2,Logistic Regression (L2),-0.027207843107612425
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,2,random_forest,Random Forest,1.6087803642041982
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,2,extra_trees,Extra Trees,1.80669839067753
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,2,xgboost,XGBoost,0.08857667624106767
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,2,lightgbm,LightGBM,0.18004274553312571
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,2,catboost,CatBoost,0.061209492625818075
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,3,logistic_l2,Logistic Regression (L2),0.26540057157548647
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,3,random_forest,Random Forest,0.7205573079281589
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,3,extra_trees,Extra Trees,1.9102591713282744
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,3,xgboost,XGBoost,-0.30694681174767174
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,3,lightgbm,LightGBM,0.46229045455430556
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,3,catboost,CatBoost,0.7059242761418443
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,4,logistic_l2,Logistic Regression (L2),-0.07536799766961073
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,4,random_forest,Random Forest,1.4272047157670098
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,4,extra_trees,Extra Trees,1.7397358329795467
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,4,xgboost,XGBoost,-0.1977022122770167
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,4,lightgbm,LightGBM,0.4049405380455426
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,4,catboost,CatBoost,0.4135958358789094
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,5,logistic_l2,Logistic Regression (L2),-0.12692925738183022
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,5,random_forest,Random Forest,0.9467607374673266
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,5,extra_trees,Extra Trees,1.7954661516780588
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,5,xgboost,XGBoost,0.08182826325916133
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,5,lightgbm,LightGBM,0.19689348253265818
+conventional_gem_usgs_seismic,Conventional + GEM PGA + annual USGS seismic factors,5,catboost,CatBoost,0.7224058727223546
+fused_current,Conventional + AlphaEarth Embeddings,1,logistic_l2,Logistic Regression (L2),0.42123835763230716
+fused_current,Conventional + AlphaEarth Embeddings,1,random_forest,Random Forest,0.18966087102424806
+fused_current,Conventional + AlphaEarth Embeddings,1,extra_trees,Extra Trees,1.401402082617164
+fused_current,Conventional + AlphaEarth Embeddings,1,xgboost,XGBoost,1.1353067278555826
+fused_current,Conventional + AlphaEarth Embeddings,1,lightgbm,LightGBM,-0.21541039130091463
+fused_current,Conventional + AlphaEarth Embeddings,1,catboost,CatBoost,0.49863584403448313
+fused_current,Conventional + AlphaEarth Embeddings,2,logistic_l2,Logistic Regression (L2),0.1843938531822199
+fused_current,Conventional + AlphaEarth Embeddings,2,random_forest,Random Forest,0.7647940521845744
+fused_current,Conventional + AlphaEarth Embeddings,2,extra_trees,Extra Trees,1.1965229212300197
+fused_current,Conventional + AlphaEarth Embeddings,2,xgboost,XGBoost,1.0197692275134536
+fused_current,Conventional + AlphaEarth Embeddings,2,lightgbm,LightGBM,-0.03797814503625685
+fused_current,Conventional + AlphaEarth Embeddings,2,catboost,CatBoost,0.26161376377153667
+fused_current,Conventional + AlphaEarth Embeddings,3,logistic_l2,Logistic Regression (L2),0.7406314933487477
+fused_current,Conventional + AlphaEarth Embeddings,3,random_forest,Random Forest,-0.13908275345848714
+fused_current,Conventional + AlphaEarth Embeddings,3,extra_trees,Extra Trees,1.1917676376140922
+fused_current,Conventional + AlphaEarth Embeddings,3,xgboost,XGBoost,0.4093746047101827
+fused_current,Conventional + AlphaEarth Embeddings,3,lightgbm,LightGBM,0.4458919764474854
+fused_current,Conventional + AlphaEarth Embeddings,3,catboost,CatBoost,1.0117476717543699
+fused_current,Conventional + AlphaEarth Embeddings,4,logistic_l2,Logistic Regression (L2),0.3618502843688015
+fused_current,Conventional + AlphaEarth Embeddings,4,random_forest,Random Forest,0.40213831935746586
+fused_current,Conventional + AlphaEarth Embeddings,4,extra_trees,Extra Trees,1.1978998202866153
+fused_current,Conventional + AlphaEarth Embeddings,4,xgboost,XGBoost,0.7911610514023246
+fused_current,Conventional + AlphaEarth Embeddings,4,lightgbm,LightGBM,0.19456004767958682
+fused_current,Conventional + AlphaEarth Embeddings,4,catboost,CatBoost,0.4524196756275391
+fused_current,Conventional + AlphaEarth Embeddings,5,logistic_l2,Logistic Regression (L2),0.31692057025210857
+fused_current,Conventional + AlphaEarth Embeddings,5,random_forest,Random Forest,0.23919610395865493
+fused_current,Conventional + AlphaEarth Embeddings,5,extra_trees,Extra Trees,1.3317342828171876
+fused_current,Conventional + AlphaEarth Embeddings,5,xgboost,XGBoost,0.7791080953574392
+fused_current,Conventional + AlphaEarth Embeddings,5,lightgbm,LightGBM,0.16514637015782135
+fused_current,Conventional + AlphaEarth Embeddings,5,catboost,CatBoost,0.541515617090384
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,1,logistic_l2,Logistic Regression (L2),0.4810499946179842
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,1,random_forest,Random Forest,0.2023857145728917
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,1,extra_trees,Extra Trees,1.4818645779363586
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,1,xgboost,XGBoost,0.18168886559221256
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,1,lightgbm,LightGBM,0.1495198220575375
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,1,catboost,CatBoost,1.026466820964388
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,2,logistic_l2,Logistic Regression (L2),0.14489380253155615
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,2,random_forest,Random Forest,0.9509142527591044
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,2,extra_trees,Extra Trees,1.1022858701907454
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,2,xgboost,XGBoost,0.41731186974296475
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,2,lightgbm,LightGBM,0.3894866084246793
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,2,catboost,CatBoost,0.48573791515175496
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,3,logistic_l2,Logistic Regression (L2),0.7253781582392107
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,3,random_forest,Random Forest,0.025042082124747747
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,3,extra_trees,Extra Trees,1.1306627957328788
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,3,xgboost,XGBoost,0.04776416609962672
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,3,lightgbm,LightGBM,0.39142345082193436
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,3,catboost,CatBoost,1.3922118086271562
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,4,logistic_l2,Logistic Regression (L2),0.3569120360368138
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,4,random_forest,Random Forest,0.39718133453275944
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,4,extra_trees,Extra Trees,1.2213941433922793
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,4,xgboost,XGBoost,0.265243035484341
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,4,lightgbm,LightGBM,0.4052979529000857
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,4,catboost,CatBoost,0.831734190420858
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,5,logistic_l2,Logistic Regression (L2),0.2673287237405334
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,5,random_forest,Random Forest,0.3243591119798413
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,5,extra_trees,Extra Trees,1.24693856052095
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,5,xgboost,XGBoost,-0.10997691786658528
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,5,lightgbm,LightGBM,0.46168107061300323
+fused_gem_usgs_seismic,Conventional + AlphaEarth Embeddings + seismic factors,5,catboost,CatBoost,1.2424001206631161
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),1,logistic_l2,Logistic Regression (L2),-0.07619879716891197
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),1,random_forest,Random Forest,0.4576621539992489
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),1,extra_trees,Extra Trees,2.723454351948222
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),1,xgboost,XGBoost,1.0183965825083745
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),1,lightgbm,LightGBM,-0.41838559972135275
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),1,catboost,CatBoost,0.012475546566199706
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),2,logistic_l2,Logistic Regression (L2),-0.19353443134270124
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),2,random_forest,Random Forest,1.406302220974259
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),2,extra_trees,Extra Trees,2.3830352615025054
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),2,xgboost,XGBoost,0.49643965616650876
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),2,lightgbm,LightGBM,-0.17922842000051745
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),2,catboost,CatBoost,-0.16237169856664854
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),3,logistic_l2,Logistic Regression (L2),0.25087040316616743
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),3,random_forest,Random Forest,0.648249094929212
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),3,extra_trees,Extra Trees,2.4355024065261897
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),3,xgboost,XGBoost,0.028700485085761854
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),3,lightgbm,LightGBM,0.5467124505819436
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),3,catboost,CatBoost,-0.03170803550853468
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),4,logistic_l2,Logistic Regression (L2),-0.11510196344311964
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),4,random_forest,Random Forest,1.120731312979977
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),4,extra_trees,Extra Trees,2.2648962570421753
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),4,xgboost,XGBoost,0.3990090864139862
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),4,lightgbm,LightGBM,0.13305652218811967
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),4,catboost,CatBoost,-0.0838626074419197
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),5,logistic_l2,Logistic Regression (L2),-0.19005695237829576
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),5,random_forest,Random Forest,0.8051165569054441
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),5,extra_trees,Extra Trees,2.28445309832211
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),5,xgboost,XGBoost,0.6077229293862879
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),5,lightgbm,LightGBM,-0.009649679824792042
+conventional_all_seismic_diagnostic,Conventional + all seismic factors (diagnostic),5,catboost,CatBoost,0.1794894671784025

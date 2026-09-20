@@ -1,0 +1,16 @@
+feature_set,domain,study_area_pixels,in_area_of_applicability_pixels,in_area_of_applicability_percent,mean_transfer_confidence
+Conventional,"Kashgar (Xinjiang, China)",3745470,2725942,72.77970454976278,0.0954389423131942
+Conventional,Gilgit-Baltistan,1347245,303351,22.51639456817432,0.0283679813146591
+Conventional,KP-AJK,2232492,133214,5.967053857303856,0.0078557338565588
+Conventional,Balochistan,6298553,3621190,57.49241135225821,0.1568050235509872
+Conventional,Punjab-Sindh lowland corridor,6390937,103310,1.616507876701022,0.0032551314216107
+AlphaEarth Embeddings,"Kashgar (Xinjiang, China)",3745470,3672728,98.05786723695556,0.4004612863063812
+AlphaEarth Embeddings,Gilgit-Baltistan,1347245,1310578,97.27837178835328,0.3786082565784454
+AlphaEarth Embeddings,KP-AJK,2232492,1788209,80.09923439815238,0.219329759478569
+AlphaEarth Embeddings,Balochistan,6298553,6188631,98.2548055085033,0.4219256043434143
+AlphaEarth Embeddings,Punjab-Sindh lowland corridor,6390937,6213600,97.22517996969772,0.4808870255947113
+Conventional + AlphaEarth Embeddings,"Kashgar (Xinjiang, China)",3745470,3703174,98.87074252363522,0.3728346824645996
+Conventional + AlphaEarth Embeddings,Gilgit-Baltistan,1347245,1316960,97.7520792431963,0.3281855881214142
+Conventional + AlphaEarth Embeddings,KP-AJK,2232492,2024093,90.66518491443642,0.2417814433574676
+Conventional + AlphaEarth Embeddings,Balochistan,6298553,6226131,98.85018035094728,0.3980859518051147
+Conventional + AlphaEarth Embeddings,Punjab-Sindh lowland corridor,6390937,6276306,98.20635064936488,0.4519637823104858

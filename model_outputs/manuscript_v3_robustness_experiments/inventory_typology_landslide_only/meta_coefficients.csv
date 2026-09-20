@@ -1,0 +1,31 @@
+feature_set,feature_set_name,outer_fold,base_model,base_model_name,meta_coefficient
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,1,logistic_l2,Logistic Regression,0.444831824035463
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,1,random_forest,Random Forest,-0.4319592618014035
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,1,extra_trees,Extra Trees,-0.3502423287385441
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,1,xgboost,XGBoost,-0.8325659776068067
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,1,lightgbm,LightGBM,1.0207720261656947
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,1,catboost,CatBoost,1.9513802236822761
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,2,logistic_l2,Logistic Regression,0.3948785783468492
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,2,random_forest,Random Forest,0.017511365454017495
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,2,extra_trees,Extra Trees,-0.7834593828245543
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,2,xgboost,XGBoost,0.007069619602085094
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,2,lightgbm,LightGBM,0.39008534368872233
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,2,catboost,CatBoost,1.5717232400558068
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,3,logistic_l2,Logistic Regression,0.38300778253314605
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,3,random_forest,Random Forest,-0.7473882111661734
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,3,extra_trees,Extra Trees,-0.1395848430371109
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,3,xgboost,XGBoost,-0.1443436535319352
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,3,lightgbm,LightGBM,1.04408080928017
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,3,catboost,CatBoost,1.94191809273746
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,4,logistic_l2,Logistic Regression,0.39713918015645383
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,4,random_forest,Random Forest,0.17188321987847444
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,4,extra_trees,Extra Trees,-0.5606850382002443
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,4,xgboost,XGBoost,-0.1228418429786648
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,4,lightgbm,LightGBM,0.6863675970174894
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,4,catboost,CatBoost,1.3435243292134198
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,5,logistic_l2,Logistic Regression,0.30906791046666304
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,5,random_forest,Random Forest,-0.1046379183167459
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,5,extra_trees,Extra Trees,-0.41708028091643434
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,5,xgboost,XGBoost,-0.5447293473012391
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,5,lightgbm,LightGBM,1.049304653572291
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,5,catboost,CatBoost,1.6926307914335785

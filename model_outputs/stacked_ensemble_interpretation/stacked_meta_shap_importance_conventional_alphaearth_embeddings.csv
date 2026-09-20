@@ -1,0 +1,7 @@
+feature_set,base_model,mean_abs_shap,mean_shap
+Conventional + AlphaEarth Embeddings,Extra Trees,1.2338145120098976,-0.3590393607786365
+Conventional + AlphaEarth Embeddings,XGBoost,0.8786017584555953,-0.2284006936494658
+Conventional + AlphaEarth Embeddings,CatBoost,0.5357458504203833,-0.1559783264384798
+Conventional + AlphaEarth Embeddings,Logistic Regression,0.37606734286704113,-0.11444479096456814
+Conventional + AlphaEarth Embeddings,Random Forest,0.24683805825070115,-0.07107943610946396
+Conventional + AlphaEarth Embeddings,LightGBM,0.06508706684065296,-0.015216406992418073

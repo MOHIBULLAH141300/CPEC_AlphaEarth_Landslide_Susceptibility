@@ -1,0 +1,16 @@
+factor,factor_name,official_reduced_strategy,reason
+elevation_m,Elevation (m),keep,Kept in selected conventional set.
+slope_deg,Slope (degrees),keep,Kept in selected conventional set.
+aspect_deg,Aspect (degrees),keep,Kept in selected conventional set.
+rain_annual_total,Annual rainfall total,drop,Dropped: redundant with monsoon and extreme rainfall information in this sample table.
+rain_monsoon_total,Monsoon rainfall total,keep,Kept in selected conventional set.
+rain_max_1day,Maximum 1-day rainfall,keep,Kept in selected conventional set.
+rain_max_3day,Maximum 3-day rainfall,drop,Dropped: very high rainfall-family correlation; 1-day maximum kept for sharper triggering signal.
+rain_max_7day,Maximum 7-day rainfall,drop,Dropped: very high rainfall-family correlation; monsoon total and 1-day maximum retained.
+ndvi_median,NDVI median,keep,Kept in selected conventional set.
+ndvi_max,NDVI maximum,drop,Dropped: high VIF and redundancy with NDVI median/amplitude.
+ndvi_amplitude,NDVI amplitude,keep,Kept in selected conventional set.
+evi_median,EVI median,drop,Dropped: high correlation with NDVI median; NDVI median retained for a simpler vegetation signal.
+lst_day_mean_c,Mean daytime LST (deg C),keep,Kept in selected conventional set.
+lst_day_max_c,Maximum daytime LST (deg C),drop,Dropped: high correlation with mean daytime LST; mean daytime LST retained.
+modis_lc_type1,MODIS land-cover class,keep,Kept in selected conventional set.

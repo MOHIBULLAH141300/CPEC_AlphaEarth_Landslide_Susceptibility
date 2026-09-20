@@ -1,0 +1,18 @@
+{
+  "roads": "D:\\CPEC data\\中巴经济走廊1：25万路网数据（2018年）\\中巴经济走廊1：25万路网数据（2018年）\\路网.shp",
+  "rivers": "D:\\CPEC data\\中巴经济走廊1：25万水文数据（2000年）\\中巴经济走廊1：25万水文数据（2000年）\\河网.shp",
+  "faults": "D:\\CPEC data\\中巴经济走廊1：25万活动断裂带（1964年）\\FAULTS.shp",
+  "geology_200m": "D:\\CPEC data\\中巴经济走廊1：200万地质数据（1964年）\\中巴经济走廊1：200万地质数据（1964年）\\地层岩性.shp",
+  "soil_type": "D:\\CPEC data\\中巴经济走廊30m土壤类型数据（1971-1981年）\\中巴经济走廊30m土壤类型数据（1971-1981年）\\土壤类型.tif",
+  "river_distance_raster": "D:\\CPEC data\\中巴经济走廊30m距离河流的距离（2009年）\\中巴经济走廊30m距离河流的距离（2009年）\\river_buffer.tif",
+  "profile_curvature": "D:\\CPEC data\\中巴经济走廊30m剖面曲率（2009年）\\中巴经济走廊30m剖面曲率（2009年）\\剖面曲率.tif",
+  "plan_curvature": "D:\\CPEC data\\中巴经济走廊30m平面曲率（2009年）\\中巴经济走廊30m平面曲率（2009年）\\平面曲率.tif",
+  "tri": "D:\\CPEC data\\中巴经济走廊30m地形粗糙度（2009年）\\中巴经济走廊30m地形粗糙度（2009年）\\TRI.tif",
+  "twi": "D:\\CPEC data\\中巴经济走廊30m地形湿度指数（2009年）\\中巴经济走廊30m地形湿度指数（2009年）\\Topographic Wetness Index1.tif",
+  "valley_depth": "D:\\CPEC data\\中巴经济走廊30m谷深（2009年）\\中巴经济走廊30m谷深（2009年）\\Valley Depth.tif",
+  "relief": "D:\\CPEC data\\中巴经济走廊30m地形起伏度（2009年）\\中巴经济走廊30m地形起伏度数据（2009年）\\地形起伏度.tif",
+  "ls_factor": "D:\\CPEC data\\中巴经济走廊30mLS因子（2009）\\中巴经济走廊30mLS因子（2009年）\\LS-Factor1.tif",
+  "earthquake_density": "D:\\CPEC data\\中巴经济走廊30m大于5级地震密度（1970-2015年）\\中巴经济走廊30m大于5级地震密度（1970-2015年）\\大于5Ms地震密度.tif",
+  "population_density": "D:\\CPEC data\\中巴经济走廊30m人口数据（2015年）\\中巴经济走廊30m人口数据（2015年）\\人口密度.tif",
+  "night_lights": "D:\\CPEC data\\中巴经济走廊30m经济状况数据（1992-2013年）\\中巴经济走廊30m经济状况数据（1992-2013年）\\夜间灯光指数.tif"
+}

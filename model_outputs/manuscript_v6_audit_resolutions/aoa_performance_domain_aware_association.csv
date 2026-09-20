@@ -1,0 +1,5 @@
+metric,naive_spearman_rho,within_domain_spearman_rho,within_domain_permutation_p,cluster_bootstrap_ci95_low,cluster_bootstrap_ci95_high,n_domains,n_feature_set_domain_pairs,interpretation
+roc_auc,0.08214285714285713,0.5714285714285713,0.10924453777311134,-0.12452830188679248,0.7773722627737225,5,15,exploratory clustered analysis; absence of detection is not evidence of independence
+pr_auc,0.13214285714285715,0.47142857142857136,0.18919054047297634,-0.2408759124087591,0.601436265709156,5,15,exploratory clustered analysis; absence of detection is not evidence of independence
+brier,-0.25357142857142856,-0.532142857142857,0.12354382280885956,-0.7956204379562043,-0.07924528301886793,5,15,exploratory clustered analysis; absence of detection is not evidence of independence
+ece_10bin,-0.4107142857142856,-0.14285714285714282,0.7117144142792861,-0.7335766423357664,0.5145985401459854,5,15,exploratory clustered analysis; absence of detection is not evidence of independence

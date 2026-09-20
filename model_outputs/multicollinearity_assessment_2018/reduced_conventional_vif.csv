@@ -1,0 +1,10 @@
+factor,factor_name,r2_against_other_factors,vif,decision,decision_reason
+lst_day_mean_c,Mean daytime LST (deg C),0.8991629826812934,9.91699305067095,keep,Kept in selected conventional set.
+elevation_m,Elevation (m),0.8976425872747716,9.769688128835703,keep,Kept in selected conventional set.
+rain_monsoon_total,Monsoon rainfall total,0.7229846774545894,3.60990861736925,keep,Kept in selected conventional set.
+rain_max_1day,Maximum 1-day rainfall,0.7056846874828481,3.3977165219418293,keep,Kept in selected conventional set.
+ndvi_median,NDVI median,0.6318516018080613,2.71629594183006,keep,Kept in selected conventional set.
+ndvi_amplitude,NDVI amplitude,0.463254810260306,1.8630814381121352,keep,Kept in selected conventional set.
+modis_lc_type1,MODIS land-cover class,0.265736137737153,1.361908234075704,keep,Kept in selected conventional set.
+slope_deg,Slope (degrees),0.18797001919866274,1.2314816246232287,keep,Kept in selected conventional set.
+aspect_deg,Aspect (degrees),0.06126980493050882,1.065268812330015,keep,Kept in selected conventional set.

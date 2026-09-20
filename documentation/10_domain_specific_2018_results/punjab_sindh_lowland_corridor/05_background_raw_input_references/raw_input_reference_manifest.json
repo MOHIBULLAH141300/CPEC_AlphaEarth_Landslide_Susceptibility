@@ -1,0 +1,30 @@
+{
+  "interpretation": {
+    "probability_maps": "Main susceptibility probabilities.",
+    "reliability_weighted_maps": "Secondary confidence-adjusted products; low values can reflect low transfer confidence.",
+    "domain_training": "No separate regional retraining; domain evidence is leave-one-domain-out transferability."
+  },
+  "source_rasters": {
+    "conventional_label": "Conventional",
+    "conventional_prob": "D:\\DING PROJECT\\04_maps\\rasters_2018_probability_stacked_ensemble\\cpec_2018_conventional_stacked_ensemble_probability_250m_no_nodata.tif",
+    "conventional_confidence": "D:\\DING PROJECT\\04_maps\\area_of_applicability_transfer_confidence_250m\\cpec_2018_conventional_transfer_confidence_250m.tif",
+    "conventional_aoa": "D:\\DING PROJECT\\04_maps\\area_of_applicability_transfer_confidence_250m\\cpec_2018_conventional_in_area_of_applicability_250m.tif",
+    "conventional_reliability": "D:\\DING PROJECT\\04_maps\\reliability_aware_susceptibility_2018_250m\\cpec_2018_conventional_reliability_weighted_probability_250m.tif",
+    "alphaearth_embeddings_label": "AlphaEarth Embeddings",
+    "alphaearth_embeddings_prob": "D:\\DING PROJECT\\04_maps\\rasters_2018_probability_stacked_ensemble\\cpec_2018_alphaearth_embeddings_stacked_ensemble_probability_250m_no_nodata.tif",
+    "alphaearth_embeddings_confidence": "D:\\DING PROJECT\\04_maps\\area_of_applicability_transfer_confidence_250m\\cpec_2018_alphaearth_embeddings_transfer_confidence_250m.tif",
+    "alphaearth_embeddings_aoa": "D:\\DING PROJECT\\04_maps\\area_of_applicability_transfer_confidence_250m\\cpec_2018_alphaearth_embeddings_in_area_of_applicability_250m.tif",
+    "alphaearth_embeddings_reliability": "D:\\DING PROJECT\\04_maps\\reliability_aware_susceptibility_2018_250m\\cpec_2018_alphaearth_embeddings_reliability_weighted_probability_250m.tif",
+    "conventional_alphaearth_embeddings_label": "Conventional + AlphaEarth Embeddings",
+    "conventional_alphaearth_embeddings_prob": "D:\\DING PROJECT\\04_maps\\rasters_2018_probability_stacked_ensemble\\cpec_2018_conventional_alphaearth_embeddings_stacked_ensemble_probability_250m_no_nodata.tif",
+    "conventional_alphaearth_embeddings_confidence": "D:\\DING PROJECT\\04_maps\\area_of_applicability_transfer_confidence_250m\\cpec_2018_conventional_alphaearth_embeddings_transfer_confidence_250m.tif",
+    "conventional_alphaearth_embeddings_aoa": "D:\\DING PROJECT\\04_maps\\area_of_applicability_transfer_confidence_250m\\cpec_2018_conventional_alphaearth_embeddings_in_area_of_applicability_250m.tif",
+    "conventional_alphaearth_embeddings_reliability": "D:\\DING PROJECT\\04_maps\\reliability_aware_susceptibility_2018_250m\\cpec_2018_conventional_alphaearth_embeddings_reliability_weighted_probability_250m.tif",
+    "final_fused_reliability_aware_score": "D:\\DING PROJECT\\04_maps\\reliability_aware_susceptibility_2018_250m\\cpec_2018_final_fused_reliability_aware_susceptibility_score_250m.tif",
+    "final_reliable_high_mask": "D:\\DING PROJECT\\04_maps\\reliability_aware_susceptibility_2018_250m\\cpec_2018_final_reliable_high_susceptibility_mask_250m.tif",
+    "final_reliable_very_high_mask": "D:\\DING PROJECT\\04_maps\\reliability_aware_susceptibility_2018_250m\\cpec_2018_final_reliable_very_high_susceptibility_mask_250m.tif",
+    "final_uncertain_high_mask": "D:\\DING PROJECT\\04_maps\\reliability_aware_susceptibility_2018_250m\\cpec_2018_final_uncertain_high_susceptibility_mask_250m.tif",
+    "field_verification_priority_score": "D:\\DING PROJECT\\04_maps\\reliability_aware_susceptibility_2018_250m\\cpec_2018_final_field_verification_priority_score_250m.tif",
+    "model_disagreement_std": "D:\\DING PROJECT\\04_maps\\stacked_ensemble_250m_high_impact_outputs\\cpec_2018_stacked_probability_disagreement_std_250m.tif"
+  }
+}

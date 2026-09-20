@@ -1,0 +1,8 @@
+﻿factor,factor_name,screening_decision,reason
+gem_pga_475yr_rock_g,GEM PGA 475-year hazard,keep_for_ablation,Retained as a distinct seismic-hazard/seismic-forcing diagnostic.
+annual_eq_kernel_density_m4plus_per_1000km2,Annual earthquake density M4+,supporting_or_drop_for_ablation,Dropped from screened set because the magnitude-weighted density encodes both event frequency and magnitude.
+annual_mag_weighted_eq_density_m4plus_per_1000km2,Annual magnitude-weighted earthquake density M4+,keep_for_ablation,Retained as a distinct seismic-hazard/seismic-forcing diagnostic.
+distance_to_annual_eq_m4plus_km,Distance to annual M4+ earthquake,supporting_or_drop_for_ablation,Dropped from screened set because M5+ distance better represents stronger earthquake forcing.
+distance_to_annual_eq_m5plus_km,Distance to annual M5+ earthquake,keep_for_ablation,Retained as a distinct seismic-hazard/seismic-forcing diagnostic.
+annual_max_shakemap_pga_percent_g,Annual maximum ShakeMap PGA,keep_for_ablation,Retained as a distinct seismic-hazard/seismic-forcing diagnostic.
+annual_max_shakemap_mmi,Annual maximum ShakeMap MMI,supporting_or_drop_for_ablation,Dropped from screened set because ShakeMap PGA is the direct seismic-shaking variable requested by the teacher; MMI is retained as scenario/interpretation support.

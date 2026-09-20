@@ -1,0 +1,36 @@
+{
+  "asset": "projects/ee-mohibullah141300/assets/cpec_lsm_clean/samples/cpec_2018_lsm_samples_v2",
+  "folds": [
+    {
+      "fold": 1,
+      "total": 724,
+      "negative": 325,
+      "positive": 399
+    },
+    {
+      "fold": 2,
+      "total": 905,
+      "negative": 373,
+      "positive": 532
+    },
+    {
+      "fold": 3,
+      "total": 643,
+      "negative": 447,
+      "positive": 196
+    },
+    {
+      "fold": 4,
+      "total": 470,
+      "negative": 330,
+      "positive": 140
+    },
+    {
+      "fold": 5,
+      "total": 574,
+      "negative": 333,
+      "positive": 241
+    }
+  ],
+  "passes_basic_fold_balance": true
+}

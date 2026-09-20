@@ -1,0 +1,46 @@
+feature_set,feature_set_name,held_out_domain,metric,estimate,ci95_low,ci95_high,bootstrap_repetitions
+alphaearth_embeddings,AlphaEarth Embeddings,Indus lowland,roc_auc,0.9848627787307033,0.9659763720255568,0.9956124177982252,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Indus lowland,pr_auc,0.9456270133520008,0.8277576917263403,0.9867196355662953,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Indus lowland,brier,0.042797448021783174,0.022101867031278893,0.0664569898981764,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Northern high mountains,roc_auc,0.9066032866492832,0.8581945551265403,0.949427782556003,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Northern high mountains,pr_auc,0.9009959984343187,0.8225974276533011,0.9358823572714989,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Northern high mountains,brier,0.12833771842800182,0.07440290270437765,0.18245698088405754,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Southern coastal region,roc_auc,0.9255892255892255,0.8692072822915522,0.9720747972403624,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Southern coastal region,pr_auc,0.8873233339912002,0.7167360215632483,0.9586827888545052,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Southern coastal region,brier,0.11748863292262121,0.07378900172178325,0.1683446446768114,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Transitional foothills and plateaus,roc_auc,0.8536641929499071,0.7955945375135439,0.9232891948756471,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Transitional foothills and plateaus,pr_auc,0.8198995808971083,0.6637924065256205,0.9305090438468333,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Transitional foothills and plateaus,brier,0.15480328656909742,0.12206439743079998,0.18486276181709946,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Western arid region,roc_auc,0.9044639401367566,0.859074257904698,0.9408729832276622,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Western arid region,pr_auc,0.90484520238696,0.7892302722046931,0.9527703884797043,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Western arid region,brier,0.1272754174627327,0.09851139818370655,0.15272717523055643,2000
+conventional,Conventional,Indus lowland,roc_auc,0.9655660377358491,0.9356779753979302,0.986883838062886,2000
+conventional,Conventional,Indus lowland,pr_auc,0.8749552112161989,0.717068218398433,0.9592428527153225,2000
+conventional,Conventional,Indus lowland,brier,0.07563335905243049,0.034605106418214376,0.1224835165003294,2000
+conventional,Conventional,Northern high mountains,roc_auc,0.9394630906899825,0.8991912962507361,0.9635647397683064,2000
+conventional,Conventional,Northern high mountains,pr_auc,0.9380245529835296,0.8559022819873507,0.9674808278442798,2000
+conventional,Conventional,Northern high mountains,brier,0.10100906003232055,0.0760936241038353,0.13201876855682182,2000
+conventional,Conventional,Southern coastal region,roc_auc,0.9283670033670033,0.8588682802880475,0.9897975614386976,2000
+conventional,Conventional,Southern coastal region,pr_auc,0.9080969218343738,0.7761524876486786,0.9817756805232649,2000
+conventional,Conventional,Southern coastal region,brier,0.10138305144021557,0.04981124244705657,0.14579953454344283,2000
+conventional,Conventional,Transitional foothills and plateaus,roc_auc,0.9496753246753247,0.839877297720435,0.9925436228743133,2000
+conventional,Conventional,Transitional foothills and plateaus,pr_auc,0.9380345828711818,0.7839117267725646,0.9905319368864702,2000
+conventional,Conventional,Transitional foothills and plateaus,brier,0.10217568420847398,0.0577866464798567,0.16661196890978452,2000
+conventional,Conventional,Western arid region,roc_auc,0.9366256888512082,0.9140051447948591,0.9569006533410553,2000
+conventional,Conventional,Western arid region,pr_auc,0.9410589144530478,0.8589059254175173,0.9647293624532924,2000
+conventional,Conventional,Western arid region,brier,0.10392016954779192,0.08315768929397575,0.12527138309044245,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Indus lowland,roc_auc,0.9850771869639794,0.9655585527556543,0.9978405225386539,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Indus lowland,pr_auc,0.9302345860485768,0.7604997009436054,0.992871097671019,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Indus lowland,brier,0.039449548325318835,0.018879687996115124,0.06140326967265168,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Northern high mountains,roc_auc,0.9424039294421659,0.912545471865241,0.9593353476795381,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Northern high mountains,pr_auc,0.9443430254715092,0.8875928989160216,0.9643246405932586,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Northern high mountains,brier,0.09605035683664509,0.07502735460097369,0.11647299847711934,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Southern coastal region,roc_auc,0.9403198653198654,0.8688615631842382,0.9946302101474515,1999
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Southern coastal region,pr_auc,0.8955190629878096,0.7363569385367494,0.9894503533476872,1999
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Southern coastal region,brier,0.10516780912882127,0.06246596347699481,0.15886010978384327,1999
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Transitional foothills and plateaus,roc_auc,0.973678107606679,0.9245275812595853,0.9954065225991972,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Transitional foothills and plateaus,pr_auc,0.9655832990071379,0.8921741218104652,0.9939688630420195,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Transitional foothills and plateaus,brier,0.06767721010297315,0.04019426215186106,0.11139856233298968,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Western arid region,roc_auc,0.9523748087804339,0.9278714815982978,0.9705623763085812,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Western arid region,pr_auc,0.9557912781305061,0.8880455478174658,0.975156769610227,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Western arid region,brier,0.0898986428228928,0.06628345647807844,0.11085605423212644,2000

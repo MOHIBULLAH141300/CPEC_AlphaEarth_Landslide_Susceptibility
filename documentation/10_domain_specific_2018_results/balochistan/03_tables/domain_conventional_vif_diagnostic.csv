@@ -1,0 +1,20 @@
+domain,n_domain_samples,factor,factor_name,r2_against_other_factors,vif,diagnostic_role
+Balochistan,992,ndvi_median,NDVI median,0.6207816506473265,2.6370031980440873,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,lithology_code,Lithology/geology,0.5462821393674541,2.2040128607806198,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,tri,Terrain ruggedness,0.4628286275245256,1.8616033006220132,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,rain_max_1day,Max 1-day rainfall,0.44648679484544873,1.8066416314689029,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,modis_lc_type1,MODIS land cover,0.43949104626135216,1.7840928201590809,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,elevation_m,Elevation,0.3875342215462564,1.6327442857699597,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,valley_depth,Valley depth,0.36545962849439917,1.5759438562234545,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,rain_monsoon_total,Monsoon rainfall,0.3532991301183793,1.5463099658162685,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,ndvi_amplitude,NDVI amplitude,0.3466535705340319,1.5305815642359588,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,twi,TWI,0.3338811808270802,1.5012336706559959,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,log1p_dist_river_m,Distance to rivers/streams,0.31895117177928856,1.4683235012863487,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,slope_deg,Slope,0.3132978844126524,1.4562355019755306,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,aspect_deg,Aspect,0.28365834054215333,1.3959819128163455,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,eq_density_ms5,Earthquake density > Ms5,0.2805438378507098,1.3899387518102817,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,profile_curvature,Profile curvature,0.253323599935079,1.3392682558509328,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,plan_curvature,Plan curvature,0.2401815610491671,1.316103885792523,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,log1p_dist_road_m,Distance to roads,0.1632827892528944,1.1951469231845955,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,log1p_dist_fault_m,Distance to active faults,0.14758040233888836,1.1731311700761256,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,soil_type,Soil type,0.1454604564637294,1.1702208605371056,Domain diagnostic only; global VIF remains the final factor-selection gate.

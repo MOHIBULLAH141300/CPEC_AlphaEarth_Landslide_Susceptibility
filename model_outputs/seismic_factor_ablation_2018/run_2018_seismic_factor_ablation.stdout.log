@@ -1,0 +1,65 @@
+Sampling gem_pga_475yr_rock_g: v2023_1_pga_475_rock_3min.tif
+Sampling annual_eq_kernel_density_m4plus_per_1000km2: cpec_2018_annual_earthquake_kernel_density_m4plus_per_1000km2_250m.tif
+Sampling annual_mag_weighted_eq_density_m4plus_per_1000km2: cpec_2018_annual_magnitude_weighted_earthquake_kernel_density_m4plus_per_1000km2_250m.tif
+Sampling distance_to_annual_eq_m4plus_km: cpec_2018_distance_to_nearest_annual_earthquake_m4plus_km_250m.tif
+Sampling distance_to_annual_eq_m5plus_km: cpec_2018_distance_to_nearest_annual_earthquake_m5plus_km_250m.tif
+Sampling annual_max_shakemap_pga_percent_g: cpec_2018_annual_max_shakemap_pga_percent_g_250m.tif
+Sampling annual_max_shakemap_mmi: cpec_2018_annual_max_shakemap_mmi_250m.tif
+Feature set conventional_current: 19 features
+  model logistic_l2
+  model random_forest
+  model extra_trees
+  model xgboost
+  model lightgbm
+  model catboost
+Feature set conventional_gem_pga: 20 features
+  model logistic_l2
+  model random_forest
+  model extra_trees
+  model xgboost
+  model lightgbm
+  model catboost
+Feature set conventional_usgs_annual_seismic: 22 features
+  model logistic_l2
+  model random_forest
+  model extra_trees
+  model xgboost
+  model lightgbm
+  model catboost
+Feature set conventional_gem_usgs_seismic: 23 features
+  model logistic_l2
+  model random_forest
+  model extra_trees
+  model xgboost
+  model lightgbm
+  model catboost
+Feature set fused_current: 83 features
+  model logistic_l2
+  model random_forest
+  model extra_trees
+  model xgboost
+  model lightgbm
+  model catboost
+Feature set fused_gem_usgs_seismic: 87 features
+  model logistic_l2
+  model random_forest
+  model extra_trees
+  model xgboost
+  model lightgbm
+  model catboost
+Feature set conventional_all_seismic_diagnostic: 26 features
+  model logistic_l2
+  model random_forest
+  model extra_trees
+  model xgboost
+  model lightgbm
+  model catboost
+                        feature_set                                       feature_set_name               model                  model_name  roc_auc_mean  roc_auc_std  pr_auc_mean  pr_auc_std  balanced_accuracy_mean  balanced_accuracy_std  f1_mean   f1_std  brier_mean  brier_std
+             fused_gem_usgs_seismic Conventional + AlphaEarth Embeddings + seismic factors stacked_l2_logistic Spatial-CV Stacked Ensemble      0.972994     0.016613     0.958486    0.035458                0.912309               0.059139 0.896312 0.079678    0.059381   0.023836
+                      fused_current                   Conventional + AlphaEarth Embeddings stacked_l2_logistic Spatial-CV Stacked Ensemble      0.971809     0.018007     0.956814    0.037386                0.913983               0.056110 0.896890 0.076370    0.060259   0.025628
+conventional_all_seismic_diagnostic        Conventional + all seismic factors (diagnostic) stacked_l2_logistic Spatial-CV Stacked Ensemble      0.966245     0.016705     0.952567    0.034432                0.893274               0.057909 0.874706 0.083372    0.069360   0.016375
+      conventional_gem_usgs_seismic   Conventional + GEM PGA + annual USGS seismic factors stacked_l2_logistic Spatial-CV Stacked Ensemble      0.965473     0.014567     0.951498    0.030837                0.898781               0.044748 0.880872 0.064709    0.069807   0.012970
+   conventional_usgs_annual_seismic             Conventional + annual USGS seismic factors stacked_l2_logistic Spatial-CV Stacked Ensemble      0.965270     0.015316     0.950137    0.032969                0.900674               0.036866 0.884162 0.058757    0.070438   0.014343
+               conventional_gem_pga                                 Conventional + GEM PGA stacked_l2_logistic Spatial-CV Stacked Ensemble      0.963911     0.015115     0.949993    0.031715                0.904244               0.027330 0.886557 0.044249    0.072949   0.014222
+               conventional_current                                           Conventional stacked_l2_logistic Spatial-CV Stacked Ensemble      0.961445     0.016389     0.945353    0.035099                0.894704               0.026323 0.878003 0.041485    0.074575   0.014699
+D:\DING PROJECT\05_reports\seismic_factor_ablation_2018.md

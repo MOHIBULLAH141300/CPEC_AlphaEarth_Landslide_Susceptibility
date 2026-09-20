@@ -1,0 +1,5 @@
+﻿factor_a,factor_a_name,factor_b,factor_b_name,spearman_r
+annual_eq_kernel_density_m4plus_per_1000km2,Annual earthquake density M4+,annual_mag_weighted_eq_density_m4plus_per_1000km2,Annual magnitude-weighted earthquake density M4+,0.999839664978745
+annual_max_shakemap_pga_percent_g,Annual maximum ShakeMap PGA,annual_max_shakemap_mmi,Annual maximum ShakeMap MMI,0.9819750021348577
+annual_eq_kernel_density_m4plus_per_1000km2,Annual earthquake density M4+,distance_to_annual_eq_m4plus_km,Distance to annual M4+ earthquake,-0.9779949661841716
+annual_mag_weighted_eq_density_m4plus_per_1000km2,Annual magnitude-weighted earthquake density M4+,distance_to_annual_eq_m4plus_km,Distance to annual M4+ earthquake,-0.9770427615969604

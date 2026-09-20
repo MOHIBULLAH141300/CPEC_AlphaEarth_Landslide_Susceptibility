@@ -1,0 +1,167 @@
+feature_set,feature_set_name,explained_model,factor,factor_name,mean_absolute_treeshap,mean_signed_treeshap
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A16,AlphaEarth A16,1.1965900659561157,-0.140178844332695
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A55,AlphaEarth A55,0.4931712746620178,-0.11284998804330826
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A44,AlphaEarth A44,0.47919762134552,-0.07459677755832672
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A17,AlphaEarth A17,0.2704848349094391,0.07395914942026138
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A60,AlphaEarth A60,0.23579148948192596,-0.012836407870054245
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A25,AlphaEarth A25,0.22359874844551086,-0.039625849574804306
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A45,AlphaEarth A45,0.20873278379440308,0.04507937282323837
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A15,AlphaEarth A15,0.1985149085521698,-0.041258227080106735
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A34,AlphaEarth A34,0.18957848846912384,-0.04473358020186424
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A46,AlphaEarth A46,0.17325429618358612,-0.028506984934210777
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A50,AlphaEarth A50,0.15307295322418213,0.008988254703581333
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A24,AlphaEarth A24,0.14296668767929077,0.007547345012426376
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A47,AlphaEarth A47,0.13810019195079803,-0.002810860052704811
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A14,AlphaEarth A14,0.13508817553520203,-0.014345843344926834
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A09,AlphaEarth A09,0.12940718233585358,-0.02382482774555683
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A30,AlphaEarth A30,0.12933731079101562,0.009493418969213963
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A06,AlphaEarth A06,0.12183822691440582,-0.01813887432217598
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A56,AlphaEarth A56,0.12149287015199661,-0.005641557741910219
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A02,AlphaEarth A02,0.11836588382720947,-0.005507442634552717
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A13,AlphaEarth A13,0.11333104223012924,-0.02950999140739441
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A48,AlphaEarth A48,0.11330672353506088,0.010505298152565956
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A38,AlphaEarth A38,0.11131321638822556,-0.014579078182578087
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A22,AlphaEarth A22,0.10932416468858719,-0.014913954772055149
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A36,AlphaEarth A36,0.10672120749950409,-0.00710632698610425
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A03,AlphaEarth A03,0.10526103526353836,0.012968751601874828
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A61,AlphaEarth A61,0.10436079651117325,-0.014577532187104225
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A26,AlphaEarth A26,0.09503939747810364,-0.00012328606680966914
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A51,AlphaEarth A51,0.09350381791591644,0.016245590522885323
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A37,AlphaEarth A37,0.09295762330293655,-0.012714117765426636
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A00,AlphaEarth A00,0.0865892693400383,-0.009983714669942856
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A08,AlphaEarth A08,0.0802231952548027,-0.02551136165857315
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A27,AlphaEarth A27,0.0731777548789978,0.01734185218811035
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A21,AlphaEarth A21,0.07080183923244476,0.0027927143964916468
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A39,AlphaEarth A39,0.06788824498653412,-0.005729679949581623
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A33,AlphaEarth A33,0.06509287655353546,0.0064524090848863125
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A01,AlphaEarth A01,0.06472073495388031,-0.002048294525593519
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A19,AlphaEarth A19,0.06403510272502899,0.0013846770161762834
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A58,AlphaEarth A58,0.06344997137784958,-0.002726793522015214
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A32,AlphaEarth A32,0.06052124500274658,-0.0014021495589986444
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A20,AlphaEarth A20,0.05694068968296051,-0.012263186275959015
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A18,AlphaEarth A18,0.05422983691096306,0.0011434830958023667
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A52,AlphaEarth A52,0.05188395828008652,0.005136009771376848
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A11,AlphaEarth A11,0.043240565806627274,-0.00829283893108368
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A49,AlphaEarth A49,0.03988828882575035,0.0054996018297970295
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A31,AlphaEarth A31,0.03778323903679848,0.003519625635817647
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A05,AlphaEarth A05,0.03465660661458969,-0.0053398385643959045
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A53,AlphaEarth A53,0.032829247415065765,-0.0056394971907138824
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A41,AlphaEarth A41,0.031672894954681396,-0.005409164819866419
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A57,AlphaEarth A57,0.03166721761226654,0.0006658631027676165
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A43,AlphaEarth A43,0.03145598992705345,-0.007244149688631296
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A28,AlphaEarth A28,0.030832024291157722,-0.00042644943459890783
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A54,AlphaEarth A54,0.02944507822394371,-0.004274244420230389
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A62,AlphaEarth A62,0.028416305780410767,-1.0990298505930696e-05
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A23,AlphaEarth A23,0.026514561846852303,-0.004055547062307596
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A29,AlphaEarth A29,0.02602829411625862,-0.0033188401721417904
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A59,AlphaEarth A59,0.02372426725924015,-0.0014195909025147557
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A04,AlphaEarth A04,0.021701591089367867,-0.006599270738661289
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A10,AlphaEarth A10,0.021294988691806793,0.0011739475885406137
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A07,AlphaEarth A07,0.01860373094677925,-0.0023313588462769985
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A42,AlphaEarth A42,0.0173770934343338,0.0039893630892038345
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A35,AlphaEarth A35,0.014805670827627182,-0.006047835573554039
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A12,AlphaEarth A12,0.014205987565219402,0.0025066069792956114
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A63,AlphaEarth A63,0.012255234643816948,-0.001872385386377573
+alphaearth_embeddings,AlphaEarth Embeddings,XGBoost base learner,A40,AlphaEarth A40,0.00917685218155384,-0.0009132551494985819
+conventional,Conventional,XGBoost base learner,log1p_dist_road_m,Distance to roads,1.4526994228363037,0.24243922531604767
+conventional,Conventional,XGBoost base learner,elevation_m,Elevation,1.1448607444763184,-0.14290878176689148
+conventional,Conventional,XGBoost base learner,valley_depth,Valley depth,0.7852622866630554,0.08200465887784958
+conventional,Conventional,XGBoost base learner,slope_deg,Slope,0.6095220446586609,-0.11943738907575607
+conventional,Conventional,XGBoost base learner,tri,Terrain ruggedness index,0.5043544173240662,-0.06520862132310867
+conventional,Conventional,XGBoost base learner,log1p_dist_river_m,Distance to rivers/streams,0.3847564160823822,0.04322896525263786
+conventional,Conventional,XGBoost base learner,profile_curvature,Profile curvature,0.36725324392318726,-0.05384078621864319
+conventional,Conventional,XGBoost base learner,log1p_dist_fault_m,Distance to active faults,0.339837908744812,-0.10264597833156586
+conventional,Conventional,XGBoost base learner,ndvi_median,Median NDVI,0.23250095546245575,-0.031079906970262527
+conventional,Conventional,XGBoost base learner,rain_monsoon_total,Monsoon rainfall,0.1528029888868332,-0.04353439435362816
+conventional,Conventional,XGBoost base learner,plan_curvature,Plan curvature,0.15188075602054596,-0.007921640761196613
+conventional,Conventional,XGBoost base learner,aspect,Aspect (cyclic),0.1399429440498352,0.004137691576033831
+conventional,Conventional,XGBoost base learner,rain_max_1day,Maximum 1-day rainfall,0.1398548036813736,-0.023259282112121582
+conventional,Conventional,XGBoost base learner,ndvi_amplitude,NDVI amplitude,0.13032971322536469,-0.023263657465577126
+conventional,Conventional,XGBoost base learner,lithology_code,Lithology,0.10767736285924911,-0.020346568897366524
+conventional,Conventional,XGBoost base learner,twi,Topographic wetness index,0.08669955283403397,-0.013538296334445477
+conventional,Conventional,XGBoost base learner,soil_type,Soil class,0.08507365733385086,0.00679762614890933
+conventional,Conventional,XGBoost base learner,eq_density_ms5,M>=5 earthquake-density class,0.08344151824712753,-0.0017724658828228712
+conventional,Conventional,XGBoost base learner,modis_lc_type1,Land-cover class,0.06635189056396484,-0.016054503619670868
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,log1p_dist_road_m,Distance to roads,1.3479855060577393,0.2250937521457672
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A16,AlphaEarth A16,0.7811217308044434,-0.06370924413204193
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A55,AlphaEarth A55,0.46798864006996155,-0.0831858217716217
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,valley_depth,Valley depth,0.37697863578796387,0.048399221152067184
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,profile_curvature,Profile curvature,0.28584960103034973,-0.05887161195278168
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,log1p_dist_river_m,Distance to rivers/streams,0.26488637924194336,0.03300553560256958
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,tri,Terrain ruggedness index,0.2590697109699249,-0.06907889991998672
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,slope_deg,Slope,0.25550177693367004,-0.04883362725377083
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A44,AlphaEarth A44,0.24924519658088684,-0.034452710300683975
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,elevation_m,Elevation,0.2436147779226303,-0.046097733080387115
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,log1p_dist_fault_m,Distance to active faults,0.2017868310213089,-0.04510994255542755
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A25,AlphaEarth A25,0.16814199090003967,-0.03108222782611847
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,plan_curvature,Plan curvature,0.16404815018177032,-0.015427064150571823
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A14,AlphaEarth A14,0.13785535097122192,-0.01917055808007717
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A46,AlphaEarth A46,0.13024258613586426,-0.017497505992650986
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A26,AlphaEarth A26,0.12688422203063965,0.002005429472774267
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A37,AlphaEarth A37,0.12415174394845963,-0.004553423263132572
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A22,AlphaEarth A22,0.12309198826551437,-0.015221817418932915
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,soil_type,Soil class,0.1212296411395073,0.02331463433802128
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A02,AlphaEarth A02,0.11282461881637573,0.0075021288357675076
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A60,AlphaEarth A60,0.1116642951965332,-0.00279737520031631
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A08,AlphaEarth A08,0.10625708103179932,-0.026749802753329277
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A09,AlphaEarth A09,0.10625673830509186,-0.026901811361312866
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A51,AlphaEarth A51,0.10578283667564392,0.015567966736853123
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A52,AlphaEarth A52,0.10307283699512482,0.017953362315893173
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A13,AlphaEarth A13,0.09915857017040253,-0.013800580985844135
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,rain_max_1day,Maximum 1-day rainfall,0.09913931787014008,-0.003045395016670227
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A24,AlphaEarth A24,0.09398622810840607,0.00013790602679364383
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A06,AlphaEarth A06,0.08976065367460251,-0.005921085365116596
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A17,AlphaEarth A17,0.08827126026153564,0.021470649167895317
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A34,AlphaEarth A34,0.07747745513916016,-0.020447438582777977
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A15,AlphaEarth A15,0.07628250122070312,-0.014954283833503723
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A01,AlphaEarth A01,0.07556264847517014,-0.006774527486413717
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,twi,Topographic wetness index,0.07508827745914459,-0.014948328025639057
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A47,AlphaEarth A47,0.07041709125041962,-0.006445352453738451
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A30,AlphaEarth A30,0.0698048546910286,0.009307680651545525
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,ndvi_median,Median NDVI,0.0653795599937439,-0.0073042018339037895
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A50,AlphaEarth A50,0.06391925364732742,-0.008039049804210663
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A19,AlphaEarth A19,0.06180926412343979,-0.01126991305500269
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A38,AlphaEarth A38,0.061395853757858276,-0.00933776330202818
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A56,AlphaEarth A56,0.05756454914808273,0.002438852097839117
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A43,AlphaEarth A43,0.05563962459564209,-0.010682281106710434
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A27,AlphaEarth A27,0.05510295554995537,0.008614703081548214
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,rain_monsoon_total,Monsoon rainfall,0.05438007414340973,-0.003758794628083706
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A45,AlphaEarth A45,0.048583123832941055,0.007232294883579016
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A48,AlphaEarth A48,0.04664989188313484,0.008306801319122314
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A33,AlphaEarth A33,0.04654432833194733,0.007068231236189604
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A39,AlphaEarth A39,0.04307489097118378,-0.0035117410589009523
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A58,AlphaEarth A58,0.04254819080233574,-0.01317420694977045
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,lithology_code,Lithology,0.0420474074780941,0.0031104893423616886
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A36,AlphaEarth A36,0.039851151406764984,-0.009688303805887699
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A04,AlphaEarth A04,0.03969103842973709,-0.008324858732521534
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A61,AlphaEarth A61,0.037421710789203644,-0.007730815093964338
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A20,AlphaEarth A20,0.03620203211903572,-0.002283687936142087
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A03,AlphaEarth A03,0.033797651529312134,0.00020784750813618302
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,aspect,Aspect (cyclic),0.030955778434872627,-0.0033344365656375885
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A54,AlphaEarth A54,0.030192555859684944,-0.012992197647690773
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A49,AlphaEarth A49,0.027469009160995483,0.00583190843462944
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A05,AlphaEarth A05,0.024602441117167473,-0.004489073995500803
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A07,AlphaEarth A07,0.023079929873347282,-7.366429781541228e-05
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A40,AlphaEarth A40,0.0221699308604002,-0.0038520703092217445
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A32,AlphaEarth A32,0.01990405097603798,-0.0060285828076303005
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,ndvi_amplitude,NDVI amplitude,0.01937292143702507,-0.002207538578659296
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A29,AlphaEarth A29,0.01899837702512741,-0.000423456949647516
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A31,AlphaEarth A31,0.018855677917599678,-0.002247676020488143
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A18,AlphaEarth A18,0.01851457543671131,-0.002232331782579422
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,eq_density_ms5,M>=5 earthquake-density class,0.01808745227754116,-0.003258184529840946
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A53,AlphaEarth A53,0.017618469893932343,-0.0030761519446969032
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A11,AlphaEarth A11,0.017193380743265152,-0.002728452440351248
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A00,AlphaEarth A00,0.01716294139623642,0.0002443911216687411
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A35,AlphaEarth A35,0.01621084101498127,-0.0019993074238300323
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A21,AlphaEarth A21,0.015413444489240646,7.352797547355294e-05
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A42,AlphaEarth A42,0.014600109308958054,-0.0016140984371304512
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,modis_lc_type1,Land-cover class,0.01356685720384121,0.0001595759385963902
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A10,AlphaEarth A10,0.012206505984067917,-0.004757034592330456
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A59,AlphaEarth A59,0.011589068919420242,-0.0021021340508013964
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A41,AlphaEarth A41,0.011225867085158825,-0.003705846145749092
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A57,AlphaEarth A57,0.01108718104660511,0.0006959286401979625
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A23,AlphaEarth A23,0.01089551206678152,-0.0008946845773607492
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A28,AlphaEarth A28,0.00883210077881813,-0.0005621314630843699
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A62,AlphaEarth A62,0.00882419291883707,-0.0007935828762128949
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A12,AlphaEarth A12,0.0047463830560445786,-0.0013235898222774267
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,XGBoost base learner,A63,AlphaEarth A63,0.003186603309586644,-0.0001554107730044052

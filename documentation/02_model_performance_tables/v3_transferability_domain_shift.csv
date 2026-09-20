@@ -1,0 +1,16 @@
+feature_set,held_out_domain,mean_abs_standardized_mean_difference,mean_js_divergence
+Conventional,Northern high mountains / KKH-Kashgar,0.5634074790161062,0.1320272931037235
+AlphaEarth Embeddings,Northern high mountains / KKH-Kashgar,0.8244772143657249,0.1259113048395834
+Conventional + AlphaEarth,Northern high mountains / KKH-Kashgar,0.7647142629001493,0.1273113503458323
+Conventional,Western Pakistan / Balochistan,0.459274963572289,0.1228893245336571
+AlphaEarth Embeddings,Western Pakistan / Balochistan,0.6549350191198164,0.1001309153165473
+Conventional + AlphaEarth,Western Pakistan / Balochistan,0.6101453678499005,0.1053406716433555
+Conventional,Indus lowland and central corridor,0.6956070290424821,0.1420069426828702
+AlphaEarth Embeddings,Indus lowland and central corridor,0.7386073863721625,0.1150426905785553
+Conventional + AlphaEarth,Indus lowland and central corridor,0.7287639310798261,0.1212152302168925
+Conventional,Southern/coastal corridor,0.6285193019494528,0.1278207620898799
+AlphaEarth Embeddings,Southern/coastal corridor,0.6680634866429711,0.1123012474158432
+Conventional + AlphaEarth,Southern/coastal corridor,0.6590112033998765,0.1158539074014661
+Conventional,Transitional foothills and plateaus,0.4132045453688445,0.1204739731160036
+AlphaEarth Embeddings,Transitional foothills and plateaus,0.5230911895807675,0.0826453981897611
+Conventional + AlphaEarth,Transitional foothills and plateaus,0.4979364156045442,0.0913049514861299

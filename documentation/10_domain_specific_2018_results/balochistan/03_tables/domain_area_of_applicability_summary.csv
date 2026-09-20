@@ -1,0 +1,4 @@
+feature_set,domain,study_area_pixels,in_area_of_applicability_pixels,in_area_of_applicability_percent,mean_transfer_confidence
+Conventional,Balochistan,6298553,3621190,57.49241135225821,0.1568050235509872
+AlphaEarth Embeddings,Balochistan,6298553,6188631,98.2548055085033,0.4219256043434143
+Conventional + AlphaEarth Embeddings,Balochistan,6298553,6226131,98.85018035094728,0.3980859518051147

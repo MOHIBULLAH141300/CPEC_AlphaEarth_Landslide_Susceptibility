@@ -1,0 +1,20 @@
+feature_set,feature,feature_name,mean_abs_shap,mean_shap
+Conventional,log1p_dist_road_m,Distance to roads,1.7178366891261094,-0.39519422362192513
+Conventional,elevation_m,Elevation,1.038866442268284,-0.05360085814791215
+Conventional,valley_depth,Valley depth,0.8646821607896912,-0.13522325305775806
+Conventional,tri,Terrain ruggedness,0.773820578998453,-0.07768000373666081
+Conventional,profile_curvature,Profile curvature,0.4777393201879214,-0.11856382435399276
+Conventional,log1p_dist_fault_m,Distance to active faults,0.36144000511307595,-0.04064811937720947
+Conventional,log1p_dist_river_m,Distance to rivers/streams,0.3579072102404233,0.03851954273019424
+Conventional,ndvi_median,NDVI median,0.2543148190614724,0.01994099792411901
+Conventional,aspect_deg,Aspect,0.18943643197828713,-0.02152007480052818
+Conventional,plan_curvature,Plan curvature,0.17322370561804493,0.001909002640135709
+Conventional,rain_max_1day,Max 1-day rainfall,0.15039977276830138,-0.015761450233466895
+Conventional,ndvi_amplitude,NDVI amplitude,0.13499479504427975,0.020489569559983982
+Conventional,lithology_code,Lithology/geology,0.11782185477896508,0.000334368676445771
+Conventional,rain_monsoon_total,Monsoon rainfall,0.10378553684000046,0.018285906714598444
+Conventional,twi,TWI,0.0966713414441657,-0.004567659086735873
+Conventional,eq_density_ms5,Earthquake density > Ms5,0.06259936001405776,-0.003047910020256306
+Conventional,modis_lc_type1,MODIS land cover,0.06142525383086107,-0.004988490994285891
+Conventional,soil_type,Soil type,0.048882353950711624,-0.005317116391415949
+Conventional,slope_deg,Slope,0.014813906262846854,-0.003258789089323006

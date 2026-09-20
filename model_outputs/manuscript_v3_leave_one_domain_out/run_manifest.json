@@ -1,0 +1,22 @@
+{
+  "analysis": "manuscript_v3_leave_one_domain_out",
+  "domains": [
+    "Balochistan",
+    "Gilgit-Baltistan",
+    "KPK-AJK",
+    "Kashgar",
+    "Punjab-Sindh"
+  ],
+  "feature_sets": [
+    "Conventional",
+    "AlphaEarth Embeddings",
+    "Conventional + AlphaEarth Embeddings"
+  ],
+  "outer_separation": "entire administrative-geographic domain held out",
+  "outer_buffer_km": 20.0,
+  "inner_validation": "five spatial block folds within the source domains",
+  "inner_buffer_km": 20.0,
+  "bootstrap": "2000 repetitions resampling 1-degree blocks within each held-out domain",
+  "score_definition": "case-control susceptibility score",
+  "elapsed_seconds": 1201.7333545684814
+}

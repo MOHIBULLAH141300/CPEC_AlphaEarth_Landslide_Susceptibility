@@ -1,0 +1,61 @@
+domain,feature_set_key,feature_set,feature_group,group_mean_abs_shap,group_feature_count,group_relative_importance_percent
+Balochistan,alphaearth_embeddings,AlphaEarth Embeddings,AlphaEarth embeddings,7.216936577111483,64,100.0
+Balochistan,conventional,Conventional,Topography/morphometry,3.169150998815894,8,51.349726992006886
+Balochistan,conventional,Conventional,Proximity controls,1.6973992884159088,2,27.502946400834187
+Balochistan,conventional,Conventional,Geology/soil/seismicity,0.6067250892519951,4,9.83076152065068
+Balochistan,conventional,Conventional,Vegetation/land cover,0.4566575698554516,3,7.399218765427149
+Balochistan,conventional,Conventional,Hydro-climate,0.24176685512065887,2,3.9173463210810935
+Balochistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,AlphaEarth embeddings,5.0340661481022835,64,57.770642329545765
+Balochistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Topography/morphometry,1.6070914519950747,8,18.44288547918211
+Balochistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Proximity controls,1.5384945571422577,2,17.65567161252415
+Balochistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Geology/soil/seismicity,0.31898068729788065,4,3.6606033082948923
+Balochistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Hydro-climate,0.13116449862718582,2,1.5052359491505412
+Balochistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Vegetation/land cover,0.08408559998497367,3,0.964961321302541
+Gilgit-Baltistan,alphaearth_embeddings,AlphaEarth Embeddings,AlphaEarth embeddings,7.393950519151986,64,100.0
+Gilgit-Baltistan,conventional,Conventional,Topography/morphometry,3.858387821353972,8,54.300858864468125
+Gilgit-Baltistan,conventional,Conventional,Proximity controls,2.104506105184555,2,29.61767823456806
+Gilgit-Baltistan,conventional,Conventional,Geology/soil/seismicity,0.4836470037698746,4,6.806585783467177
+Gilgit-Baltistan,conventional,Conventional,Vegetation/land cover,0.3805265501141548,3,5.3553244123294785
+Gilgit-Baltistan,conventional,Conventional,Hydro-climate,0.27850672602653503,2,3.9195527051671557
+Gilgit-Baltistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,AlphaEarth embeddings,5.014496528543532,64,55.482616439882946
+Gilgit-Baltistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Proximity controls,1.7759173512458801,2,19.649538227265854
+Gilgit-Baltistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Topography/morphometry,1.5844393549486995,8,17.530940644285877
+Gilgit-Baltistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Geology/soil/seismicity,0.39795380365103483,4,4.4031376077502005
+Gilgit-Baltistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Hydro-climate,0.18910681456327438,2,2.092361775276706
+Gilgit-Baltistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Vegetation/land cover,0.07604587264358997,3,0.8414053055384146
+KP-AJK,alphaearth_embeddings,AlphaEarth Embeddings,AlphaEarth embeddings,7.976811740081757,64,100.0
+KP-AJK,conventional,Conventional,Topography/morphometry,3.3591534541919827,8,49.06680473239251
+KP-AJK,conventional,Conventional,Proximity controls,1.818179726600647,2,26.557961947876553
+KP-AJK,conventional,Conventional,Vegetation/land cover,0.6832250133156776,3,9.979796628466463
+KP-AJK,conventional,Conventional,Geology/soil/seismicity,0.5456486977636814,4,7.970233712378853
+KP-AJK,conventional,Conventional,Hydro-climate,0.43987463414669037,2,6.425202978885622
+KP-AJK,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,AlphaEarth embeddings,5.200633169151843,64,57.27827181956155
+KP-AJK,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Proximity controls,1.5340070575475693,2,16.89511072161723
+KP-AJK,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Topography/morphometry,1.4934099782258272,8,16.447986214112255
+KP-AJK,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Geology/soil/seismicity,0.517811605706811,4,5.703027484985143
+KP-AJK,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Hydro-climate,0.16916148364543915,2,1.8630957282503313
+KP-AJK,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Vegetation/land cover,0.16456832736730576,3,1.8125080314734872
+"Kashgar (Xinjiang, China)",alphaearth_embeddings,AlphaEarth Embeddings,AlphaEarth embeddings,7.2860498912632465,64,100.0
+"Kashgar (Xinjiang, China)",conventional,Conventional,Topography/morphometry,3.518702819943428,8,51.18576348404679
+"Kashgar (Xinjiang, China)",conventional,Conventional,Proximity controls,2.125824123620987,2,30.923876317038417
+"Kashgar (Xinjiang, China)",conventional,Conventional,Geology/soil/seismicity,0.669165451079607,4,9.734196453455231
+"Kashgar (Xinjiang, China)",conventional,Conventional,Vegetation/land cover,0.3173604942858219,3,4.616570375771442
+"Kashgar (Xinjiang, China)",conventional,Conventional,Hydro-climate,0.24332502484321594,2,3.539593369688123
+"Kashgar (Xinjiang, China)",conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,AlphaEarth embeddings,4.854605592787266,64,53.847268970107606
+"Kashgar (Xinjiang, China)",conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Proximity controls,1.8681257963180542,2,20.721245073707234
+"Kashgar (Xinjiang, China)",conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Topography/morphometry,1.6580930622294545,8,18.391562690899597
+"Kashgar (Xinjiang, China)",conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Geology/soil/seismicity,0.3714721966534853,4,4.120368360683317
+"Kashgar (Xinjiang, China)",conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Hydro-climate,0.18617677688598633,2,2.06507218544432
+"Kashgar (Xinjiang, China)",conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Vegetation/land cover,0.07703596982173622,3,0.8544827191579227
+Punjab-Sindh lowland corridor,alphaearth_embeddings,AlphaEarth Embeddings,AlphaEarth embeddings,8.558602249249816,64,100.0
+Punjab-Sindh lowland corridor,conventional,Conventional,Topography/morphometry,4.066018920391798,8,57.30803463136087
+Punjab-Sindh lowland corridor,conventional,Conventional,Proximity controls,1.1906170099973679,2,16.78101410188266
+Punjab-Sindh lowland corridor,conventional,Conventional,Geology/soil/seismicity,0.8750773705542088,4,12.33367705332972
+Punjab-Sindh lowland corridor,conventional,Conventional,Vegetation/land cover,0.7137365937232971,3,10.059678086009225
+Punjab-Sindh lowland corridor,conventional,Conventional,Hydro-climate,0.24957429617643356,2,3.517596127417524
+Punjab-Sindh lowland corridor,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,AlphaEarth embeddings,5.920134810265154,64,60.55388447217216
+Punjab-Sindh lowland corridor,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Topography/morphometry,2.126154601573944,8,21.747295330242565
+Punjab-Sindh lowland corridor,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Proximity controls,1.0295438766479492,2,10.530652250937498
+Punjab-Sindh lowland corridor,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Geology/soil/seismicity,0.42336935782805085,4,4.330418141581016
+Punjab-Sindh lowland corridor,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Hydro-climate,0.1451803296804428,2,1.484971743524816
+Punjab-Sindh lowland corridor,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Vegetation/land cover,0.13225623033940792,3,1.3527780615419471

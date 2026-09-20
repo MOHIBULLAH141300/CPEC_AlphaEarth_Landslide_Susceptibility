@@ -1,0 +1,31 @@
+feature_set,feature_set_name,outer_fold,base_model,base_model_name,meta_coefficient
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),1,logistic_l2,Logistic Regression,0.9069870732421846
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),1,random_forest,Random Forest,0.04945405584441617
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),1,extra_trees,Extra Trees,1.3254059620404446
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),1,xgboost,XGBoost,0.6172347819078442
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),1,lightgbm,LightGBM,-0.044467279442341114
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),1,catboost,CatBoost,-0.15810581573803523
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),2,logistic_l2,Logistic Regression,0.6561936896457644
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),2,random_forest,Random Forest,1.0776802382400743
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),2,extra_trees,Extra Trees,0.1285300537078159
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),2,xgboost,XGBoost,-0.27509151692390854
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),2,lightgbm,LightGBM,0.5845651873491075
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),2,catboost,CatBoost,0.40521117849551463
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),3,logistic_l2,Logistic Regression,1.2176168248232049
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),3,random_forest,Random Forest,0.9044150151632108
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),3,extra_trees,Extra Trees,0.10003410209315047
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),3,xgboost,XGBoost,0.37352514142329124
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),3,lightgbm,LightGBM,-0.5650125619122252
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),3,catboost,CatBoost,0.9326023654701663
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),4,logistic_l2,Logistic Regression,1.1323516873467236
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),4,random_forest,Random Forest,0.4885032510559532
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),4,extra_trees,Extra Trees,0.5326861161903826
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),4,xgboost,XGBoost,0.2406773385396463
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),4,lightgbm,LightGBM,0.4258290922224331
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),4,catboost,CatBoost,-0.01590684256370514
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),5,logistic_l2,Logistic Regression,1.0862055716673857
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),5,random_forest,Random Forest,1.3850232368142816
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),5,extra_trees,Extra Trees,-0.5155180980196938
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),5,xgboost,XGBoost,-0.18851452181045597
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),5,lightgbm,LightGBM,0.14715497556382487
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),5,catboost,CatBoost,0.6873785377539923

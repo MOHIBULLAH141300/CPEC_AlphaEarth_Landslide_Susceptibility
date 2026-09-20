@@ -1,0 +1,2 @@
+experiment,feature_set,feature_set_name,n,n_positive,n_negative,roc_auc,pr_auc,balanced_accuracy,f1,precision,sensitivity,specificity,brier,log_loss,ece_10bin,threshold
+inventory_typology_landslide_only,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,1630,815,815,0.91145620836313,0.9207238049391244,0.8263803680981595,0.8304373876572798,0.8114754098360656,0.8503067484662576,0.8024539877300614,0.11739024425275749,0.37801607029521683,0.030248413459921616,0.32084376772305884

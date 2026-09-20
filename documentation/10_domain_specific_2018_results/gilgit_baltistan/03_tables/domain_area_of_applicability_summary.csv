@@ -1,0 +1,4 @@
+feature_set,domain,study_area_pixels,in_area_of_applicability_pixels,in_area_of_applicability_percent,mean_transfer_confidence
+Conventional,Gilgit-Baltistan,1347245,303351,22.51639456817432,0.0283679813146591
+AlphaEarth Embeddings,Gilgit-Baltistan,1347245,1310578,97.27837178835328,0.3786082565784454
+Conventional + AlphaEarth Embeddings,Gilgit-Baltistan,1347245,1316960,97.7520792431963,0.3281855881214142

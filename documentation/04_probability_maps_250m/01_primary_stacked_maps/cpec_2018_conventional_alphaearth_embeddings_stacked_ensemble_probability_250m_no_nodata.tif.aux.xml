@@ -1,0 +1,15 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="feature_set">Conventional + AlphaEarth Embeddings</MDI>
+    <MDI key="model">Spatial-CV Stacked Ensemble</MDI>
+    <MDI key="year">2018</MDI>
+  </Metadata>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="DESCRIPTION">prob_conventional_alphaearth_embeddings_stacked_ensemble</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

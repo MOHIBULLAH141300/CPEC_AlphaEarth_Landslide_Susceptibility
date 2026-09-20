@@ -1,0 +1,35 @@
+{
+  "input_table": "D:\\DING PROJECT\\03_models\\cpec_2018_lsm_samples_v2.csv",
+  "rows": 3316,
+  "feature_sets": {
+    "Conventional": 9,
+    "AlphaEarth Embeddings": 64,
+    "Conventional + AlphaEarth Embeddings": 73
+  },
+  "base_models": [
+    "Logistic Regression (L2)",
+    "Random Forest",
+    "Extra Trees",
+    "XGBoost",
+    "LightGBM",
+    "CatBoost"
+  ],
+  "meta_model": "Spatial-CV Stacked Ensemble",
+  "validation": "5-fold spatial block CV using spatial_fold_5 and out-of-fold base probabilities for meta-learning",
+  "best_by_pr_auc": {
+    "feature_set": "fused_reduced",
+    "feature_set_name": "Conventional + AlphaEarth Embeddings",
+    "model": "stacked_l2_logistic",
+    "model_name": "Spatial-CV Stacked Ensemble",
+    "roc_auc_mean": 0.9524767432446997,
+    "roc_auc_std": 0.022421729588637317,
+    "pr_auc_mean": 0.9272002963958798,
+    "pr_auc_std": 0.05541806239966666,
+    "balanced_accuracy_mean": 0.8837262114456117,
+    "balanced_accuracy_std": 0.042818371239194006,
+    "f1_mean": 0.8628534393619388,
+    "f1_std": 0.06188392043767051,
+    "brier_mean": 0.08225687576329192,
+    "brier_std": 0.01800231840661412
+  }
+}

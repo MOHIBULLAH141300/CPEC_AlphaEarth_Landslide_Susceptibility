@@ -1,0 +1,317 @@
+[
+  {
+    "feature_set": "Conventional",
+    "held_out_domain": "Northern high mountains / KKH-Kashgar",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 0.21085066277341807,
+      "random_forest": 0.9756311050191088,
+      "extra_trees": 1.1784771294821066,
+      "xgboost": 0.817675607622174,
+      "lightgbm": -0.13085183114310206,
+      "catboost": -0.09257455875828757
+    },
+    "meta_intercept": -0.3414551238340045
+  },
+  {
+    "feature_set": "AlphaEarth Embeddings",
+    "held_out_domain": "Northern high mountains / KKH-Kashgar",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 1.3137475923372632,
+      "random_forest": -0.29702307148513635,
+      "extra_trees": 0.7588166481502002,
+      "xgboost": 0.03335097317767034,
+      "lightgbm": -0.1785175479391011,
+      "catboost": 0.8331458823340843
+    },
+    "meta_intercept": -0.3207376354392127
+  },
+  {
+    "feature_set": "Conventional + AlphaEarth",
+    "held_out_domain": "Northern high mountains / KKH-Kashgar",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 0.5674279938400347,
+      "random_forest": 0.17465873034165888,
+      "extra_trees": 0.45729442147108107,
+      "xgboost": 0.9103807946032187,
+      "lightgbm": -0.568321805327989,
+      "catboost": 1.6179986966862392
+    },
+    "meta_intercept": -0.30245964759090804
+  },
+  {
+    "feature_set": "Conventional",
+    "held_out_domain": "Western Pakistan / Balochistan",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": -0.4236302792245125,
+      "random_forest": 1.0831488266035563,
+      "extra_trees": 2.8981775145684776,
+      "xgboost": -0.8387595993693993,
+      "lightgbm": 0.10605387716640514,
+      "catboost": 0.8343150500533323
+    },
+    "meta_intercept": -0.018344128434400996
+  },
+  {
+    "feature_set": "AlphaEarth Embeddings",
+    "held_out_domain": "Western Pakistan / Balochistan",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 1.3332340694874298,
+      "random_forest": -0.020240073119921074,
+      "extra_trees": 1.580438070179359,
+      "xgboost": 0.022526556455003625,
+      "lightgbm": 0.20920332694802452,
+      "catboost": -0.25273212895558395
+    },
+    "meta_intercept": -0.2008151320914377
+  },
+  {
+    "feature_set": "Conventional + AlphaEarth",
+    "held_out_domain": "Western Pakistan / Balochistan",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 0.2909801927210669,
+      "random_forest": 0.5030270725600168,
+      "extra_trees": 1.3454591277543044,
+      "xgboost": -0.6299533288344881,
+      "lightgbm": 0.9995741467690846,
+      "catboost": 0.9237321085415736
+    },
+    "meta_intercept": -0.11012262958064037
+  },
+  {
+    "feature_set": "Conventional",
+    "held_out_domain": "Indus lowland and central corridor",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": -0.11110663655241632,
+      "random_forest": 1.237454020627766,
+      "extra_trees": 1.255074145883868,
+      "xgboost": 0.29883476730636443,
+      "lightgbm": -0.15699672004979146,
+      "catboost": 0.7201909175110044
+    },
+    "meta_intercept": 0.2955672084715644
+  },
+  {
+    "feature_set": "AlphaEarth Embeddings",
+    "held_out_domain": "Indus lowland and central corridor",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 1.3001176396940757,
+      "random_forest": -0.3422254488807377,
+      "extra_trees": 0.7025741500610505,
+      "xgboost": -0.16436361550780873,
+      "lightgbm": 0.663184886394569,
+      "catboost": 0.5292392037648271
+    },
+    "meta_intercept": -0.02201318522466109
+  },
+  {
+    "feature_set": "Conventional + AlphaEarth",
+    "held_out_domain": "Indus lowland and central corridor",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 0.40069101250567263,
+      "random_forest": 0.44796327717115947,
+      "extra_trees": 1.1402359883168258,
+      "xgboost": 0.544043232312072,
+      "lightgbm": 0.3309285117485106,
+      "catboost": 0.5592275376289226
+    },
+    "meta_intercept": 0.10172467847717062
+  },
+  {
+    "feature_set": "Conventional",
+    "held_out_domain": "Southern/coastal corridor",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 0.25353897537619285,
+      "random_forest": 0.16427848935468492,
+      "extra_trees": 1.3431000594290643,
+      "xgboost": -0.263870749881857,
+      "lightgbm": -0.16502122265470193,
+      "catboost": 2.008931911091088
+    },
+    "meta_intercept": 0.06286569073833062
+  },
+  {
+    "feature_set": "AlphaEarth Embeddings",
+    "held_out_domain": "Southern/coastal corridor",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 1.3261393110794095,
+      "random_forest": -1.088082796904742,
+      "extra_trees": 1.7446677204252332,
+      "xgboost": -0.06897484674184443,
+      "lightgbm": 0.5561740637181508,
+      "catboost": 0.40532362674438593
+    },
+    "meta_intercept": -0.18843497872584586
+  },
+  {
+    "feature_set": "Conventional + AlphaEarth",
+    "held_out_domain": "Southern/coastal corridor",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 0.603787808031532,
+      "random_forest": 0.23546737522012975,
+      "extra_trees": 0.8214566369319914,
+      "xgboost": -0.09939287787036642,
+      "lightgbm": 0.46111429814569016,
+      "catboost": 1.4206685973519109
+    },
+    "meta_intercept": -0.06777642971888867
+  },
+  {
+    "feature_set": "Conventional",
+    "held_out_domain": "Transitional foothills and plateaus",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": -0.2023146215969786,
+      "random_forest": 0.8398297228562586,
+      "extra_trees": 1.5539786633127204,
+      "xgboost": -0.5796857903774207,
+      "lightgbm": 0.45844928437399546,
+      "catboost": 1.3788079260070034
+    },
+    "meta_intercept": 0.07483484871892768
+  },
+  {
+    "feature_set": "AlphaEarth Embeddings",
+    "held_out_domain": "Transitional foothills and plateaus",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 1.2240627280413976,
+      "random_forest": -0.253079095727651,
+      "extra_trees": 1.2880499054895593,
+      "xgboost": 0.15645690347857896,
+      "lightgbm": 0.7150104245553706,
+      "catboost": -0.23741138407641435
+    },
+    "meta_intercept": -0.17458078928432771
+  },
+  {
+    "feature_set": "Conventional + AlphaEarth",
+    "held_out_domain": "Transitional foothills and plateaus",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 0.41146140046335605,
+      "random_forest": 0.0944562812072383,
+      "extra_trees": 1.3539404299922215,
+      "xgboost": -0.2230774075752691,
+      "lightgbm": 1.0213506812769062,
+      "catboost": 0.8010229368693501
+    },
+    "meta_intercept": -0.08745427315736432
+  }
+]

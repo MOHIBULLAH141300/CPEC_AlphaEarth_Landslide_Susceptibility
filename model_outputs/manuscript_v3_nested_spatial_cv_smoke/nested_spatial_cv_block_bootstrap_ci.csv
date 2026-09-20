@@ -1,0 +1,10 @@
+feature_set,feature_set_name,metric,estimate,ci95_low,ci95_high,bootstrap_repetitions,resampling_unit
+conventional,Conventional,roc_auc,0.9574764236755006,0.9422057197085304,0.9711395120010176,100,1-degree spatial block
+conventional,Conventional,pr_auc,0.9483822159795889,0.9135979959725574,0.9675890778567392,100,1-degree spatial block
+conventional,Conventional,brier,0.07807204772157736,0.06372342990060548,0.0931106218334072,100,1-degree spatial block
+alphaearth_embeddings,AlphaEarth Embeddings,roc_auc,0.9485982576700077,0.930245775254144,0.9643563185308889,100,1-degree spatial block
+alphaearth_embeddings,AlphaEarth Embeddings,pr_auc,0.9352559755725898,0.9065236592877695,0.9546707702545927,100,1-degree spatial block
+alphaearth_embeddings,AlphaEarth Embeddings,brier,0.08752497149163196,0.0716880481005733,0.10498661531345523,100,1-degree spatial block
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,roc_auc,0.9664484841905119,0.9561821073637913,0.9759877558189395,100,1-degree spatial block
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,pr_auc,0.9585358039192448,0.9420542838128728,0.9712190995209626,100,1-degree spatial block
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,brier,0.06628454055754206,0.0540875959295582,0.0780237140815436,100,1-degree spatial block

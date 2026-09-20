@@ -1,0 +1,91 @@
+feature_set,feature_set_name,held_out_domain,base_model,base_model_name,meta_coefficient
+conventional,Conventional,Balochistan,logistic_l2,Logistic Regression,0.7559476299385323
+conventional,Conventional,Balochistan,random_forest,Random Forest,1.8180144192579852
+conventional,Conventional,Balochistan,extra_trees,Extra Trees,0.44144337541139045
+conventional,Conventional,Balochistan,xgboost,XGBoost,-0.7891151928836282
+conventional,Conventional,Balochistan,lightgbm,LightGBM,0.20155319332066882
+conventional,Conventional,Balochistan,catboost,CatBoost,1.0965714857149138
+conventional,Conventional,Gilgit-Baltistan,logistic_l2,Logistic Regression,0.3561994132689492
+conventional,Conventional,Gilgit-Baltistan,random_forest,Random Forest,1.8356032578985446
+conventional,Conventional,Gilgit-Baltistan,extra_trees,Extra Trees,-0.25109691353427016
+conventional,Conventional,Gilgit-Baltistan,xgboost,XGBoost,0.025965826617601922
+conventional,Conventional,Gilgit-Baltistan,lightgbm,LightGBM,0.6577952384692536
+conventional,Conventional,Gilgit-Baltistan,catboost,CatBoost,0.44226081969279024
+conventional,Conventional,KPK-AJK,logistic_l2,Logistic Regression,0.23164032049269678
+conventional,Conventional,KPK-AJK,random_forest,Random Forest,1.9009177342031809
+conventional,Conventional,KPK-AJK,extra_trees,Extra Trees,0.12894973338624527
+conventional,Conventional,KPK-AJK,xgboost,XGBoost,-0.08947350577552185
+conventional,Conventional,KPK-AJK,lightgbm,LightGBM,0.6170303289030385
+conventional,Conventional,KPK-AJK,catboost,CatBoost,0.43287901651452676
+conventional,Conventional,Kashgar,logistic_l2,Logistic Regression,0.2180336674905226
+conventional,Conventional,Kashgar,random_forest,Random Forest,2.415664858832089
+conventional,Conventional,Kashgar,extra_trees,Extra Trees,-0.5539062560264623
+conventional,Conventional,Kashgar,xgboost,XGBoost,0.24103479686118634
+conventional,Conventional,Kashgar,lightgbm,LightGBM,0.47723617248979644
+conventional,Conventional,Kashgar,catboost,CatBoost,0.32703150147660237
+conventional,Conventional,Punjab-Sindh,logistic_l2,Logistic Regression,0.16726639574364488
+conventional,Conventional,Punjab-Sindh,random_forest,Random Forest,2.201266366780541
+conventional,Conventional,Punjab-Sindh,extra_trees,Extra Trees,-0.1519923729319161
+conventional,Conventional,Punjab-Sindh,xgboost,XGBoost,-0.010562528028749659
+conventional,Conventional,Punjab-Sindh,lightgbm,LightGBM,-0.06423965718018934
+conventional,Conventional,Punjab-Sindh,catboost,CatBoost,1.022169346122692
+alphaearth_embeddings,AlphaEarth Embeddings,Balochistan,logistic_l2,Logistic Regression,1.4843322624353863
+alphaearth_embeddings,AlphaEarth Embeddings,Balochistan,random_forest,Random Forest,0.16364028294824182
+alphaearth_embeddings,AlphaEarth Embeddings,Balochistan,extra_trees,Extra Trees,1.31738810125628
+alphaearth_embeddings,AlphaEarth Embeddings,Balochistan,xgboost,XGBoost,0.4680171070572071
+alphaearth_embeddings,AlphaEarth Embeddings,Balochistan,lightgbm,LightGBM,0.18603039292052181
+alphaearth_embeddings,AlphaEarth Embeddings,Balochistan,catboost,CatBoost,-0.6787132332806707
+alphaearth_embeddings,AlphaEarth Embeddings,Gilgit-Baltistan,logistic_l2,Logistic Regression,1.3441433883220533
+alphaearth_embeddings,AlphaEarth Embeddings,Gilgit-Baltistan,random_forest,Random Forest,-0.6355851221206767
+alphaearth_embeddings,AlphaEarth Embeddings,Gilgit-Baltistan,extra_trees,Extra Trees,0.7844234326414734
+alphaearth_embeddings,AlphaEarth Embeddings,Gilgit-Baltistan,xgboost,XGBoost,0.36186539711472987
+alphaearth_embeddings,AlphaEarth Embeddings,Gilgit-Baltistan,lightgbm,LightGBM,-0.1290539911798958
+alphaearth_embeddings,AlphaEarth Embeddings,Gilgit-Baltistan,catboost,CatBoost,0.8358647757115722
+alphaearth_embeddings,AlphaEarth Embeddings,KPK-AJK,logistic_l2,Logistic Regression,1.1844839020954938
+alphaearth_embeddings,AlphaEarth Embeddings,KPK-AJK,random_forest,Random Forest,-0.600722961578627
+alphaearth_embeddings,AlphaEarth Embeddings,KPK-AJK,extra_trees,Extra Trees,1.424514447418513
+alphaearth_embeddings,AlphaEarth Embeddings,KPK-AJK,xgboost,XGBoost,-0.19275813743062797
+alphaearth_embeddings,AlphaEarth Embeddings,KPK-AJK,lightgbm,LightGBM,0.3204968380959124
+alphaearth_embeddings,AlphaEarth Embeddings,KPK-AJK,catboost,CatBoost,0.4707841527098177
+alphaearth_embeddings,AlphaEarth Embeddings,Kashgar,logistic_l2,Logistic Regression,1.0160332933414804
+alphaearth_embeddings,AlphaEarth Embeddings,Kashgar,random_forest,Random Forest,0.078673344178844
+alphaearth_embeddings,AlphaEarth Embeddings,Kashgar,extra_trees,Extra Trees,0.6500620285436255
+alphaearth_embeddings,AlphaEarth Embeddings,Kashgar,xgboost,XGBoost,0.43586067598179284
+alphaearth_embeddings,AlphaEarth Embeddings,Kashgar,lightgbm,LightGBM,0.21017920945044263
+alphaearth_embeddings,AlphaEarth Embeddings,Kashgar,catboost,CatBoost,0.41251226623432813
+alphaearth_embeddings,AlphaEarth Embeddings,Punjab-Sindh,logistic_l2,Logistic Regression,1.2877259909361223
+alphaearth_embeddings,AlphaEarth Embeddings,Punjab-Sindh,random_forest,Random Forest,-1.0770983701398613
+alphaearth_embeddings,AlphaEarth Embeddings,Punjab-Sindh,extra_trees,Extra Trees,1.3808500050978785
+alphaearth_embeddings,AlphaEarth Embeddings,Punjab-Sindh,xgboost,XGBoost,-0.17219899639872838
+alphaearth_embeddings,AlphaEarth Embeddings,Punjab-Sindh,lightgbm,LightGBM,0.27311799119904556
+alphaearth_embeddings,AlphaEarth Embeddings,Punjab-Sindh,catboost,CatBoost,0.9684311974831488
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Balochistan,logistic_l2,Logistic Regression,0.9305263290599046
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Balochistan,random_forest,Random Forest,0.3860141417836049
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Balochistan,extra_trees,Extra Trees,1.2315888388258998
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Balochistan,xgboost,XGBoost,0.27654897054689365
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Balochistan,lightgbm,LightGBM,-0.16067715054612985
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Balochistan,catboost,CatBoost,0.8550075655154024
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Gilgit-Baltistan,logistic_l2,Logistic Regression,0.40065664572808707
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Gilgit-Baltistan,random_forest,Random Forest,0.554327397280562
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Gilgit-Baltistan,extra_trees,Extra Trees,0.5699358311994512
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Gilgit-Baltistan,xgboost,XGBoost,0.4023641724751687
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Gilgit-Baltistan,lightgbm,LightGBM,-0.04852579048737377
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Gilgit-Baltistan,catboost,CatBoost,1.4447746670163906
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,KPK-AJK,logistic_l2,Logistic Regression,0.5180217163582788
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,KPK-AJK,random_forest,Random Forest,0.9005801531246601
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,KPK-AJK,extra_trees,Extra Trees,0.5669148000221814
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,KPK-AJK,xgboost,XGBoost,0.8405202588543941
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,KPK-AJK,lightgbm,LightGBM,0.08318258085304858
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,KPK-AJK,catboost,CatBoost,0.49378155375533855
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Kashgar,logistic_l2,Logistic Regression,0.2216319420297986
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Kashgar,random_forest,Random Forest,1.1090491783094831
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Kashgar,extra_trees,Extra Trees,0.6471328662566693
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Kashgar,xgboost,XGBoost,0.5914777990654845
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Kashgar,lightgbm,LightGBM,0.2423227741836828
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Kashgar,catboost,CatBoost,0.5859717537033985
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Punjab-Sindh,logistic_l2,Logistic Regression,0.37221700456902734
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Punjab-Sindh,random_forest,Random Forest,1.022869313854884
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Punjab-Sindh,extra_trees,Extra Trees,0.5088327198853915
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Punjab-Sindh,xgboost,XGBoost,0.8655039840175558
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Punjab-Sindh,lightgbm,LightGBM,-0.10697625541848672
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Punjab-Sindh,catboost,CatBoost,0.6960371946948037

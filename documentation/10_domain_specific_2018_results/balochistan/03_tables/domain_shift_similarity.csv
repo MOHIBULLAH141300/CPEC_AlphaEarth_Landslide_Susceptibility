@@ -1,0 +1,4 @@
+feature_set,held_out_domain,mean_abs_standardized_mean_difference,mean_js_divergence
+Conventional,Balochistan,0.5329855101902891,0.1430993898537915
+AlphaEarth Embeddings,Balochistan,0.7896417750190261,0.1256536730906735
+Conventional + AlphaEarth Embeddings,Balochistan,0.7308891360823273,0.1296472709039173

@@ -1,0 +1,13 @@
+domain,feature_set_key,feature_set,feature_group,group_mean_abs_shap,group_feature_count,group_relative_importance_percent
+Balochistan,alphaearth_embeddings,AlphaEarth Embeddings,AlphaEarth embeddings,7.216936577111483,64,100.0
+Balochistan,conventional,Conventional,Topography/morphometry,3.169150998815894,8,51.349726992006886
+Balochistan,conventional,Conventional,Proximity controls,1.6973992884159088,2,27.502946400834187
+Balochistan,conventional,Conventional,Geology/soil/seismicity,0.6067250892519951,4,9.83076152065068
+Balochistan,conventional,Conventional,Vegetation/land cover,0.4566575698554516,3,7.399218765427149
+Balochistan,conventional,Conventional,Hydro-climate,0.24176685512065887,2,3.9173463210810935
+Balochistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,AlphaEarth embeddings,5.0340661481022835,64,57.770642329545765
+Balochistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Topography/morphometry,1.6070914519950747,8,18.44288547918211
+Balochistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Proximity controls,1.5384945571422577,2,17.65567161252415
+Balochistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Geology/soil/seismicity,0.31898068729788065,4,3.6606033082948923
+Balochistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Hydro-climate,0.13116449862718582,2,1.5052359491505412
+Balochistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Vegetation/land cover,0.08408559998497367,3,0.964961321302541

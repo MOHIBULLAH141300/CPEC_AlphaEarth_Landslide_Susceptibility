@@ -1,0 +1,4 @@
+feature_set,held_out_domain,mean_abs_standardized_mean_difference,mean_js_divergence
+Conventional,"Kashgar (Xinjiang, China)",0.3786144123589801,0.0952848632522849
+AlphaEarth Embeddings,"Kashgar (Xinjiang, China)",0.5411672438713735,0.0759486938025239
+Conventional + AlphaEarth Embeddings,"Kashgar (Xinjiang, China)",0.5039563547299822,0.0803750458452403

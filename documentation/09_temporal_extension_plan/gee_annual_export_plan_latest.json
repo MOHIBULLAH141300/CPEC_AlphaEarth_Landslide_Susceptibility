@@ -1,0 +1,182 @@
+[
+  {
+    "year": 2020,
+    "product": "annual_dynamic_base_predictors",
+    "drive_folder": "GEE_CPEC_ANNUAL_DYNAMIC_2020_250M",
+    "file_prefix": "cpec_2020_annual_dynamic_base_predictors_250m",
+    "scale": 250,
+    "crs": "EPSG:4326",
+    "status": "started",
+    "task_id": "FJNAWI6V2K5GALVR3K3APO6Q",
+    "dataset_counts": {
+      "chirps_daily": 366,
+      "mod13q1": 23,
+      "mcd12q1": 1,
+      "alphaearth_tiles": 10576
+    },
+    "local_year_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2020",
+    "expected_local_raw_export_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2020\\00_raw_exports_from_gee"
+  },
+  {
+    "year": 2020,
+    "product": "alphaearth_embeddings",
+    "drive_folder": "GEE_CPEC_ANNUAL_DYNAMIC_2020_250M",
+    "file_prefix": "cpec_2020_alphaearth_embeddings_250m",
+    "scale": 250,
+    "crs": "EPSG:4326",
+    "status": "started",
+    "task_id": "XS3VJRZFT6B6NSEIUECMBJ2J",
+    "dataset_counts": {
+      "chirps_daily": 366,
+      "mod13q1": 23,
+      "mcd12q1": 1,
+      "alphaearth_tiles": 10576
+    },
+    "local_year_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2020",
+    "expected_local_raw_export_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2020\\00_raw_exports_from_gee"
+  },
+  {
+    "year": 2021,
+    "product": "annual_dynamic_base_predictors",
+    "drive_folder": "GEE_CPEC_ANNUAL_DYNAMIC_2021_250M",
+    "file_prefix": "cpec_2021_annual_dynamic_base_predictors_250m",
+    "scale": 250,
+    "crs": "EPSG:4326",
+    "status": "started",
+    "task_id": "C2PO2HHJ7TESJHGSPSCOFYIP",
+    "dataset_counts": {
+      "chirps_daily": 365,
+      "mod13q1": 23,
+      "mcd12q1": 1,
+      "alphaearth_tiles": 10614
+    },
+    "local_year_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2021",
+    "expected_local_raw_export_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2021\\00_raw_exports_from_gee"
+  },
+  {
+    "year": 2021,
+    "product": "alphaearth_embeddings",
+    "drive_folder": "GEE_CPEC_ANNUAL_DYNAMIC_2021_250M",
+    "file_prefix": "cpec_2021_alphaearth_embeddings_250m",
+    "scale": 250,
+    "crs": "EPSG:4326",
+    "status": "started",
+    "task_id": "UXBCPQAYOY7WQAIIAZ77RCVN",
+    "dataset_counts": {
+      "chirps_daily": 365,
+      "mod13q1": 23,
+      "mcd12q1": 1,
+      "alphaearth_tiles": 10614
+    },
+    "local_year_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2021",
+    "expected_local_raw_export_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2021\\00_raw_exports_from_gee"
+  },
+  {
+    "year": 2022,
+    "product": "annual_dynamic_base_predictors",
+    "drive_folder": "GEE_CPEC_ANNUAL_DYNAMIC_2022_250M",
+    "file_prefix": "cpec_2022_annual_dynamic_base_predictors_250m",
+    "scale": 250,
+    "crs": "EPSG:4326",
+    "status": "started",
+    "task_id": "GJ5EAGGJ34ZUSD47PIUCVL4L",
+    "dataset_counts": {
+      "chirps_daily": 365,
+      "mod13q1": 23,
+      "mcd12q1": 1,
+      "alphaearth_tiles": 10853
+    },
+    "local_year_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2022",
+    "expected_local_raw_export_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2022\\00_raw_exports_from_gee"
+  },
+  {
+    "year": 2022,
+    "product": "alphaearth_embeddings",
+    "drive_folder": "GEE_CPEC_ANNUAL_DYNAMIC_2022_250M",
+    "file_prefix": "cpec_2022_alphaearth_embeddings_250m",
+    "scale": 250,
+    "crs": "EPSG:4326",
+    "status": "started",
+    "task_id": "57D2XUMPHJMOSJE3YXR2KNLC",
+    "dataset_counts": {
+      "chirps_daily": 365,
+      "mod13q1": 23,
+      "mcd12q1": 1,
+      "alphaearth_tiles": 10853
+    },
+    "local_year_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2022",
+    "expected_local_raw_export_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2022\\00_raw_exports_from_gee"
+  },
+  {
+    "year": 2023,
+    "product": "annual_dynamic_base_predictors",
+    "drive_folder": "GEE_CPEC_ANNUAL_DYNAMIC_2023_250M",
+    "file_prefix": "cpec_2023_annual_dynamic_base_predictors_250m",
+    "scale": 250,
+    "crs": "EPSG:4326",
+    "status": "started",
+    "task_id": "6H4IKYQ7GM4ZEOHDMS4AXRKE",
+    "dataset_counts": {
+      "chirps_daily": 365,
+      "mod13q1": 23,
+      "mcd12q1": 1,
+      "alphaearth_tiles": 11074
+    },
+    "local_year_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2023",
+    "expected_local_raw_export_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2023\\00_raw_exports_from_gee"
+  },
+  {
+    "year": 2023,
+    "product": "alphaearth_embeddings",
+    "drive_folder": "GEE_CPEC_ANNUAL_DYNAMIC_2023_250M",
+    "file_prefix": "cpec_2023_alphaearth_embeddings_250m",
+    "scale": 250,
+    "crs": "EPSG:4326",
+    "status": "started",
+    "task_id": "WPIUPOSQLHXNKSPN47S26MHP",
+    "dataset_counts": {
+      "chirps_daily": 365,
+      "mod13q1": 23,
+      "mcd12q1": 1,
+      "alphaearth_tiles": 11074
+    },
+    "local_year_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2023",
+    "expected_local_raw_export_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2023\\00_raw_exports_from_gee"
+  },
+  {
+    "year": 2024,
+    "product": "annual_dynamic_base_predictors",
+    "drive_folder": "GEE_CPEC_ANNUAL_DYNAMIC_2024_250M",
+    "file_prefix": "cpec_2024_annual_dynamic_base_predictors_250m",
+    "scale": 250,
+    "crs": "EPSG:4326",
+    "status": "started",
+    "task_id": "BGIPGXJDWO4JEG3JBXHRC3AW",
+    "dataset_counts": {
+      "chirps_daily": 366,
+      "mod13q1": 23,
+      "mcd12q1": 1,
+      "alphaearth_tiles": 11073
+    },
+    "local_year_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2024",
+    "expected_local_raw_export_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2024\\00_raw_exports_from_gee"
+  },
+  {
+    "year": 2024,
+    "product": "alphaearth_embeddings",
+    "drive_folder": "GEE_CPEC_ANNUAL_DYNAMIC_2024_250M",
+    "file_prefix": "cpec_2024_alphaearth_embeddings_250m",
+    "scale": 250,
+    "crs": "EPSG:4326",
+    "status": "started",
+    "task_id": "ZEYU4BEFS4VEUF4WTYSC34JN",
+    "dataset_counts": {
+      "chirps_daily": 366,
+      "mod13q1": 23,
+      "mcd12q1": 1,
+      "alphaearth_tiles": 11073
+    },
+    "local_year_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2024",
+    "expected_local_raw_export_folder": "D:\\DING PROJECT\\04_maps\\annual_dynamic_2017_2024\\2024\\00_raw_exports_from_gee"
+  }
+]

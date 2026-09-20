@@ -1,0 +1,11 @@
+{
+  "probability_p80_threshold": 0.12633591890335083,
+  "probability_p90_threshold": 0.4417957067489624,
+  "fused_transfer_confidence_p25": 0.3000139594078064,
+  "fused_transfer_confidence_p50": 0.4041162133216858,
+  "uncertainty_std_p50": 0.01357282418757677,
+  "uncertainty_std_p75": 0.05905983969569206,
+  "reliable_high_rule": "probability>=P80, confidence>=P50, inside AOA, disagreement<=P50",
+  "reliable_very_high_rule": "probability>=P90, confidence>=P50, inside AOA",
+  "uncertain_high_rule": "probability>=P80 and (outside AOA or confidence<P25 or disagreement>=P75)"
+}

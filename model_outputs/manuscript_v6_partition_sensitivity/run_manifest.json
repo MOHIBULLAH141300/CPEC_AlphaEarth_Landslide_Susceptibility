@@ -1,0 +1,22 @@
+{
+  "analysis": "manuscript_v6_alternative_partition_sensitivity",
+  "purpose": "test dependence of LODO conclusions on the primary administrative-geographic boundaries",
+  "partition_rules": {
+    "Northern high mountains": "latitude >= 34 degrees or elevation >= 2200 m",
+    "Southern coastal region": "remaining samples with latitude < 26.5 degrees",
+    "Western arid region": "remaining samples with longitude < 68.5 degrees",
+    "Indus lowland": "remaining samples with elevation < 700 m",
+    "Transitional foothills and plateaus": "all remaining samples"
+  },
+  "outer_buffer_km": 20.0,
+  "inner_buffer_km": 20.0,
+  "inner_validation": "five existing one-degree spatial-block folds within source domains",
+  "feature_sets": [
+    "Conventional",
+    "AlphaEarth Embeddings",
+    "Conventional + AlphaEarth Embeddings"
+  ],
+  "bootstrap": "2000 repetitions resampling one-degree blocks within held-out domains",
+  "random_seed": 141300,
+  "elapsed_seconds": 724.2205786705017
+}

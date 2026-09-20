@@ -1,0 +1,7 @@
+feature_set,feature_set_name,model,model_name,roc_auc,pr_auc,n
+fused_reduced,Conventional + AlphaEarth Embeddings,stacked_l2_logistic,Spatial-CV Stacked Ensemble,0.9528422161451608,0.9430030563746692,3316
+alphaearth_only,AlphaEarth Embeddings,stacked_l2_logistic,Spatial-CV Stacked Ensemble,0.9509855989296025,0.9409812544197967,3316
+fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost,0.9520485141193868,0.9408408279956226,3316
+fused_reduced,Conventional + AlphaEarth Embeddings,catboost,CatBoost,0.9497591018990165,0.9368097793500125,3316
+fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees,0.9445651950658436,0.9287691626543202,3316
+conventional_reduced,Conventional,stacked_l2_logistic,Spatial-CV Stacked Ensemble,0.8245430711720383,0.7659846370444292,3316

@@ -1,0 +1,4 @@
+feature_set,domain,study_area_pixels,in_area_of_applicability_pixels,in_area_of_applicability_percent,mean_transfer_confidence
+Conventional,KP-AJK,2232492,133214,5.967053857303856,0.0078557338565588
+AlphaEarth Embeddings,KP-AJK,2232492,1788209,80.09923439815238,0.219329759478569
+Conventional + AlphaEarth Embeddings,KP-AJK,2232492,2024093,90.66518491443642,0.2417814433574676

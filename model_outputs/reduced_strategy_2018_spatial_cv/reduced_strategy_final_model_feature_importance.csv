@@ -1,0 +1,731 @@
+feature,factor_name,importance,feature_set,feature_set_name,model,model_name
+slope_deg,Slope (degrees),0.670736026173637,conventional_reduced,Conventional,logistic_l2,Logistic Regression (L2)
+elevation_m,Elevation (m),0.4416144931474941,conventional_reduced,Conventional,logistic_l2,Logistic Regression (L2)
+lst_day_mean_c,Mean daytime LST (deg C),0.3333205362858562,conventional_reduced,Conventional,logistic_l2,Logistic Regression (L2)
+ndvi_median,NDVI median,0.21157726273787753,conventional_reduced,Conventional,logistic_l2,Logistic Regression (L2)
+aspect_deg,Aspect (degrees),0.12525879046252325,conventional_reduced,Conventional,logistic_l2,Logistic Regression (L2)
+ndvi_amplitude,NDVI amplitude,0.11785567321289481,conventional_reduced,Conventional,logistic_l2,Logistic Regression (L2)
+rain_monsoon_total,Monsoon rainfall total,0.07294688574754238,conventional_reduced,Conventional,logistic_l2,Logistic Regression (L2)
+rain_max_1day,Maximum 1-day rainfall,0.05584163328408114,conventional_reduced,Conventional,logistic_l2,Logistic Regression (L2)
+modis_lc_type1,MODIS land-cover class,0.01989040930181816,conventional_reduced,Conventional,logistic_l2,Logistic Regression (L2)
+elevation_m,Elevation (m),0.23616385910247217,conventional_reduced,Conventional,random_forest,Random Forest
+lst_day_mean_c,Mean daytime LST (deg C),0.18873855550658258,conventional_reduced,Conventional,random_forest,Random Forest
+ndvi_median,NDVI median,0.13560489274893314,conventional_reduced,Conventional,random_forest,Random Forest
+aspect_deg,Aspect (degrees),0.12577672180137592,conventional_reduced,Conventional,random_forest,Random Forest
+rain_monsoon_total,Monsoon rainfall total,0.10060320795124882,conventional_reduced,Conventional,random_forest,Random Forest
+rain_max_1day,Maximum 1-day rainfall,0.08716201959012061,conventional_reduced,Conventional,random_forest,Random Forest
+ndvi_amplitude,NDVI amplitude,0.07311692797428328,conventional_reduced,Conventional,random_forest,Random Forest
+slope_deg,Slope (degrees),0.029101496373166124,conventional_reduced,Conventional,random_forest,Random Forest
+modis_lc_type1,MODIS land-cover class,0.023732318951817294,conventional_reduced,Conventional,random_forest,Random Forest
+elevation_m,Elevation (m),0.2019212471079098,conventional_reduced,Conventional,extra_trees,Extra Trees
+lst_day_mean_c,Mean daytime LST (deg C),0.17914608481530392,conventional_reduced,Conventional,extra_trees,Extra Trees
+aspect_deg,Aspect (degrees),0.16257276136960502,conventional_reduced,Conventional,extra_trees,Extra Trees
+ndvi_median,NDVI median,0.10796631004210581,conventional_reduced,Conventional,extra_trees,Extra Trees
+rain_monsoon_total,Monsoon rainfall total,0.09248583435279796,conventional_reduced,Conventional,extra_trees,Extra Trees
+rain_max_1day,Maximum 1-day rainfall,0.0774140115093775,conventional_reduced,Conventional,extra_trees,Extra Trees
+modis_lc_type1,MODIS land-cover class,0.06352244842374438,conventional_reduced,Conventional,extra_trees,Extra Trees
+ndvi_amplitude,NDVI amplitude,0.059754725429511324,conventional_reduced,Conventional,extra_trees,Extra Trees
+slope_deg,Slope (degrees),0.05521657694964433,conventional_reduced,Conventional,extra_trees,Extra Trees
+lst_day_mean_c,Mean daytime LST (deg C),0.19042591750621796,conventional_reduced,Conventional,xgboost,XGBoost
+slope_deg,Slope (degrees),0.15832634270191193,conventional_reduced,Conventional,xgboost,XGBoost
+elevation_m,Elevation (m),0.14259982109069824,conventional_reduced,Conventional,xgboost,XGBoost
+aspect_deg,Aspect (degrees),0.11211195588111877,conventional_reduced,Conventional,xgboost,XGBoost
+ndvi_median,NDVI median,0.09525870531797409,conventional_reduced,Conventional,xgboost,XGBoost
+modis_lc_type1,MODIS land-cover class,0.09347984939813614,conventional_reduced,Conventional,xgboost,XGBoost
+ndvi_amplitude,NDVI amplitude,0.07456664741039276,conventional_reduced,Conventional,xgboost,XGBoost
+rain_max_1day,Maximum 1-day rainfall,0.07111086696386337,conventional_reduced,Conventional,xgboost,XGBoost
+rain_monsoon_total,Monsoon rainfall total,0.06211987882852554,conventional_reduced,Conventional,xgboost,XGBoost
+rain_monsoon_total,Monsoon rainfall total,3082.0,conventional_reduced,Conventional,lightgbm,LightGBM
+elevation_m,Elevation (m),3021.0,conventional_reduced,Conventional,lightgbm,LightGBM
+rain_max_1day,Maximum 1-day rainfall,2484.0,conventional_reduced,Conventional,lightgbm,LightGBM
+lst_day_mean_c,Mean daytime LST (deg C),2465.0,conventional_reduced,Conventional,lightgbm,LightGBM
+ndvi_median,NDVI median,2366.0,conventional_reduced,Conventional,lightgbm,LightGBM
+aspect_deg,Aspect (degrees),2037.0,conventional_reduced,Conventional,lightgbm,LightGBM
+ndvi_amplitude,NDVI amplitude,1892.0,conventional_reduced,Conventional,lightgbm,LightGBM
+modis_lc_type1,MODIS land-cover class,378.0,conventional_reduced,Conventional,lightgbm,LightGBM
+slope_deg,Slope (degrees),275.0,conventional_reduced,Conventional,lightgbm,LightGBM
+A16,AlphaEarth embedding band A16,2.457612728561819,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A09,AlphaEarth embedding band A09,1.5098611232419126,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A19,AlphaEarth embedding band A19,1.3670987714156673,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A34,AlphaEarth embedding band A34,1.3247724854570897,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A48,AlphaEarth embedding band A48,1.2999679393616888,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A56,AlphaEarth embedding band A56,1.260389131124381,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A42,AlphaEarth embedding band A42,1.2102449079417954,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A00,AlphaEarth embedding band A00,1.195585938559761,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A01,AlphaEarth embedding band A01,1.136771040115688,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A18,AlphaEarth embedding band A18,0.9962642562347765,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A49,AlphaEarth embedding band A49,0.9333426027032603,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A44,AlphaEarth embedding band A44,0.9096277745663331,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A22,AlphaEarth embedding band A22,0.8973508682431661,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A36,AlphaEarth embedding band A36,0.8623347972771509,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A17,AlphaEarth embedding band A17,0.8468047383527336,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A32,AlphaEarth embedding band A32,0.8110042945309215,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A45,AlphaEarth embedding band A45,0.8009297037148563,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A25,AlphaEarth embedding band A25,0.7929843713814216,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A27,AlphaEarth embedding band A27,0.7438010586344155,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A03,AlphaEarth embedding band A03,0.7126462217594928,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A31,AlphaEarth embedding band A31,0.6259312261049711,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A20,AlphaEarth embedding band A20,0.6201291370483658,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A52,AlphaEarth embedding band A52,0.6143232027824327,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A60,AlphaEarth embedding band A60,0.609659558055695,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A15,AlphaEarth embedding band A15,0.6061665033936052,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A11,AlphaEarth embedding band A11,0.5738813990113665,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A54,AlphaEarth embedding band A54,0.5530124224088855,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A38,AlphaEarth embedding band A38,0.5373972203377255,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A62,AlphaEarth embedding band A62,0.5152225772179971,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A51,AlphaEarth embedding band A51,0.4929687238647793,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A63,AlphaEarth embedding band A63,0.47960318940908064,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A55,AlphaEarth embedding band A55,0.4788925032407374,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A29,AlphaEarth embedding band A29,0.43683232511497966,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A04,AlphaEarth embedding band A04,0.3373045090957031,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A14,AlphaEarth embedding band A14,0.3279557943823774,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A39,AlphaEarth embedding band A39,0.32539173603264226,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A53,AlphaEarth embedding band A53,0.3036225550454436,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A21,AlphaEarth embedding band A21,0.287304229389065,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A10,AlphaEarth embedding band A10,0.2800569378954247,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A57,AlphaEarth embedding band A57,0.2528115334302435,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A06,AlphaEarth embedding band A06,0.24432996731442827,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A35,AlphaEarth embedding band A35,0.2340933706060572,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A07,AlphaEarth embedding band A07,0.23256558619663828,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A40,AlphaEarth embedding band A40,0.22014109738996732,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A59,AlphaEarth embedding band A59,0.2072059718803547,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A12,AlphaEarth embedding band A12,0.2026808239842494,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A43,AlphaEarth embedding band A43,0.2025450671587535,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A24,AlphaEarth embedding band A24,0.20123286082430458,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A37,AlphaEarth embedding band A37,0.18255875787577464,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A46,AlphaEarth embedding band A46,0.17445361055351255,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A05,AlphaEarth embedding band A05,0.17196091932984853,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A58,AlphaEarth embedding band A58,0.16764129833784508,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A26,AlphaEarth embedding band A26,0.13781668532791488,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A02,AlphaEarth embedding band A02,0.13110986595272123,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A30,AlphaEarth embedding band A30,0.10061411558346517,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A61,AlphaEarth embedding band A61,0.08669418073492313,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A08,AlphaEarth embedding band A08,0.07649809118742151,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A50,AlphaEarth embedding band A50,0.06717633901031278,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A41,AlphaEarth embedding band A41,0.06457756194237654,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A13,AlphaEarth embedding band A13,0.051710183751726806,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A33,AlphaEarth embedding band A33,0.0441591101300817,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A28,AlphaEarth embedding band A28,0.026009773226539277,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A47,AlphaEarth embedding band A47,0.010536852190797452,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A23,AlphaEarth embedding band A23,0.007810868422414706,alphaearth_only,AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A16,AlphaEarth embedding band A16,0.11606630929554787,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A55,AlphaEarth embedding band A55,0.08656143049047066,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A15,AlphaEarth embedding band A15,0.04965705090980727,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A44,AlphaEarth embedding band A44,0.041342238481532255,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A14,AlphaEarth embedding band A14,0.03404382486893829,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A34,AlphaEarth embedding band A34,0.03060725068236464,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A60,AlphaEarth embedding band A60,0.029240100616395898,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A24,AlphaEarth embedding band A24,0.0205401094089542,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A42,AlphaEarth embedding band A42,0.0202643848039633,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A09,AlphaEarth embedding band A09,0.020029159780767514,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A02,AlphaEarth embedding band A02,0.01876298734786233,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A17,AlphaEarth embedding band A17,0.01865746314122795,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A08,AlphaEarth embedding band A08,0.017072622797178614,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A57,AlphaEarth embedding band A57,0.016117501983199816,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A03,AlphaEarth embedding band A03,0.015750737971469295,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A49,AlphaEarth embedding band A49,0.015717323608457155,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A45,AlphaEarth embedding band A45,0.015473416629092785,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A58,AlphaEarth embedding band A58,0.015070719665926246,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A48,AlphaEarth embedding band A48,0.014595888135259165,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A39,AlphaEarth embedding band A39,0.014594206481801842,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A01,AlphaEarth embedding band A01,0.014194122614042702,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A47,AlphaEarth embedding band A47,0.013983408786052098,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A07,AlphaEarth embedding band A07,0.0139242029386842,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A50,AlphaEarth embedding band A50,0.013673855321869167,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A22,AlphaEarth embedding band A22,0.012701209352107438,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A46,AlphaEarth embedding band A46,0.012578011247757022,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A25,AlphaEarth embedding band A25,0.012537153103353162,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A18,AlphaEarth embedding band A18,0.012439855789327207,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A61,AlphaEarth embedding band A61,0.01068025940988295,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A54,AlphaEarth embedding band A54,0.010649127067341316,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A26,AlphaEarth embedding band A26,0.010364953756306272,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A19,AlphaEarth embedding band A19,0.010043710794850912,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A51,AlphaEarth embedding band A51,0.010007552564210395,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A56,AlphaEarth embedding band A56,0.009641501650340152,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A12,AlphaEarth embedding band A12,0.00946478352237382,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A13,AlphaEarth embedding band A13,0.009341992997315826,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A05,AlphaEarth embedding band A05,0.009226200865914004,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A41,AlphaEarth embedding band A41,0.009179852681856232,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A00,AlphaEarth embedding band A00,0.009176064716640875,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A20,AlphaEarth embedding band A20,0.009094208411027097,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A35,AlphaEarth embedding band A35,0.008725016200657274,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A29,AlphaEarth embedding band A29,0.008537882418388591,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A27,AlphaEarth embedding band A27,0.00836114509418152,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A53,AlphaEarth embedding band A53,0.008337117613654391,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A38,AlphaEarth embedding band A38,0.007803628302536901,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A37,AlphaEarth embedding band A37,0.007793092445514465,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A40,AlphaEarth embedding band A40,0.007717865864179499,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A36,AlphaEarth embedding band A36,0.007680135378235324,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A21,AlphaEarth embedding band A21,0.007553666953606634,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A23,AlphaEarth embedding band A23,0.007544636356355201,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A31,AlphaEarth embedding band A31,0.00695186262621072,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A59,AlphaEarth embedding band A59,0.0068886946231610955,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A06,AlphaEarth embedding band A06,0.006817766927703368,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A33,AlphaEarth embedding band A33,0.00673062671649238,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A04,AlphaEarth embedding band A04,0.006712613785449824,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A11,AlphaEarth embedding band A11,0.00656409221063292,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A30,AlphaEarth embedding band A30,0.006421928911691073,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A52,AlphaEarth embedding band A52,0.00630734809730361,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A10,AlphaEarth embedding band A10,0.00601612405718805,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A62,AlphaEarth embedding band A62,0.006007857027360331,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A32,AlphaEarth embedding band A32,0.005626686605974063,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A63,AlphaEarth embedding band A63,0.005414945731212544,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A43,AlphaEarth embedding band A43,0.005413571674372255,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A28,AlphaEarth embedding band A28,0.005004939686467986,alphaearth_only,AlphaEarth Embeddings,random_forest,Random Forest
+A16,AlphaEarth embedding band A16,0.07444768779558676,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A55,AlphaEarth embedding band A55,0.053883433612561676,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A15,AlphaEarth embedding band A15,0.044020615306498916,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A14,AlphaEarth embedding band A14,0.03466015350140321,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A44,AlphaEarth embedding band A44,0.03440853812165028,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A60,AlphaEarth embedding band A60,0.02868842356470384,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A48,AlphaEarth embedding band A48,0.022941737439405196,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A42,AlphaEarth embedding band A42,0.021008587563452606,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A08,AlphaEarth embedding band A08,0.020720573966228027,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A34,AlphaEarth embedding band A34,0.020399930290174673,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A02,AlphaEarth embedding band A02,0.019787997773997205,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A09,AlphaEarth embedding band A09,0.018845440922412384,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A57,AlphaEarth embedding band A57,0.018596126732677947,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A47,AlphaEarth embedding band A47,0.01829304772674617,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A24,AlphaEarth embedding band A24,0.017545772229380533,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A39,AlphaEarth embedding band A39,0.01733430958151208,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A22,AlphaEarth embedding band A22,0.016985924467634056,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A49,AlphaEarth embedding band A49,0.0167224038300977,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A25,AlphaEarth embedding band A25,0.01627221862607471,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A03,AlphaEarth embedding band A03,0.01598292603963818,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A17,AlphaEarth embedding band A17,0.015719354589141248,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A50,AlphaEarth embedding band A50,0.015662204159969856,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A58,AlphaEarth embedding band A58,0.014867207374936768,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A46,AlphaEarth embedding band A46,0.01483588611398241,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A61,AlphaEarth embedding band A61,0.014589053707884497,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A07,AlphaEarth embedding band A07,0.014505023477820728,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A54,AlphaEarth embedding band A54,0.014218717205556572,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A12,AlphaEarth embedding band A12,0.01304598285365283,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A18,AlphaEarth embedding band A18,0.012701925939185075,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A19,AlphaEarth embedding band A19,0.0126771215117864,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A45,AlphaEarth embedding band A45,0.012630666871683745,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A35,AlphaEarth embedding band A35,0.012505584602287548,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A13,AlphaEarth embedding band A13,0.012436594994305421,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A26,AlphaEarth embedding band A26,0.012193509904461084,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A51,AlphaEarth embedding band A51,0.012031985058780191,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A01,AlphaEarth embedding band A01,0.011758823840848259,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A20,AlphaEarth embedding band A20,0.011656596129558073,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A56,AlphaEarth embedding band A56,0.011509300243154517,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A05,AlphaEarth embedding band A05,0.011419681734608023,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A27,AlphaEarth embedding band A27,0.011234172797158182,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A37,AlphaEarth embedding band A37,0.010745821911391704,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A00,AlphaEarth embedding band A00,0.010524685106963796,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A31,AlphaEarth embedding band A31,0.010134613166041915,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A33,AlphaEarth embedding band A33,0.010024157854152654,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A52,AlphaEarth embedding band A52,0.0094256084776868,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A29,AlphaEarth embedding band A29,0.009404305351939255,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A53,AlphaEarth embedding band A53,0.009383265964617539,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A38,AlphaEarth embedding band A38,0.009147543856910972,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A06,AlphaEarth embedding band A06,0.009061172717901321,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A41,AlphaEarth embedding band A41,0.008804061213806466,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A30,AlphaEarth embedding band A30,0.00875916766973974,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A04,AlphaEarth embedding band A04,0.008659511950633782,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A59,AlphaEarth embedding band A59,0.008423182712687756,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A23,AlphaEarth embedding band A23,0.008236820978895755,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A40,AlphaEarth embedding band A40,0.008155862875666864,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A36,AlphaEarth embedding band A36,0.00811392257418075,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A21,AlphaEarth embedding band A21,0.007978507650982802,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A63,AlphaEarth embedding band A63,0.0077122408768222185,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A11,AlphaEarth embedding band A11,0.0076184265058406595,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A62,AlphaEarth embedding band A62,0.007439417231169897,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A10,AlphaEarth embedding band A10,0.007415269724572913,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A43,AlphaEarth embedding band A43,0.007358631899805408,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A28,AlphaEarth embedding band A28,0.0070985646198933276,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A32,AlphaEarth embedding band A32,0.006629994905098173,alphaearth_only,AlphaEarth Embeddings,extra_trees,Extra Trees
+A16,AlphaEarth embedding band A16,0.1089530661702156,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A55,AlphaEarth embedding band A55,0.07200745493173599,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A44,AlphaEarth embedding band A44,0.05409204214811325,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A24,AlphaEarth embedding band A24,0.036321524530649185,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A15,AlphaEarth embedding band A15,0.033614110201597214,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A02,AlphaEarth embedding band A02,0.03090030886232853,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A60,AlphaEarth embedding band A60,0.02677520178258419,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A45,AlphaEarth embedding band A45,0.025040827691555023,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A58,AlphaEarth embedding band A58,0.023067036643624306,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A29,AlphaEarth embedding band A29,0.020755942910909653,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A38,AlphaEarth embedding band A38,0.0200244951993227,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A46,AlphaEarth embedding band A46,0.01985355094075203,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A34,AlphaEarth embedding band A34,0.018298838287591934,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A08,AlphaEarth embedding band A08,0.017147691920399666,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A17,AlphaEarth embedding band A17,0.014595461077988148,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A21,AlphaEarth embedding band A21,0.01454232633113861,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A20,AlphaEarth embedding band A20,0.014353246428072453,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A19,AlphaEarth embedding band A19,0.014208539389073849,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A25,AlphaEarth embedding band A25,0.01342043187469244,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A42,AlphaEarth embedding band A42,0.013387843035161495,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A51,AlphaEarth embedding band A51,0.013124550692737103,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A47,AlphaEarth embedding band A47,0.01287053246051073,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A48,AlphaEarth embedding band A48,0.012831619940698147,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A26,AlphaEarth embedding band A26,0.012730072252452374,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A61,AlphaEarth embedding band A61,0.01257417257875204,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A11,AlphaEarth embedding band A11,0.012522503733634949,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A09,AlphaEarth embedding band A09,0.012466691434383392,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A18,AlphaEarth embedding band A18,0.012415921315550804,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A39,AlphaEarth embedding band A39,0.012357029132544994,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A05,AlphaEarth embedding band A05,0.011956723406910896,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A03,AlphaEarth embedding band A03,0.01153256744146347,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A01,AlphaEarth embedding band A01,0.011373327113687992,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A14,AlphaEarth embedding band A14,0.010812399908900261,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A50,AlphaEarth embedding band A50,0.010674785822629929,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A13,AlphaEarth embedding band A13,0.010587383061647415,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A22,AlphaEarth embedding band A22,0.01058605033904314,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A41,AlphaEarth embedding band A41,0.010316266678273678,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A56,AlphaEarth embedding band A56,0.009837132878601551,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A53,AlphaEarth embedding band A53,0.009679784066975117,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A27,AlphaEarth embedding band A27,0.009503419511020184,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A37,AlphaEarth embedding band A37,0.009251728653907776,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A00,AlphaEarth embedding band A00,0.009208919480443,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A30,AlphaEarth embedding band A30,0.008963045664131641,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A36,AlphaEarth embedding band A36,0.008827285841107368,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A12,AlphaEarth embedding band A12,0.008580140769481659,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A23,AlphaEarth embedding band A23,0.008273371495306492,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A52,AlphaEarth embedding band A52,0.00807073526084423,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A57,AlphaEarth embedding band A57,0.00783184077590704,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A07,AlphaEarth embedding band A07,0.007631005719304085,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A40,AlphaEarth embedding band A40,0.007610416039824486,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A54,AlphaEarth embedding band A54,0.007511591073125601,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A49,AlphaEarth embedding band A49,0.007372505031526089,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A06,AlphaEarth embedding band A06,0.0071956501342356205,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A33,AlphaEarth embedding band A33,0.00704724807292223,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A43,AlphaEarth embedding band A43,0.006981289945542812,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A04,AlphaEarth embedding band A04,0.006936693098396063,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A59,AlphaEarth embedding band A59,0.006927927955985069,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A31,AlphaEarth embedding band A31,0.006845379713922739,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A62,AlphaEarth embedding band A62,0.006680972874164581,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A28,AlphaEarth embedding band A28,0.006478528957813978,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A35,AlphaEarth embedding band A35,0.006396941374987364,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A32,AlphaEarth embedding band A32,0.006122638005763292,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A63,AlphaEarth embedding band A63,0.005874520167708397,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A10,AlphaEarth embedding band A10,0.005266672465950251,alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost
+A16,AlphaEarth embedding band A16,798.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A17,AlphaEarth embedding band A17,501.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A55,AlphaEarth embedding band A55,475.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A44,AlphaEarth embedding band A44,414.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A45,AlphaEarth embedding band A45,398.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A14,AlphaEarth embedding band A14,397.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A25,AlphaEarth embedding band A25,377.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A56,AlphaEarth embedding band A56,371.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A15,AlphaEarth embedding band A15,369.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A37,AlphaEarth embedding band A37,364.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A32,AlphaEarth embedding band A32,360.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A34,AlphaEarth embedding band A34,359.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A46,AlphaEarth embedding band A46,356.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A60,AlphaEarth embedding band A60,348.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A53,AlphaEarth embedding band A53,342.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A39,AlphaEarth embedding band A39,342.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A00,AlphaEarth embedding band A00,333.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A51,AlphaEarth embedding band A51,330.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A23,AlphaEarth embedding band A23,329.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A22,AlphaEarth embedding band A22,307.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A09,AlphaEarth embedding band A09,306.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A01,AlphaEarth embedding band A01,296.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A03,AlphaEarth embedding band A03,293.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A48,AlphaEarth embedding band A48,291.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A21,AlphaEarth embedding band A21,285.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A50,AlphaEarth embedding band A50,284.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A11,AlphaEarth embedding band A11,275.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A52,AlphaEarth embedding band A52,274.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A20,AlphaEarth embedding band A20,272.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A58,AlphaEarth embedding band A58,271.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A24,AlphaEarth embedding band A24,270.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A26,AlphaEarth embedding band A26,261.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A19,AlphaEarth embedding band A19,260.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A02,AlphaEarth embedding band A02,260.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A47,AlphaEarth embedding band A47,256.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A06,AlphaEarth embedding band A06,256.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A36,AlphaEarth embedding band A36,254.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A41,AlphaEarth embedding band A41,251.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A61,AlphaEarth embedding band A61,249.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A38,AlphaEarth embedding band A38,244.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A31,AlphaEarth embedding band A31,241.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A33,AlphaEarth embedding band A33,239.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A49,AlphaEarth embedding band A49,239.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A18,AlphaEarth embedding band A18,235.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A30,AlphaEarth embedding band A30,234.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A43,AlphaEarth embedding band A43,234.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A13,AlphaEarth embedding band A13,229.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A05,AlphaEarth embedding band A05,225.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A27,AlphaEarth embedding band A27,221.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A07,AlphaEarth embedding band A07,218.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A08,AlphaEarth embedding band A08,204.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A10,AlphaEarth embedding band A10,202.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A63,AlphaEarth embedding band A63,196.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A28,AlphaEarth embedding band A28,190.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A29,AlphaEarth embedding band A29,189.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A59,AlphaEarth embedding band A59,184.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A62,AlphaEarth embedding band A62,175.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A04,AlphaEarth embedding band A04,172.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A42,AlphaEarth embedding band A42,161.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A57,AlphaEarth embedding band A57,160.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A40,AlphaEarth embedding band A40,160.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A12,AlphaEarth embedding band A12,153.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A35,AlphaEarth embedding band A35,132.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+A54,AlphaEarth embedding band A54,129.0,alphaearth_only,AlphaEarth Embeddings,lightgbm,LightGBM
+elevation_m,Elevation (m),2.8225626154317798,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A16,AlphaEarth embedding band A16,2.652261974993083,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A09,AlphaEarth embedding band A09,2.016984511437334,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A00,AlphaEarth embedding band A00,1.2793137546137268,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A18,AlphaEarth embedding band A18,1.272762388335677,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A34,AlphaEarth embedding band A34,1.2451143099252975,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A45,AlphaEarth embedding band A45,1.1553196122335374,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A01,AlphaEarth embedding band A01,1.1423860495290314,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A42,AlphaEarth embedding band A42,1.0921914816358647,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A25,AlphaEarth embedding band A25,1.0619091101627116,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A22,AlphaEarth embedding band A22,0.9271362288263096,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A36,AlphaEarth embedding band A36,0.9112755946431782,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A49,AlphaEarth embedding band A49,0.905963225586468,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A48,AlphaEarth embedding band A48,0.8958988510153054,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A55,AlphaEarth embedding band A55,0.8729891327556762,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A19,AlphaEarth embedding band A19,0.8625759322315166,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A56,AlphaEarth embedding band A56,0.8484125026188812,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A32,AlphaEarth embedding band A32,0.8184416629507938,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A54,AlphaEarth embedding band A54,0.8177794725078621,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A27,AlphaEarth embedding band A27,0.7923829720818436,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A31,AlphaEarth embedding band A31,0.7756818163647643,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A44,AlphaEarth embedding band A44,0.7575628986796652,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A52,AlphaEarth embedding band A52,0.6242104862550517,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A17,AlphaEarth embedding band A17,0.6199779604197182,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A05,AlphaEarth embedding band A05,0.6183235162268643,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A20,AlphaEarth embedding band A20,0.5878586347882006,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A03,AlphaEarth embedding band A03,0.5445891631999368,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A39,AlphaEarth embedding band A39,0.5426484102686697,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A11,AlphaEarth embedding band A11,0.535814376075221,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A51,AlphaEarth embedding band A51,0.5323632433690534,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A07,AlphaEarth embedding band A07,0.5214524335078895,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A12,AlphaEarth embedding band A12,0.4981571720133952,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A60,AlphaEarth embedding band A60,0.48354338972393063,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A38,AlphaEarth embedding band A38,0.47073772562956545,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A15,AlphaEarth embedding band A15,0.4584045879509256,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A61,AlphaEarth embedding band A61,0.4521129348022666,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A63,AlphaEarth embedding band A63,0.4479538729670438,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A23,AlphaEarth embedding band A23,0.40886826703555285,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A29,AlphaEarth embedding band A29,0.4058626859832262,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+aspect_deg,Aspect (degrees),0.3869477326758687,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A10,AlphaEarth embedding band A10,0.3588656472336988,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+rain_monsoon_total,Monsoon rainfall total,0.34423703236008196,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A26,AlphaEarth embedding band A26,0.3429165209405478,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A62,AlphaEarth embedding band A62,0.32358639685083773,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A21,AlphaEarth embedding band A21,0.30997152392386385,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A02,AlphaEarth embedding band A02,0.30951889775775543,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A06,AlphaEarth embedding band A06,0.30244457627371474,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A46,AlphaEarth embedding band A46,0.30102584334014965,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A53,AlphaEarth embedding band A53,0.24678554976396488,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A57,AlphaEarth embedding band A57,0.21092563525855934,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+ndvi_amplitude,NDVI amplitude,0.20948083857468128,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A13,AlphaEarth embedding band A13,0.18764705230256076,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A58,AlphaEarth embedding band A58,0.17610255667235467,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+modis_lc_type1,MODIS land-cover class,0.1728604958556716,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+lst_day_mean_c,Mean daytime LST (deg C),0.1567294325268175,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A41,AlphaEarth embedding band A41,0.13563358558276084,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A08,AlphaEarth embedding band A08,0.13031285904442566,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A14,AlphaEarth embedding band A14,0.11170457673673066,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A24,AlphaEarth embedding band A24,0.0762189808923162,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A37,AlphaEarth embedding band A37,0.07609061740120444,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+slope_deg,Slope (degrees),0.07367122719407627,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A28,AlphaEarth embedding band A28,0.06047253872900328,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A33,AlphaEarth embedding band A33,0.05964721759825115,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A47,AlphaEarth embedding band A47,0.0498072838473623,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A30,AlphaEarth embedding band A30,0.04357441851917863,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A40,AlphaEarth embedding band A40,0.0321017928498341,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A35,AlphaEarth embedding band A35,0.03087677337580461,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+ndvi_median,NDVI median,0.03083882616377581,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A43,AlphaEarth embedding band A43,0.03046012111670331,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+rain_max_1day,Maximum 1-day rainfall,0.01500131522946135,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A50,AlphaEarth embedding band A50,0.011654468888872822,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A59,AlphaEarth embedding band A59,0.006388586914066672,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A04,AlphaEarth embedding band A04,0.0013689340920920736,fused_reduced,Conventional + AlphaEarth Embeddings,logistic_l2,Logistic Regression (L2)
+A16,AlphaEarth embedding band A16,0.10341205168228565,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A55,AlphaEarth embedding band A55,0.06784591690997482,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A15,AlphaEarth embedding band A15,0.04310998671207271,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A44,AlphaEarth embedding band A44,0.04282542315038478,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A14,AlphaEarth embedding band A14,0.03170223410719847,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+lst_day_mean_c,Mean daytime LST (deg C),0.0289350926289444,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A60,AlphaEarth embedding band A60,0.02779000157292787,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+elevation_m,Elevation (m),0.027363588610795356,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A34,AlphaEarth embedding band A34,0.025701296343883816,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A24,AlphaEarth embedding band A24,0.01842449225090562,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A09,AlphaEarth embedding band A09,0.018117006761875953,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A49,AlphaEarth embedding band A49,0.01742100549101696,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A17,AlphaEarth embedding band A17,0.01643956790886477,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A42,AlphaEarth embedding band A42,0.016067011386061304,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A08,AlphaEarth embedding band A08,0.015980377833362275,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A25,AlphaEarth embedding band A25,0.015030172559981455,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A57,AlphaEarth embedding band A57,0.014873753656889482,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A01,AlphaEarth embedding band A01,0.014715251965116428,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A02,AlphaEarth embedding band A02,0.014525635046582535,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A45,AlphaEarth embedding band A45,0.01426371075578713,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A03,AlphaEarth embedding band A03,0.01404097212390371,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A48,AlphaEarth embedding band A48,0.01384089100042023,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A58,AlphaEarth embedding band A58,0.013486710716351921,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A47,AlphaEarth embedding band A47,0.012942771971455994,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A39,AlphaEarth embedding band A39,0.012572408148173876,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A54,AlphaEarth embedding band A54,0.012468615035945834,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+ndvi_median,NDVI median,0.01208698327052215,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A13,AlphaEarth embedding band A13,0.011956049766993512,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A07,AlphaEarth embedding band A07,0.0114640246524724,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A50,AlphaEarth embedding band A50,0.011394177769011788,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A51,AlphaEarth embedding band A51,0.010900750922028317,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A18,AlphaEarth embedding band A18,0.010265572536223386,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A05,AlphaEarth embedding band A05,0.009951468725852172,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A26,AlphaEarth embedding band A26,0.009870479798818338,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A12,AlphaEarth embedding band A12,0.009200878515637313,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A46,AlphaEarth embedding band A46,0.009085080196532258,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A22,AlphaEarth embedding band A22,0.009050703035450627,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A19,AlphaEarth embedding band A19,0.008550634371162668,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A35,AlphaEarth embedding band A35,0.008386900294131113,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A20,AlphaEarth embedding band A20,0.00838239841559837,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A00,AlphaEarth embedding band A00,0.008359829541362777,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+aspect_deg,Aspect (degrees),0.008300015568020467,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A61,AlphaEarth embedding band A61,0.008154723480696706,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A29,AlphaEarth embedding band A29,0.007625486604777227,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A56,AlphaEarth embedding band A56,0.007547266284148163,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A41,AlphaEarth embedding band A41,0.007528405093558767,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A53,AlphaEarth embedding band A53,0.007461499448567965,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A31,AlphaEarth embedding band A31,0.007393147940224589,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+rain_monsoon_total,Monsoon rainfall total,0.0073661553082804716,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+ndvi_amplitude,NDVI amplitude,0.0072595425946499585,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A37,AlphaEarth embedding band A37,0.00724006565149585,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A21,AlphaEarth embedding band A21,0.007152562498578979,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A38,AlphaEarth embedding band A38,0.007062464908480738,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A27,AlphaEarth embedding band A27,0.0068326684836247705,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A36,AlphaEarth embedding band A36,0.006719379839948893,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+rain_max_1day,Maximum 1-day rainfall,0.006580592085589956,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A59,AlphaEarth embedding band A59,0.006532708841757213,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A04,AlphaEarth embedding band A04,0.006247749997278681,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A06,AlphaEarth embedding band A06,0.006221136934784882,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A23,AlphaEarth embedding band A23,0.006181568762330815,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A52,AlphaEarth embedding band A52,0.006117602575094263,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A33,AlphaEarth embedding band A33,0.006041924719179734,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A40,AlphaEarth embedding band A40,0.00600932134652718,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A30,AlphaEarth embedding band A30,0.005875401334784548,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A11,AlphaEarth embedding band A11,0.0057902592950956075,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A32,AlphaEarth embedding band A32,0.005501969654475077,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A62,AlphaEarth embedding band A62,0.005481759393291322,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A10,AlphaEarth embedding band A10,0.005283105013235549,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A43,AlphaEarth embedding band A43,0.004470191421746213,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A28,AlphaEarth embedding band A28,0.0040851221284612165,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A63,AlphaEarth embedding band A63,0.004019388370568836,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+modis_lc_type1,MODIS land-cover class,0.001733331849228779,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+slope_deg,Slope (degrees),0.0013816044285561312,fused_reduced,Conventional + AlphaEarth Embeddings,random_forest,Random Forest
+A16,AlphaEarth embedding band A16,0.07329720260079131,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A55,AlphaEarth embedding band A55,0.04168975658413479,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A15,AlphaEarth embedding band A15,0.03976486851511268,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A44,AlphaEarth embedding band A44,0.028027290389997305,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A60,AlphaEarth embedding band A60,0.026908049266154643,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A14,AlphaEarth embedding band A14,0.025781157060627443,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+elevation_m,Elevation (m),0.02362146056847059,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+lst_day_mean_c,Mean daytime LST (deg C),0.021422395745249553,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A48,AlphaEarth embedding band A48,0.020533094362262267,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A34,AlphaEarth embedding band A34,0.019539690283799333,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A42,AlphaEarth embedding band A42,0.018674136106038762,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A57,AlphaEarth embedding band A57,0.018351106147743525,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A08,AlphaEarth embedding band A08,0.01827594550239454,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A09,AlphaEarth embedding band A09,0.018206449723786957,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A24,AlphaEarth embedding band A24,0.016451310550016127,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A47,AlphaEarth embedding band A47,0.01614230542244943,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A39,AlphaEarth embedding band A39,0.01574458213302555,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A17,AlphaEarth embedding band A17,0.015472929115306538,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A25,AlphaEarth embedding band A25,0.01543579035494665,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A02,AlphaEarth embedding band A02,0.015211223777901173,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A49,AlphaEarth embedding band A49,0.01477341517921083,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+slope_deg,Slope (degrees),0.013887984758023523,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A22,AlphaEarth embedding band A22,0.013590575336631093,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A50,AlphaEarth embedding band A50,0.013316766598796725,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A07,AlphaEarth embedding band A07,0.01314557659045092,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A03,AlphaEarth embedding band A03,0.01312901630414322,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A54,AlphaEarth embedding band A54,0.012981886594484729,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A12,AlphaEarth embedding band A12,0.01269234250861689,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A35,AlphaEarth embedding band A35,0.012601328463927605,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A58,AlphaEarth embedding band A58,0.012546442649046434,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A13,AlphaEarth embedding band A13,0.011903545030820745,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A51,AlphaEarth embedding band A51,0.011737184336156357,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A46,AlphaEarth embedding band A46,0.011718347694453025,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+ndvi_median,NDVI median,0.011695692413894048,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A19,AlphaEarth embedding band A19,0.011403549836531988,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A18,AlphaEarth embedding band A18,0.011332791357693116,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A01,AlphaEarth embedding band A01,0.011268671481124929,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A61,AlphaEarth embedding band A61,0.011199992449515054,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+aspect_deg,Aspect (degrees),0.011051166747129052,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A45,AlphaEarth embedding band A45,0.010719213571800675,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A05,AlphaEarth embedding band A05,0.010582839249671377,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A56,AlphaEarth embedding band A56,0.010518031010565495,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A20,AlphaEarth embedding band A20,0.01045764341723768,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A27,AlphaEarth embedding band A27,0.010162539395975995,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A00,AlphaEarth embedding band A00,0.010086719091693125,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A26,AlphaEarth embedding band A26,0.009976624205234971,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A37,AlphaEarth embedding band A37,0.00953162367478836,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A33,AlphaEarth embedding band A33,0.009353829174843979,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A06,AlphaEarth embedding band A06,0.00907365001100324,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A31,AlphaEarth embedding band A31,0.008977364438673512,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A29,AlphaEarth embedding band A29,0.008499906746956564,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A53,AlphaEarth embedding band A53,0.008367622945516505,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+modis_lc_type1,MODIS land-cover class,0.00812236936744496,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A38,AlphaEarth embedding band A38,0.007985603998631425,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A52,AlphaEarth embedding band A52,0.007973056043845145,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A04,AlphaEarth embedding band A04,0.00795699416418557,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A59,AlphaEarth embedding band A59,0.007782444230759175,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A41,AlphaEarth embedding band A41,0.007644105353787977,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A30,AlphaEarth embedding band A30,0.007511604274516885,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A36,AlphaEarth embedding band A36,0.0073873661135150995,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A21,AlphaEarth embedding band A21,0.007162894199601768,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A23,AlphaEarth embedding band A23,0.007086130498190888,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+ndvi_amplitude,NDVI amplitude,0.007045589671862632,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A43,AlphaEarth embedding band A43,0.0069335135151340635,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+rain_monsoon_total,Monsoon rainfall total,0.006739606256933568,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A11,AlphaEarth embedding band A11,0.0067001564417309605,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A40,AlphaEarth embedding band A40,0.006698982399215568,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A63,AlphaEarth embedding band A63,0.006673679469329458,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A62,AlphaEarth embedding band A62,0.006667050048076705,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+rain_max_1day,Maximum 1-day rainfall,0.006650121662948206,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A10,AlphaEarth embedding band A10,0.006459175850491862,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A28,AlphaEarth embedding band A28,0.006019630871342573,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A32,AlphaEarth embedding band A32,0.005965298093634472,fused_reduced,Conventional + AlphaEarth Embeddings,extra_trees,Extra Trees
+A16,AlphaEarth embedding band A16,0.09323365241289139,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A55,AlphaEarth embedding band A55,0.07555492967367172,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A24,AlphaEarth embedding band A24,0.04828177019953728,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A44,AlphaEarth embedding band A44,0.04395930469036102,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A02,AlphaEarth embedding band A02,0.03256411477923393,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A15,AlphaEarth embedding band A15,0.03143453970551491,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A60,AlphaEarth embedding band A60,0.02683008834719658,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A45,AlphaEarth embedding band A45,0.021379325538873672,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A29,AlphaEarth embedding band A29,0.019257931038737297,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A38,AlphaEarth embedding band A38,0.01833629421889782,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A46,AlphaEarth embedding band A46,0.0174600537866354,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A08,AlphaEarth embedding band A08,0.016910342499613762,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A58,AlphaEarth embedding band A58,0.016138553619384766,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+elevation_m,Elevation (m),0.015688443556427956,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A21,AlphaEarth embedding band A21,0.015099411830306053,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A34,AlphaEarth embedding band A34,0.014399932697415352,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A18,AlphaEarth embedding band A18,0.014355148188769817,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+lst_day_mean_c,Mean daytime LST (deg C),0.014138149097561836,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A17,AlphaEarth embedding band A17,0.013157138600945473,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A20,AlphaEarth embedding band A20,0.013056465424597263,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A03,AlphaEarth embedding band A03,0.012850879691541195,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A25,AlphaEarth embedding band A25,0.012526806443929672,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A47,AlphaEarth embedding band A47,0.012426347471773624,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+modis_lc_type1,MODIS land-cover class,0.012221237644553185,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A50,AlphaEarth embedding band A50,0.012060338631272316,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A05,AlphaEarth embedding band A05,0.01174161583185196,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+aspect_deg,Aspect (degrees),0.01164095290005207,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A51,AlphaEarth embedding band A51,0.011476077139377594,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A42,AlphaEarth embedding band A42,0.011207127943634987,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A09,AlphaEarth embedding band A09,0.011166077107191086,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A48,AlphaEarth embedding band A48,0.011085002683103085,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A11,AlphaEarth embedding band A11,0.010972138494253159,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A01,AlphaEarth embedding band A01,0.010908126831054688,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A14,AlphaEarth embedding band A14,0.01005951315164566,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A19,AlphaEarth embedding band A19,0.009871695190668106,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A26,AlphaEarth embedding band A26,0.009759480133652687,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+slope_deg,Slope (degrees),0.009634754620492458,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A27,AlphaEarth embedding band A27,0.009347344748675823,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A22,AlphaEarth embedding band A22,0.009264194406569004,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A00,AlphaEarth embedding band A00,0.00896304938942194,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A13,AlphaEarth embedding band A13,0.00892860908061266,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A36,AlphaEarth embedding band A36,0.008702865801751614,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A35,AlphaEarth embedding band A35,0.008548951707780361,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+rain_max_1day,Maximum 1-day rainfall,0.008522525429725647,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A07,AlphaEarth embedding band A07,0.008214857429265976,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A61,AlphaEarth embedding band A61,0.00816965289413929,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A41,AlphaEarth embedding band A41,0.008053413592278957,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+rain_monsoon_total,Monsoon rainfall total,0.00801985152065754,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A37,AlphaEarth embedding band A37,0.007991173304617405,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+ndvi_amplitude,NDVI amplitude,0.007518324069678783,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A30,AlphaEarth embedding band A30,0.007383428514003754,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A56,AlphaEarth embedding band A56,0.0073043652810156345,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A39,AlphaEarth embedding band A39,0.007257147692143917,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A54,AlphaEarth embedding band A54,0.0071892873384058475,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A23,AlphaEarth embedding band A23,0.0071829259395599365,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A53,AlphaEarth embedding band A53,0.00708039989694953,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+ndvi_median,NDVI median,0.006890511605888605,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A06,AlphaEarth embedding band A06,0.00685609458014369,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A32,AlphaEarth embedding band A32,0.006093528121709824,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A62,AlphaEarth embedding band A62,0.005940971430391073,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A49,AlphaEarth embedding band A49,0.0058952695690095425,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A57,AlphaEarth embedding band A57,0.005856818985193968,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A33,AlphaEarth embedding band A33,0.005763179622590542,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A10,AlphaEarth embedding band A10,0.0057572717778384686,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A52,AlphaEarth embedding band A52,0.005530998110771179,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A40,AlphaEarth embedding band A40,0.005484820809215307,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A59,AlphaEarth embedding band A59,0.005358685273677111,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A43,AlphaEarth embedding band A43,0.005315486341714859,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A12,AlphaEarth embedding band A12,0.005197631195187569,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A04,AlphaEarth embedding band A04,0.004929483402520418,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A31,AlphaEarth embedding band A31,0.0044113341718912125,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A63,AlphaEarth embedding band A63,0.004187875892966986,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A28,AlphaEarth embedding band A28,0.004043895751237869,fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost
+A16,AlphaEarth embedding band A16,700.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+aspect_deg,Aspect (degrees),556.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+rain_max_1day,Maximum 1-day rainfall,512.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+rain_monsoon_total,Monsoon rainfall total,485.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+elevation_m,Elevation (m),450.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A17,AlphaEarth embedding band A17,412.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A25,AlphaEarth embedding band A25,382.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A44,AlphaEarth embedding band A44,382.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+ndvi_median,NDVI median,374.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A45,AlphaEarth embedding band A45,368.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A37,AlphaEarth embedding band A37,328.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A51,AlphaEarth embedding band A51,325.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A15,AlphaEarth embedding band A15,324.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A55,AlphaEarth embedding band A55,321.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A60,AlphaEarth embedding band A60,317.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A00,AlphaEarth embedding band A00,312.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A46,AlphaEarth embedding band A46,291.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A56,AlphaEarth embedding band A56,285.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A14,AlphaEarth embedding band A14,283.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A23,AlphaEarth embedding band A23,277.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A39,AlphaEarth embedding band A39,268.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A48,AlphaEarth embedding band A48,264.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A53,AlphaEarth embedding band A53,263.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A41,AlphaEarth embedding band A41,261.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A01,AlphaEarth embedding band A01,259.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A03,AlphaEarth embedding band A03,257.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A34,AlphaEarth embedding band A34,253.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A09,AlphaEarth embedding band A09,251.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A36,AlphaEarth embedding band A36,246.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+lst_day_mean_c,Mean daytime LST (deg C),245.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A22,AlphaEarth embedding band A22,241.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A50,AlphaEarth embedding band A50,240.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A38,AlphaEarth embedding band A38,240.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A47,AlphaEarth embedding band A47,239.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+ndvi_amplitude,NDVI amplitude,235.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A30,AlphaEarth embedding band A30,233.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A05,AlphaEarth embedding band A05,232.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A13,AlphaEarth embedding band A13,222.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A24,AlphaEarth embedding band A24,219.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A06,AlphaEarth embedding band A06,218.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A26,AlphaEarth embedding band A26,218.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A11,AlphaEarth embedding band A11,217.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A02,AlphaEarth embedding band A02,217.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A58,AlphaEarth embedding band A58,214.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A32,AlphaEarth embedding band A32,214.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A59,AlphaEarth embedding band A59,214.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A52,AlphaEarth embedding band A52,211.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A18,AlphaEarth embedding band A18,208.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A21,AlphaEarth embedding band A21,203.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A29,AlphaEarth embedding band A29,189.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A20,AlphaEarth embedding band A20,185.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A43,AlphaEarth embedding band A43,185.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A19,AlphaEarth embedding band A19,178.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A08,AlphaEarth embedding band A08,172.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A04,AlphaEarth embedding band A04,172.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A61,AlphaEarth embedding band A61,170.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A28,AlphaEarth embedding band A28,170.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A07,AlphaEarth embedding band A07,169.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A31,AlphaEarth embedding band A31,169.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A10,AlphaEarth embedding band A10,165.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A40,AlphaEarth embedding band A40,160.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A27,AlphaEarth embedding band A27,159.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A49,AlphaEarth embedding band A49,144.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A62,AlphaEarth embedding band A62,142.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A54,AlphaEarth embedding band A54,136.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A12,AlphaEarth embedding band A12,130.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A42,AlphaEarth embedding band A42,129.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A35,AlphaEarth embedding band A35,126.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A33,AlphaEarth embedding band A33,124.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A57,AlphaEarth embedding band A57,124.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+A63,AlphaEarth embedding band A63,101.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+slope_deg,Slope (degrees),59.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM
+modis_lc_type1,MODIS land-cover class,56.0,fused_reduced,Conventional + AlphaEarth Embeddings,lightgbm,LightGBM

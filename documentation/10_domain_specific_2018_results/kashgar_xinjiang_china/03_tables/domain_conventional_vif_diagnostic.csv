@@ -1,0 +1,20 @@
+domain,n_domain_samples,factor,factor_name,r2_against_other_factors,vif,diagnostic_role
+"Kashgar (Xinjiang, China)",846,elevation_m,Elevation,0.7826531822837324,4.600941529797027,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,lithology_code,Lithology/geology,0.6929675621498483,3.256984854766563,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,ndvi_median,NDVI median,0.638462206482002,2.7659625575222697,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,log1p_dist_road_m,Distance to roads,0.6059528865024625,2.5377676063251995,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,log1p_dist_river_m,Distance to rivers/streams,0.5642936039558175,2.2951235260236937,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,valley_depth,Valley depth,0.5455331872126425,2.2003806919734195,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,log1p_dist_fault_m,Distance to active faults,0.4834902084478745,1.9360717189793706,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,modis_lc_type1,MODIS land cover,0.4724394380084588,1.8955169738712079,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,ndvi_amplitude,NDVI amplitude,0.46828982326150603,1.8807238299142441,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,aspect_deg,Aspect,0.4575063390256421,1.8433395114772908,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,tri,Terrain ruggedness,0.45206764955189294,1.8250428162932621,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,eq_density_ms5,Earthquake density > Ms5,0.4373473698054392,1.777295521846593,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,rain_max_1day,Max 1-day rainfall,0.39602719213053317,1.655703678990999,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,twi,TWI,0.39323546042463997,1.6480857643721947,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,soil_type,Soil type,0.3398088352169677,1.5147127882704152,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,rain_monsoon_total,Monsoon rainfall,0.33698008997370466,1.508250332875132,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,plan_curvature,Plan curvature,0.31042141819711033,1.450161049645016,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,profile_curvature,Profile curvature,0.18938707627469653,1.2336344150600727,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,slope_deg,Slope,0.1711567317481978,1.2065007201050229,Domain diagnostic only; global VIF remains the final factor-selection gate.

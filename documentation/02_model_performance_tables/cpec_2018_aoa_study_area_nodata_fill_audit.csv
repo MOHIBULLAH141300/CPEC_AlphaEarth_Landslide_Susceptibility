@@ -1,0 +1,10 @@
+feature_set,raster_type,filled_study_area_nodata_pixels
+Conventional,index,0
+Conventional,mask,0
+Conventional,confidence,0
+AlphaEarth Embeddings,index,2950
+AlphaEarth Embeddings,mask,0
+AlphaEarth Embeddings,confidence,2950
+Conventional + AlphaEarth Embeddings,index,0
+Conventional + AlphaEarth Embeddings,mask,0
+Conventional + AlphaEarth Embeddings,confidence,0

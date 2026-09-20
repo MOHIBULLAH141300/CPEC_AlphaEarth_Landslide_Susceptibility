@@ -1,0 +1,20 @@
+domain,n_domain_samples,factor,factor_name,r2_against_other_factors,vif,diagnostic_role
+Punjab-Sindh lowland corridor,406,rain_monsoon_total,Monsoon rainfall,0.9265081604056137,13.60695290142642,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,rain_max_1day,Max 1-day rainfall,0.8954489350247543,9.564704101644184,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,ndvi_median,NDVI median,0.7127016206724155,3.4807018485119126,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,ndvi_amplitude,NDVI amplitude,0.6859916302335348,3.184628488545454,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,tri,Terrain ruggedness,0.6764695046474951,3.0908987386504108,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,elevation_m,Elevation,0.6546008088338385,2.8952007577774816,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,lithology_code,Lithology/geology,0.6220469850248795,2.6458315197348727,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,slope_deg,Slope,0.6188562947592169,2.623682317849803,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,log1p_dist_fault_m,Distance to active faults,0.5929055561537012,2.456432444893688,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,aspect_deg,Aspect,0.543821212925309,2.192122975319912,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,valley_depth,Valley depth,0.509929298547233,2.0405219023206187,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,profile_curvature,Profile curvature,0.45904188134423674,1.8485719421032414,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,eq_density_ms5,Earthquake density > Ms5,0.4231407163820089,1.7335250179699317,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,log1p_dist_road_m,Distance to roads,0.41774315062187695,1.7174551077725333,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,twi,TWI,0.36893740389977003,1.5846288564394215,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,soil_type,Soil type,0.3014694061690365,1.431576524824321,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,modis_lc_type1,MODIS land cover,0.2953870834734095,1.4192189449627584,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,plan_curvature,Plan curvature,0.29227001568804056,1.4129682536655268,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,log1p_dist_river_m,Distance to rivers/streams,0.1468779147195658,1.1721651768882348,Domain diagnostic only; global VIF remains the final factor-selection gate.

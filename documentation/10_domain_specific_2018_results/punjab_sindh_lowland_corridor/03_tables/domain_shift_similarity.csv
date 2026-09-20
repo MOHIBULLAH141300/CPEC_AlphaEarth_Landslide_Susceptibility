@@ -1,0 +1,4 @@
+feature_set,held_out_domain,mean_abs_standardized_mean_difference,mean_js_divergence
+Conventional,Punjab-Sindh lowland corridor,0.7302403853524128,0.1447137022929162
+AlphaEarth Embeddings,Punjab-Sindh lowland corridor,0.7760166004069184,0.1195985217182461
+Conventional + AlphaEarth Embeddings,Punjab-Sindh lowland corridor,0.7655377078040798,0.1253477799220863

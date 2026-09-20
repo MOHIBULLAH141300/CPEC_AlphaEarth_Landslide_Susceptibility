@@ -1,0 +1,22 @@
+﻿factor,factor_name
+elevation_m,Elevation
+slope_deg,Slope
+aspect_deg,Aspect
+rain_monsoon_total,Monsoon rainfall total
+rain_max_1day,Maximum 1-day rainfall
+ndvi_median,NDVI median
+ndvi_amplitude,NDVI amplitude
+lst_day_mean_c,Mean daytime LST
+modis_lc_type1,MODIS land cover
+log1p_dist_road_m,Distance to roads
+log1p_dist_river_m,Distance to rivers/streams
+log1p_dist_fault_m,Distance to active faults
+lithology_code,Lithology/geology class
+profile_curvature,Profile curvature
+plan_curvature,Plan curvature
+tri,Terrain ruggedness index
+twi,Topographic wetness index
+valley_depth,Valley depth
+relief,Relief
+soil_type,Soil type
+eq_density_ms5,Earthquake density > Ms5

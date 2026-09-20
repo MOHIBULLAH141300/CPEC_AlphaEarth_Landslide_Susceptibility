@@ -1,0 +1,4 @@
+feature_set,held_out_domain,mean_abs_standardized_mean_difference,mean_js_divergence
+Conventional,KP-AJK,0.6798749696713587,0.1292301056079674
+AlphaEarth Embeddings,KP-AJK,0.4152079702182498,0.0516335521181855
+Conventional + AlphaEarth Embeddings,KP-AJK,0.4757943917798048,0.0693966185797018

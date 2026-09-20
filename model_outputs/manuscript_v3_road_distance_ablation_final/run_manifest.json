@@ -1,0 +1,12 @@
+{
+  "analysis": "manuscript_v3_fused_road_distance_ablation",
+  "n_samples": 3316,
+  "n_positive": 1508,
+  "n_negative": 1808,
+  "removed_predictor": "log1p_dist_road_m",
+  "outer_buffer_km": 20.0,
+  "inner_buffer_km": 20.0,
+  "random_seed": 141300,
+  "score_definition": "case-control susceptibility score",
+  "purpose": "test road-exposure ranking stability without circular use of road proximity"
+}

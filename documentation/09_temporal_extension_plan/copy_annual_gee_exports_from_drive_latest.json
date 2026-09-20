@@ -1,0 +1,50 @@
+[
+  {
+    "year": 2017,
+    "product": "annual_dynamic_base_predictors",
+    "drive_folder": "C:\\Users\\Administrator\\My Drive\\GEE_CPEC_ANNUAL_DYNAMIC_2017_250M",
+    "matched_files": 0,
+    "copied_files": [],
+    "remove_drive_copy": false
+  },
+  {
+    "year": 2017,
+    "product": "alphaearth_embeddings",
+    "drive_folder": "C:\\Users\\Administrator\\My Drive\\GEE_CPEC_ANNUAL_DYNAMIC_2017_250M",
+    "matched_files": 0,
+    "copied_files": [],
+    "remove_drive_copy": false
+  },
+  {
+    "year": 2018,
+    "product": "annual_dynamic_base_predictors",
+    "drive_folder": "C:\\Users\\Administrator\\My Drive\\GEE_CPEC_ANNUAL_DYNAMIC_2018_250M",
+    "matched_files": 0,
+    "copied_files": [],
+    "remove_drive_copy": false
+  },
+  {
+    "year": 2018,
+    "product": "alphaearth_embeddings",
+    "drive_folder": "C:\\Users\\Administrator\\My Drive\\GEE_CPEC_ANNUAL_DYNAMIC_2018_250M",
+    "matched_files": 0,
+    "copied_files": [],
+    "remove_drive_copy": false
+  },
+  {
+    "year": 2019,
+    "product": "annual_dynamic_base_predictors",
+    "drive_folder": "C:\\Users\\Administrator\\My Drive\\GEE_CPEC_ANNUAL_DYNAMIC_2019_250M",
+    "matched_files": 0,
+    "copied_files": [],
+    "remove_drive_copy": false
+  },
+  {
+    "year": 2019,
+    "product": "alphaearth_embeddings",
+    "drive_folder": "C:\\Users\\Administrator\\My Drive\\GEE_CPEC_ANNUAL_DYNAMIC_2019_250M",
+    "matched_files": 0,
+    "copied_files": [],
+    "remove_drive_copy": false
+  }
+]

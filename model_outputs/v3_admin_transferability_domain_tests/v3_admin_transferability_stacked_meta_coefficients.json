@@ -1,0 +1,317 @@
+[
+  {
+    "feature_set": "Conventional",
+    "held_out_domain": "Kashgar (Xinjiang, China)",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": -0.06917297457955472,
+      "random_forest": 0.9207186226341456,
+      "extra_trees": 1.0389366541577,
+      "xgboost": 0.5417651691912043,
+      "lightgbm": 0.10312550877487459,
+      "catboost": 0.8774625165295482
+    },
+    "meta_intercept": 0.21648538158851166
+  },
+  {
+    "feature_set": "AlphaEarth Embeddings",
+    "held_out_domain": "Kashgar (Xinjiang, China)",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 1.167836165668539,
+      "random_forest": 0.33815623882839085,
+      "extra_trees": 0.8055411965356756,
+      "xgboost": 0.3728485801005613,
+      "lightgbm": 0.7922332501208057,
+      "catboost": -0.6605224942347435
+    },
+    "meta_intercept": -0.0526885980975226
+  },
+  {
+    "feature_set": "Conventional + AlphaEarth Embeddings",
+    "held_out_domain": "Kashgar (Xinjiang, China)",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 0.3417774647021615,
+      "random_forest": 0.17731152515335155,
+      "extra_trees": 1.422891069215276,
+      "xgboost": 0.3374003485471679,
+      "lightgbm": 0.5234375494535335,
+      "catboost": 0.6402759870750957
+    },
+    "meta_intercept": 0.01003134601479128
+  },
+  {
+    "feature_set": "Conventional",
+    "held_out_domain": "Gilgit-Baltistan",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 0.11410175383710942,
+      "random_forest": 0.15552769048291887,
+      "extra_trees": 1.622611199505653,
+      "xgboost": 0.6377694138535944,
+      "lightgbm": 0.3085743951794886,
+      "catboost": 0.4156441303375558
+    },
+    "meta_intercept": -0.07202256168932117
+  },
+  {
+    "feature_set": "AlphaEarth Embeddings",
+    "held_out_domain": "Gilgit-Baltistan",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 1.3004974027007492,
+      "random_forest": -0.6071245248146772,
+      "extra_trees": 1.0076859113660814,
+      "xgboost": 0.824120202512579,
+      "lightgbm": 0.28388065934179296,
+      "catboost": -0.16015324087629737
+    },
+    "meta_intercept": -0.3169838379951759
+  },
+  {
+    "feature_set": "Conventional + AlphaEarth Embeddings",
+    "held_out_domain": "Gilgit-Baltistan",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 0.37805282305612076,
+      "random_forest": 0.9338185320311992,
+      "extra_trees": 0.80964212833061,
+      "xgboost": 0.7413609798599773,
+      "lightgbm": 0.28166790002020126,
+      "catboost": 0.2312388748750999
+    },
+    "meta_intercept": -0.283595156462519
+  },
+  {
+    "feature_set": "Conventional",
+    "held_out_domain": "KP-AJK",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 0.012269088562505479,
+      "random_forest": 1.0350123136268958,
+      "extra_trees": 0.9796554260139448,
+      "xgboost": -0.556024098600305,
+      "lightgbm": -0.047869278556996575,
+      "catboost": 1.8696859065612208
+    },
+    "meta_intercept": 0.009235472425471156
+  },
+  {
+    "feature_set": "AlphaEarth Embeddings",
+    "held_out_domain": "KP-AJK",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 1.0967098053086064,
+      "random_forest": -0.512851797780292,
+      "extra_trees": 1.124259455328079,
+      "xgboost": -0.17896321682432087,
+      "lightgbm": 0.6231872517119023,
+      "catboost": 0.5267346367973639
+    },
+    "meta_intercept": -0.13441335504619728
+  },
+  {
+    "feature_set": "Conventional + AlphaEarth Embeddings",
+    "held_out_domain": "KP-AJK",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 0.3404869913275567,
+      "random_forest": -0.028325794690906233,
+      "extra_trees": 0.8238201478164376,
+      "xgboost": 0.11269873090682789,
+      "lightgbm": 0.24953346568283372,
+      "catboost": 1.807113561771747
+    },
+    "meta_intercept": -0.12391518336965247
+  },
+  {
+    "feature_set": "Conventional",
+    "held_out_domain": "Balochistan",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 0.3603501505767133,
+      "random_forest": 1.4016529364125625,
+      "extra_trees": 1.7942562036771514,
+      "xgboost": -0.9763379170797546,
+      "lightgbm": 0.16434995204098907,
+      "catboost": 0.9105166227607017
+    },
+    "meta_intercept": -0.01916320679908299
+  },
+  {
+    "feature_set": "AlphaEarth Embeddings",
+    "held_out_domain": "Balochistan",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 1.4307399271201018,
+      "random_forest": -0.303639470033081,
+      "extra_trees": 1.5640917514789427,
+      "xgboost": 0.4281149736017865,
+      "lightgbm": 0.38040255816631297,
+      "catboost": -0.48477464742323484
+    },
+    "meta_intercept": -0.2652855296962134
+  },
+  {
+    "feature_set": "Conventional + AlphaEarth Embeddings",
+    "held_out_domain": "Balochistan",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 0.4929706753569699,
+      "random_forest": -0.5375511595895968,
+      "extra_trees": 1.8112601326763453,
+      "xgboost": -0.13395024463115074,
+      "lightgbm": 0.17587153459407365,
+      "catboost": 1.6202170302782897
+    },
+    "meta_intercept": -0.1969482712631589
+  },
+  {
+    "feature_set": "Conventional",
+    "held_out_domain": "Punjab-Sindh lowland corridor",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": -0.10877823267056831,
+      "random_forest": 1.4300210324574476,
+      "extra_trees": 0.7547315571101004,
+      "xgboost": 0.06588895486328555,
+      "lightgbm": -0.054421515583074,
+      "catboost": 1.0947372556022454
+    },
+    "meta_intercept": 0.3267834013496658
+  },
+  {
+    "feature_set": "AlphaEarth Embeddings",
+    "held_out_domain": "Punjab-Sindh lowland corridor",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 1.3454322810875412,
+      "random_forest": -0.9487391415560581,
+      "extra_trees": 1.2613045500356435,
+      "xgboost": 0.09329818646543889,
+      "lightgbm": 0.5139336442577819,
+      "catboost": 0.4557024737308507
+    },
+    "meta_intercept": 0.014794439440436014
+  },
+  {
+    "feature_set": "Conventional + AlphaEarth Embeddings",
+    "held_out_domain": "Punjab-Sindh lowland corridor",
+    "base_models": [
+      "logistic_l2",
+      "random_forest",
+      "extra_trees",
+      "xgboost",
+      "lightgbm",
+      "catboost"
+    ],
+    "meta_coefficients": {
+      "logistic_l2": 0.44286617642031095,
+      "random_forest": 0.4752260086632638,
+      "extra_trees": 1.0844348122224885,
+      "xgboost": 0.5480636363909337,
+      "lightgbm": 0.7509604230196545,
+      "catboost": 0.042660811205789226
+    },
+    "meta_intercept": 0.15702673465759243
+  }
+]

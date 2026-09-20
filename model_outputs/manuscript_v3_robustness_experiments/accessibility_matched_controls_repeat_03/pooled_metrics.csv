@@ -1,0 +1,2 @@
+experiment,feature_set,feature_set_name,n,n_positive,n_negative,roc_auc,pr_auc,balanced_accuracy,f1,precision,sensitivity,specificity,brier,log_loss,ece_10bin,threshold
+accessibility_matched_controls_repeat_03,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,3016,1508,1508,0.9470951565127455,0.9567501325567366,0.8716843501326259,0.8716417910447761,0.8719309887193099,0.8713527851458885,0.8720159151193634,0.08833061494958579,0.2906910962820922,0.03340633430263657,0.32933342149262645

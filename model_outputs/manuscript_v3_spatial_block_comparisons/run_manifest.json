@@ -1,0 +1,12 @@
+{
+  "input": "D:\\DING PROJECT\\03_models\\manuscript_v3_nested_spatial_cv\\nested_spatial_cv_predictions.csv",
+  "method": "paired nonparametric bootstrap of 1-degree spatial blocks",
+  "repetitions": 2000,
+  "paired_unit": "same held-out sample predictions for each feature set",
+  "reason": "accounts for spatial clustering more appropriately than observation-level DeLong testing",
+  "metrics": [
+    "ROC-AUC",
+    "PR-AUC",
+    "Brier score"
+  ]
+}

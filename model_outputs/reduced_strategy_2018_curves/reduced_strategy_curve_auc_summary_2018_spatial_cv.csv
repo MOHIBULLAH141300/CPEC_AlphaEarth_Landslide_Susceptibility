@@ -1,0 +1,4 @@
+feature_set,feature_set_name,model,model_name,roc_auc,average_precision_pr_auc,n
+fused_reduced,Conventional + AlphaEarth Embeddings,xgboost,XGBoost,0.9520485141193868,0.9408408279956226,3316
+alphaearth_only,AlphaEarth Embeddings,xgboost,XGBoost,0.9496963833008614,0.9368860618066422,3316
+conventional_reduced,Conventional,xgboost,XGBoost,0.8156403312128824,0.7521030766496686,3316

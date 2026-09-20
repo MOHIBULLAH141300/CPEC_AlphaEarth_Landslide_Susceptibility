@@ -1,0 +1,20 @@
+domain,n_domain_samples,factor,factor_name,r2_against_other_factors,vif,diagnostic_role
+Gilgit-Baltistan,721,elevation_m,Elevation,0.8811544136794899,8.414279662882374,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,slope_deg,Slope,0.7163109553461273,3.5249863145758558,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,aspect_deg,Aspect,0.7054608337608628,3.395134211754022,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,soil_type,Soil type,0.6640087471741254,2.976267958137124,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,ndvi_median,NDVI median,0.6562908503013817,2.909436658514476,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,log1p_dist_road_m,Distance to roads,0.653403673633008,2.8852008054498373,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,lithology_code,Lithology/geology,0.6284592723159846,2.6914949707760467,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,log1p_dist_river_m,Distance to rivers/streams,0.6263143327984674,2.6760459064133424,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,valley_depth,Valley depth,0.5379831301125972,2.1644231307911075,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,log1p_dist_fault_m,Distance to active faults,0.534208040012903,2.146881195690242,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,rain_monsoon_total,Monsoon rainfall,0.5136534243338093,2.0561468920187504,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,eq_density_ms5,Earthquake density > Ms5,0.4997613089474193,1.9990456913595451,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,rain_max_1day,Max 1-day rainfall,0.4995273619434345,1.9981112331798963,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,modis_lc_type1,MODIS land cover,0.36325141672921857,1.5704785629255866,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,twi,TWI,0.27632923662026654,1.3818438585659258,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,ndvi_amplitude,NDVI amplitude,0.20485243514224327,1.2576281990864038,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,tri,Terrain ruggedness,0.183299714203619,1.2244393903020123,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,plan_curvature,Plan curvature,0.17194123803925498,1.2076437638702338,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,profile_curvature,Profile curvature,0.10550086135352943,1.1179440614254477,Domain diagnostic only; global VIF remains the final factor-selection gate.

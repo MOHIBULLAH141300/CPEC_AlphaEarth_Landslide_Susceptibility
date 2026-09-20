@@ -1,0 +1,30 @@
+# Large raster files and outputs
+*.tif
+*.tiff
+*.img
+*.nc
+
+# Large intermediate files
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep only essential files for code repository

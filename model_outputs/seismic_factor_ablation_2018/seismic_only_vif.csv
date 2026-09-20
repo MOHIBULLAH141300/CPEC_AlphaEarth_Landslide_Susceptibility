@@ -1,0 +1,8 @@
+﻿factor,factor_name,r2_against_other_factors,vif
+annual_mag_weighted_eq_density_m4plus_per_1000km2,Annual magnitude-weighted earthquake density M4+,0.9977635451854869,447.136241479453
+annual_eq_kernel_density_m4plus_per_1000km2,Annual earthquake density M4+,0.9977606319309598,446.5545498416374
+annual_max_shakemap_mmi,Annual maximum ShakeMap MMI,0.3913660069800393,1.6430235765145706
+distance_to_annual_eq_m4plus_km,Distance to annual M4+ earthquake,0.3709175695286431,1.5896167999012834
+annual_max_shakemap_pga_percent_g,Annual maximum ShakeMap PGA,0.3450413559542044,1.5268139585467913
+gem_pga_475yr_rock_g,GEM PGA 475-year hazard,0.2214119032248747,1.2843761728980345
+distance_to_annual_eq_m5plus_km,Distance to annual M5+ earthquake,0.1943037224756693,1.2411624924875015

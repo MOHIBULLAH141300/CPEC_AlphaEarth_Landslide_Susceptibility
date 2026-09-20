@@ -1,0 +1,2 @@
+experiment,feature_set,feature_set_name,n,n_positive,n_negative,roc_auc,pr_auc,balanced_accuracy,f1,precision,sensitivity,specificity,brier,log_loss,ece_10bin,threshold
+inventory_typology_rockfall_only,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,1386,693,693,0.9577198494947413,0.964346568468946,0.8903318903318904,0.8926553672316384,0.8741355463347165,0.911976911976912,0.8686868686868687,0.07765614256062434,0.26504868498343503,0.02406437608462878,0.37467408808820823

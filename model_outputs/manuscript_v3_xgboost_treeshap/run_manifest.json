@@ -1,0 +1,34 @@
+{
+  "analysis": "manuscript_v3_xgboost_base_learner_treeshap",
+  "interpretation_limit": "TreeSHAP explains the XGBoost base learner, not the heterogeneous stacked ensemble",
+  "stack_explanation": "The stacked ensemble is described separately using spatial-fold meta-learner coefficients",
+  "feature_sets": {
+    "conventional": {
+      "n_samples": 3316,
+      "n_transformed_features": 66,
+      "n_grouped_factors": 19,
+      "mean_bias_margin": -0.1955316811800003,
+      "method": "exact XGBoost TreeSHAP contributions in model-margin units",
+      "categorical_aggregation": "one-hot contributions summed to source predictor",
+      "aspect_aggregation": "sine and cosine contributions summed as cyclic aspect"
+    },
+    "alphaearth_embeddings": {
+      "n_samples": 3316,
+      "n_transformed_features": 64,
+      "n_grouped_factors": 64,
+      "mean_bias_margin": -0.18954339623451233,
+      "method": "exact XGBoost TreeSHAP contributions in model-margin units",
+      "categorical_aggregation": "one-hot contributions summed to source predictor",
+      "aspect_aggregation": "sine and cosine contributions summed as cyclic aspect"
+    },
+    "conventional_alphaearth_embeddings": {
+      "n_samples": 3316,
+      "n_transformed_features": 130,
+      "n_grouped_factors": 83,
+      "mean_bias_margin": -0.19245432317256927,
+      "method": "exact XGBoost TreeSHAP contributions in model-margin units",
+      "categorical_aggregation": "one-hot contributions summed to source predictor",
+      "aspect_aggregation": "sine and cosine contributions summed as cyclic aspect"
+    }
+  }
+}

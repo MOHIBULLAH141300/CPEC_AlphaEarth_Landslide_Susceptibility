@@ -1,0 +1,34 @@
+{
+  "input_table": "D:\\DING PROJECT\\03_models\\cpec_2018_lsm_samples_v2.csv",
+  "rows": 3316,
+  "feature_sets": {
+    "Conventional": 9,
+    "AlphaEarth Embeddings": 64,
+    "Conventional + AlphaEarth Embeddings": 73
+  },
+  "models": [
+    "Logistic Regression (L2)",
+    "Random Forest",
+    "Extra Trees",
+    "XGBoost",
+    "LightGBM"
+  ],
+  "validation": "5-fold spatial block CV using spatial_fold_5",
+  "official_strategy": "Reduced-only modelling; full conventional and full fused outputs archived.",
+  "best_by_pr_auc": {
+    "feature_set": "fused_reduced",
+    "feature_set_name": "Conventional + AlphaEarth Embeddings",
+    "model": "xgboost",
+    "model_name": "XGBoost",
+    "roc_auc_mean": 0.9500909259559389,
+    "roc_auc_std": 0.024266521071250755,
+    "pr_auc_mean": 0.9269308864177355,
+    "pr_auc_std": 0.05683654534642155,
+    "balanced_accuracy_mean": 0.8777423630032866,
+    "balanced_accuracy_std": 0.04063899763089133,
+    "f1_mean": 0.8567075670420591,
+    "f1_std": 0.061041785679541175,
+    "brier_mean": 0.08571641990711816,
+    "brier_std": 0.020508923204166606
+  }
+}

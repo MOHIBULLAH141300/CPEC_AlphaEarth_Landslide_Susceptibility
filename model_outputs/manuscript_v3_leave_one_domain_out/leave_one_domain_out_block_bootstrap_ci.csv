@@ -1,0 +1,46 @@
+feature_set,feature_set_name,held_out_domain,metric,estimate,ci95_low,ci95_high,bootstrap_repetitions
+alphaearth_embeddings,AlphaEarth Embeddings,Balochistan,roc_auc,0.8140919158361019,0.7725772465722687,0.8544276316250278,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Balochistan,pr_auc,0.8069655812657865,0.6929944713560992,0.8769126199519399,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Balochistan,brier,0.20126464833411034,0.16417018112858478,0.24615053547769156,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Gilgit-Baltistan,roc_auc,0.9621389539422327,0.9443157258429993,0.9824902723735408,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Gilgit-Baltistan,pr_auc,0.9626023585188872,0.9425234375236445,0.970709413348023,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Gilgit-Baltistan,brier,0.07036837233566369,0.044811603552369454,0.09894400033634639,2000
+alphaearth_embeddings,AlphaEarth Embeddings,KPK-AJK,roc_auc,0.9662848216610258,0.9442059678807956,0.9829729284369115,2000
+alphaearth_embeddings,AlphaEarth Embeddings,KPK-AJK,pr_auc,0.951468235410613,0.9051638344277533,0.9758017794604591,2000
+alphaearth_embeddings,AlphaEarth Embeddings,KPK-AJK,brier,0.06948682674348595,0.04846233165806866,0.09730443256170426,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Kashgar,roc_auc,0.9272475418667014,0.7238229532820167,0.9714239228630802,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Kashgar,pr_auc,0.909298396758112,0.4569604366351292,0.9710559562537155,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Kashgar,brier,0.09424523639454997,0.054824313655231535,0.1330922860347765,2000
+alphaearth_embeddings,AlphaEarth Embeddings,Punjab-Sindh,roc_auc,0.9626183282980867,0.8990366696142367,0.9921524112319469,1990
+alphaearth_embeddings,AlphaEarth Embeddings,Punjab-Sindh,pr_auc,0.8790358697201719,0.35130575980317297,0.965991563146988,1990
+alphaearth_embeddings,AlphaEarth Embeddings,Punjab-Sindh,brier,0.06141019319387621,0.02877409031340562,0.09610877774264166,1990
+conventional,Conventional,Balochistan,roc_auc,0.8824872972444793,0.8103969266422352,0.9329034082018957,2000
+conventional,Conventional,Balochistan,pr_auc,0.9023966821701466,0.8124114195562239,0.945437936370915,2000
+conventional,Conventional,Balochistan,brier,0.14646759112996635,0.10105779174798395,0.2035140453996882,2000
+conventional,Conventional,Gilgit-Baltistan,roc_auc,0.9703197438225876,0.9564495530012771,0.9917795918450775,2000
+conventional,Conventional,Gilgit-Baltistan,pr_auc,0.9817504452089533,0.9784416845048053,0.99065916552751,2000
+conventional,Conventional,Gilgit-Baltistan,brier,0.05819280153762709,0.03421202454824053,0.07384384271702926,2000
+conventional,Conventional,KPK-AJK,roc_auc,0.9688883103358501,0.9314536983591059,0.9924043862648784,2000
+conventional,Conventional,KPK-AJK,pr_auc,0.9649068601416692,0.8936720587467314,0.9927752319913018,2000
+conventional,Conventional,KPK-AJK,brier,0.08016692197450957,0.05821316384631776,0.1009428186167646,2000
+conventional,Conventional,Kashgar,roc_auc,0.9614808588223455,0.8511650945641176,0.9824889300989349,2000
+conventional,Conventional,Kashgar,pr_auc,0.9446592836203009,0.6198850747883163,0.9826666642412104,2000
+conventional,Conventional,Kashgar,brier,0.0723401530441486,0.04750861145556398,0.11542198798353218,2000
+conventional,Conventional,Punjab-Sindh,roc_auc,0.9901309164149044,0.9748718578346357,0.9966029950844751,1992
+conventional,Conventional,Punjab-Sindh,pr_auc,0.9541761401824705,0.5119130003536058,0.9882235383710547,1992
+conventional,Conventional,Punjab-Sindh,brier,0.039047800237927144,0.023783985818684423,0.05727290241481895,1992
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Balochistan,roc_auc,0.8942577030812324,0.8472598207067237,0.9324994936197089,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Balochistan,pr_auc,0.9039269181482998,0.8179370865006901,0.9453764137667132,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Balochistan,brier,0.14776160667679786,0.12112609321459467,0.1816844741571789,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Gilgit-Baltistan,roc_auc,0.9806911054820054,0.9709662024325281,0.9938775510204082,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Gilgit-Baltistan,pr_auc,0.9859581069180627,0.9844423416866167,0.9922717066331369,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Gilgit-Baltistan,brier,0.04401447019413526,0.025162868051798303,0.0620940057841057,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,KPK-AJK,roc_auc,0.9793348086435825,0.9654811067472473,0.9914459374517981,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,KPK-AJK,pr_auc,0.9759929321422645,0.9545448393291946,0.9889755747530792,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,KPK-AJK,brier,0.05961454361093732,0.040047184243297125,0.07942601981315545,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Kashgar,roc_auc,0.9581244191346661,0.797216577540107,0.9849075472994294,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Kashgar,pr_auc,0.9480645620240762,0.5638790851983694,0.9864893499310883,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Kashgar,brier,0.06725054825681044,0.0415889592534901,0.11023251834472828,2000
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Punjab-Sindh,roc_auc,0.9902517623363545,0.9671228581658228,0.997986331237432,1990
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Punjab-Sindh,pr_auc,0.9549532224683663,0.5250311046433065,0.9926566868911729,1990
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Punjab-Sindh,brier,0.03328105789660365,0.016133668687848598,0.053274766152000275,1990

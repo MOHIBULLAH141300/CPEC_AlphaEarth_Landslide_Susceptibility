@@ -1,0 +1,96 @@
+domain,n_domain_samples,factor,factor_name,r2_against_other_factors,vif,diagnostic_role
+"Kashgar (Xinjiang, China)",846,elevation_m,Elevation,0.7826531822837324,4.600941529797027,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,lithology_code,Lithology/geology,0.6929675621498483,3.256984854766563,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,ndvi_median,NDVI median,0.638462206482002,2.7659625575222697,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,log1p_dist_road_m,Distance to roads,0.6059528865024625,2.5377676063251995,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,log1p_dist_river_m,Distance to rivers/streams,0.5642936039558175,2.2951235260236937,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,valley_depth,Valley depth,0.5455331872126425,2.2003806919734195,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,log1p_dist_fault_m,Distance to active faults,0.4834902084478745,1.9360717189793706,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,modis_lc_type1,MODIS land cover,0.4724394380084588,1.8955169738712079,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,ndvi_amplitude,NDVI amplitude,0.46828982326150603,1.8807238299142441,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,aspect_deg,Aspect,0.4575063390256421,1.8433395114772908,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,tri,Terrain ruggedness,0.45206764955189294,1.8250428162932621,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,eq_density_ms5,Earthquake density > Ms5,0.4373473698054392,1.777295521846593,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,rain_max_1day,Max 1-day rainfall,0.39602719213053317,1.655703678990999,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,twi,TWI,0.39323546042463997,1.6480857643721947,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,soil_type,Soil type,0.3398088352169677,1.5147127882704152,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,rain_monsoon_total,Monsoon rainfall,0.33698008997370466,1.508250332875132,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,plan_curvature,Plan curvature,0.31042141819711033,1.450161049645016,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,profile_curvature,Profile curvature,0.18938707627469653,1.2336344150600727,Domain diagnostic only; global VIF remains the final factor-selection gate.
+"Kashgar (Xinjiang, China)",846,slope_deg,Slope,0.1711567317481978,1.2065007201050229,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,elevation_m,Elevation,0.8811544136794899,8.414279662882374,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,slope_deg,Slope,0.7163109553461273,3.5249863145758558,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,aspect_deg,Aspect,0.7054608337608628,3.395134211754022,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,soil_type,Soil type,0.6640087471741254,2.976267958137124,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,ndvi_median,NDVI median,0.6562908503013817,2.909436658514476,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,log1p_dist_road_m,Distance to roads,0.653403673633008,2.8852008054498373,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,lithology_code,Lithology/geology,0.6284592723159846,2.6914949707760467,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,log1p_dist_river_m,Distance to rivers/streams,0.6263143327984674,2.6760459064133424,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,valley_depth,Valley depth,0.5379831301125972,2.1644231307911075,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,log1p_dist_fault_m,Distance to active faults,0.534208040012903,2.146881195690242,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,rain_monsoon_total,Monsoon rainfall,0.5136534243338093,2.0561468920187504,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,eq_density_ms5,Earthquake density > Ms5,0.4997613089474193,1.9990456913595451,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,rain_max_1day,Max 1-day rainfall,0.4995273619434345,1.9981112331798963,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,modis_lc_type1,MODIS land cover,0.36325141672921857,1.5704785629255866,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,twi,TWI,0.27632923662026654,1.3818438585659258,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,ndvi_amplitude,NDVI amplitude,0.20485243514224327,1.2576281990864038,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,tri,Terrain ruggedness,0.183299714203619,1.2244393903020123,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,plan_curvature,Plan curvature,0.17194123803925498,1.2076437638702338,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Gilgit-Baltistan,721,profile_curvature,Profile curvature,0.10550086135352943,1.1179440614254477,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,rain_monsoon_total,Monsoon rainfall,0.8538213795025493,6.8409456635790304,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,elevation_m,Elevation,0.8535350218999135,6.827570747435965,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,lithology_code,Lithology/geology,0.7633826170511455,4.226232187751619,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,aspect_deg,Aspect,0.7355064353908725,3.780810325112502,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,log1p_dist_road_m,Distance to roads,0.6513235062135609,2.8679879998233844,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,rain_max_1day,Max 1-day rainfall,0.6290995740160642,2.6961414167890747,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,tri,Terrain ruggedness,0.5858145433212065,2.414377385480036,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,valley_depth,Valley depth,0.5829629501707168,2.3978684877263454,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,log1p_dist_river_m,Distance to rivers/streams,0.5421237020468219,2.183995992957598,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,ndvi_median,NDVI median,0.5408866225855289,2.178111223052505,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,eq_density_ms5,Earthquake density > Ms5,0.5257316827833096,2.108511076322026,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,ndvi_amplitude,NDVI amplitude,0.4886584694169521,1.9556400960817093,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,twi,TWI,0.45227454724648775,1.825732207573747,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,slope_deg,Slope,0.4126555725167226,1.7025785096573025,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,log1p_dist_fault_m,Distance to active faults,0.40096605179057776,1.669354471460439,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,soil_type,Soil type,0.3872007204450133,1.6318557044097661,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,plan_curvature,Plan curvature,0.3741260698229528,1.5977658627147484,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,modis_lc_type1,MODIS land cover,0.37119163811365985,1.5903096406035935,Domain diagnostic only; global VIF remains the final factor-selection gate.
+KP-AJK,351,profile_curvature,Profile curvature,0.13420892421640263,1.1550130602754651,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,ndvi_median,NDVI median,0.6207816506473265,2.6370031980440873,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,lithology_code,Lithology/geology,0.5462821393674541,2.2040128607806198,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,tri,Terrain ruggedness,0.4628286275245256,1.8616033006220132,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,rain_max_1day,Max 1-day rainfall,0.44648679484544873,1.8066416314689029,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,modis_lc_type1,MODIS land cover,0.43949104626135216,1.7840928201590809,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,elevation_m,Elevation,0.3875342215462564,1.6327442857699597,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,valley_depth,Valley depth,0.36545962849439917,1.5759438562234545,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,rain_monsoon_total,Monsoon rainfall,0.3532991301183793,1.5463099658162685,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,ndvi_amplitude,NDVI amplitude,0.3466535705340319,1.5305815642359588,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,twi,TWI,0.3338811808270802,1.5012336706559959,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,log1p_dist_river_m,Distance to rivers/streams,0.31895117177928856,1.4683235012863487,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,slope_deg,Slope,0.3132978844126524,1.4562355019755306,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,aspect_deg,Aspect,0.28365834054215333,1.3959819128163455,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,eq_density_ms5,Earthquake density > Ms5,0.2805438378507098,1.3899387518102817,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,profile_curvature,Profile curvature,0.253323599935079,1.3392682558509328,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,plan_curvature,Plan curvature,0.2401815610491671,1.316103885792523,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,log1p_dist_road_m,Distance to roads,0.1632827892528944,1.1951469231845955,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,log1p_dist_fault_m,Distance to active faults,0.14758040233888836,1.1731311700761256,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Balochistan,992,soil_type,Soil type,0.1454604564637294,1.1702208605371056,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,rain_monsoon_total,Monsoon rainfall,0.9265081604056137,13.60695290142642,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,rain_max_1day,Max 1-day rainfall,0.8954489350247543,9.564704101644184,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,ndvi_median,NDVI median,0.7127016206724155,3.4807018485119126,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,ndvi_amplitude,NDVI amplitude,0.6859916302335348,3.184628488545454,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,tri,Terrain ruggedness,0.6764695046474951,3.0908987386504108,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,elevation_m,Elevation,0.6546008088338385,2.8952007577774816,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,lithology_code,Lithology/geology,0.6220469850248795,2.6458315197348727,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,slope_deg,Slope,0.6188562947592169,2.623682317849803,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,log1p_dist_fault_m,Distance to active faults,0.5929055561537012,2.456432444893688,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,aspect_deg,Aspect,0.543821212925309,2.192122975319912,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,valley_depth,Valley depth,0.509929298547233,2.0405219023206187,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,profile_curvature,Profile curvature,0.45904188134423674,1.8485719421032414,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,eq_density_ms5,Earthquake density > Ms5,0.4231407163820089,1.7335250179699317,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,log1p_dist_road_m,Distance to roads,0.41774315062187695,1.7174551077725333,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,twi,TWI,0.36893740389977003,1.5846288564394215,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,soil_type,Soil type,0.3014694061690365,1.431576524824321,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,modis_lc_type1,MODIS land cover,0.2953870834734095,1.4192189449627584,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,plan_curvature,Plan curvature,0.29227001568804056,1.4129682536655268,Domain diagnostic only; global VIF remains the final factor-selection gate.
+Punjab-Sindh lowland corridor,406,log1p_dist_river_m,Distance to rivers/streams,0.1468779147195658,1.1721651768882348,Domain diagnostic only; global VIF remains the final factor-selection gate.

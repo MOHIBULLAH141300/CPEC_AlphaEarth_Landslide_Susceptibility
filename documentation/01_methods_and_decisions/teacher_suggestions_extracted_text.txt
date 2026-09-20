@@ -1,0 +1,33 @@
+建议主题进一步提升为：
+“Spatial-temporal evolution of LSM along the China-Pakistan Economic Corridor —— revealed by Ensemble Machine Learning with AlphaEarth Embedding”
+一、Major Commonts
+总的来说，实验结果初步证实了我们所提集成机器学习方法+高维嵌入特征数据的突出性能。但距离我们的目标（Q1 TOP Journal）要求，还需大幅提升研究的科学水平和实验深度。
+1. 充分阐明选用集成机器学习方法的Motivation
+（a）从研究区的角度，论述研究区易发性面临的挑战
+大尺度制图——>要求易发性模型需跨地貌单元稳健；
+孕灾环境复杂——>需要考虑诸多影响因子及其与灾害发生概率之间的复杂映射关系；
+（b）从方法论的角度，论述本文数据、模型核心优势是什么
+注意把挑战——数据——模型之间的前后呼应关系写好：
+例如： “孕灾环境复杂”——>采用AlphaEarth高维特征数据+常规影响因子——>集成机器学习擅长处理高维特征、复杂多因子关联、含噪声/异常值/观测误差大的中小样本量数据。
+在“Related works”部分，特别注意引用高影响力的新近文献支撑集成机器学习模型在“数据类别严重不平衡、存在噪声、缺失”、“中小等规模数据”和 “已完成特征工程（不需要深度学习那样的海量数据即可拟合复杂模式，特征构造+集成往往能快速逼近业务性能天花板，这一点与AlphaEarth天然契合！）”等方面的优势。
+https://www.doubao.com/thread/w2d1768a3b8bab45e
+https://chat.qwen.ai/s/t_0c4b5215-adcb-4212-b02d-0a729d7e7625?fev=0.2.43
+2. 阐明选用Extra Trees Classifier等三个基础模型的理由，论述其各自擅长处理哪类数据/提取哪类信息、集成机器学习的元学习算法是如何综合利用他们这些信息。
+例如，Extra Trees Classifier支持缺失值：无需填充，训练时自动处理 NaN；
+注意与研究区数据集的具体情况相呼应：各类地貌条件下的样本量不均匀、部分时间点上数据缺失/NaN值。
+3. 绘制方法框架/流程图
+4. 使用官方数据，正确界定研究区的地理空间范围。
+https://www.geodata.cn
+5. 进一步整理出适用于动态易发性评价的数据集，绘制出自提出中巴经济走廊概念(2013年)以来的年度易发性图
+补充灾害事件的时间戳；注意增加地震峰值加速度（Peak ground acceleration, PGA）动态因子，适配后文“7. 补充实验”；降雨等动态影响因子的构建方法可以参考(Gao et al., 2024; Jones, Boulton, Bennett, Stokes, & Whitworth, 2021; Lee, Song, Yun, & Yum, 2022; Liu et al., 2023)等设置方法。
+6.开展研究区易发性的其时空规律分析，通过Spatial Cross-Validation证实集成机器学习方法大区域制图的跨地貌单位稳健性，并由此总结出研究区/不同地貌单元影响因子（如下图所示）的演化规律；
+7. 补充实验：研究区内中巴铁路、中巴油气管线、瓜达尔港口等关键基础设施在强震（用百年1遇的断层地震峰值加速度因子预测）和强降雨（用百年1遇的降雨因子预测）条件下是否存在高风险区域？如果存在最可能出现在哪里？
+二、Minor concerns
+1. 论文写作过程中，“Small performance gap (0.065 AUC) suggests good generalization”等论述，注意区分“generalization”与“robustness”概念上的区别；
+2. 阅读《Geoscience Frontiers》、《NG》、《RSE》等期刊易发性方面的论文，注意写作风格和论文关注点，待初稿成型后与李振洪教授协商投稿哪个期刊。
+我个人建议的投稿顺序：RSE->Geoscience Frontiers-> Journal of Earth Science
+参考文献
+Gao, B., He, Y., Chen, X., Chen, H., Yang, W., & Zhang, L. (2024). A Deep Neural Network Framework for Landslide Susceptibility Mapping by Considering Time-Series Rainfall. Ieee Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 17, 5946-5969. doi:10.1109/JSTARS.2024.3370218
+Jones, J., Boulton, S., Bennett, G., Stokes, M., & Whitworth, M. (2021). Temporal Variations in Landslide Distributions Following Extreme Events: Implications for Landslide Susceptibility Modeling. Journal of Geophysical Research: Earth Surface, 126. doi:10.1029/2021JF006067
+Lee, J.-J., Song, M.-S., Yun, H.-S., & Yum, S.-G. (2022). Dynamic landslide susceptibility analysis that combines rainfall period, accumulated rainfall, and geospatial information. Scientific Reports, 12(1), 18429. doi:10.1038/s41598-022-21795-z
+Liu, Y., Xu, P., Cao, C., Zhang, W., Han, B., & Zhao, M. (2023). A quick method of early landslide identification based on dynamic susceptibility analysis using M-SVM method: a case study. Bulletin of Engineering Geology and the Environment, 82(12), 454. doi:10.1007/s10064-023-03440-9

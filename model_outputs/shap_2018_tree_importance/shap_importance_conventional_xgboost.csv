@@ -1,0 +1,10 @@
+feature,feature_name,mean_abs_shap,mean_shap,std_abs_shap,feature_set,feature_set_name
+elevation_m,Elevation,1.0174909,-0.29766712,0.8333148,conventional_reduced,Conventional
+lst_day_mean_c,Mean Daytime LST,0.7099694,-0.1255316,0.5944824,conventional_reduced,Conventional
+aspect_deg,Aspect,0.6280119,0.03651065,0.4717913,conventional_reduced,Conventional
+ndvi_median,NDVI Median,0.29679394,0.007963262,0.34709835,conventional_reduced,Conventional
+rain_max_1day,Maximum 1-Day Rainfall,0.2796779,0.009028134,0.21486184,conventional_reduced,Conventional
+rain_monsoon_total,Monsoon Rainfall,0.25486383,-0.07154002,0.28174365,conventional_reduced,Conventional
+ndvi_amplitude,NDVI Amplitude,0.20972031,-0.031968396,0.18610632,conventional_reduced,Conventional
+slope_deg,Slope,0.16817777,0.026837185,0.101490244,conventional_reduced,Conventional
+modis_lc_type1,MODIS Land Cover,0.14085303,-0.019379094,0.15991668,conventional_reduced,Conventional

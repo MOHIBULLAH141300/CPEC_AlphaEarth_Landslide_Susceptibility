@@ -1,0 +1,4 @@
+feature_set,feature_set_name,macro_mean_roc_auc,macro_mean_pr_auc,macro_mean_brier,minimum_domain_roc_auc,maximum_domain_roc_auc
+alphaearth_embeddings,AlphaEarth Embeddings,0.9150366848111752,0.8917382258123177,0.11414050068084727,0.8536641929499071,0.9848627787307033
+conventional,Conventional,0.9439394290638736,0.9200340366716663,0.0968242648562465,0.9283670033670033,0.9655660377358491
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,0.9587707796226248,0.938294250329108,0.07964871344333022,0.9403198653198654,0.9850771869639794

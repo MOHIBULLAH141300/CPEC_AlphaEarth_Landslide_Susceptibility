@@ -1,0 +1,40 @@
+{
+  "input_table": "D:\\DING PROJECT\\03_models\\cpec_2018_lsm_samples_v3.csv",
+  "derived_table": "D:\\DING PROJECT\\03_models\\seismic_factor_ablation_2018\\cpec_2018_lsm_samples_v3_seismic.csv",
+  "rows": 3316,
+  "feature_sets": {
+    "Conventional": 19,
+    "Conventional + GEM PGA": 20,
+    "Conventional + annual USGS seismic factors": 22,
+    "Conventional + GEM PGA + annual USGS seismic factors": 23,
+    "Conventional + AlphaEarth Embeddings": 83,
+    "Conventional + AlphaEarth Embeddings + seismic factors": 87,
+    "Conventional + all seismic factors (diagnostic)": 26
+  },
+  "base_models": [
+    "Logistic Regression (L2)",
+    "Random Forest",
+    "Extra Trees",
+    "XGBoost",
+    "LightGBM",
+    "CatBoost"
+  ],
+  "meta_model": "Spatial-CV Stacked Ensemble",
+  "validation": "5-fold spatial block CV using spatial_fold_5 and out-of-fold base probabilities for meta-learning",
+  "best_stacked_by_pr_auc": {
+    "feature_set": "fused_gem_usgs_seismic",
+    "feature_set_name": "Conventional + AlphaEarth Embeddings + seismic factors",
+    "model": "stacked_l2_logistic",
+    "model_name": "Spatial-CV Stacked Ensemble",
+    "roc_auc_mean": 0.9729944612618118,
+    "roc_auc_std": 0.016612949345835088,
+    "pr_auc_mean": 0.9584857656576501,
+    "pr_auc_std": 0.035457748498136224,
+    "balanced_accuracy_mean": 0.9123089406884265,
+    "balanced_accuracy_std": 0.059139081093853914,
+    "f1_mean": 0.8963120556769528,
+    "f1_std": 0.0796783492625079,
+    "brier_mean": 0.05938083514713999,
+    "brier_std": 0.023835702005304972
+  }
+}

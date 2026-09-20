@@ -1,0 +1,16 @@
+feature_set,feature_set_name,metric,estimate,ci95_low,ci95_high,bootstrap_repetitions,resampling_unit
+conventional,Conventional,roc_auc,0.9602389761977418,0.944448506084309,0.9725841316727363,2000,1-degree spatial block
+conventional,Conventional,pr_auc,0.9524342953071986,0.9204775624481387,0.9701162323089444,2000,1-degree spatial block
+conventional,Conventional,balanced_accuracy,0.902028414825943,0.8758120717175208,0.9240796665030063,2000,1-degree spatial block
+conventional,Conventional,f1,0.8935619540601747,0.8502021460186981,0.9227870312124277,2000,1-degree spatial block
+conventional,Conventional,brier,0.07524383175498474,0.061280415533270266,0.09146414309157908,2000,1-degree spatial block
+alphaearth_embeddings,AlphaEarth Embeddings,roc_auc,0.9481581271566396,0.9280286740009898,0.9640383848069323,2000,1-degree spatial block
+alphaearth_embeddings,AlphaEarth Embeddings,pr_auc,0.9365311080686721,0.9021560490534932,0.9564474873854454,2000,1-degree spatial block
+alphaearth_embeddings,AlphaEarth Embeddings,balanced_accuracy,0.8788085960423464,0.8522341124838464,0.902116910395979,2000,1-degree spatial block
+alphaearth_embeddings,AlphaEarth Embeddings,f1,0.8689477081988379,0.8215867003046701,0.8996213894005173,2000,1-degree spatial block
+alphaearth_embeddings,AlphaEarth Embeddings,brier,0.08788803754661474,0.07299729698487492,0.10425632982838702,2000,1-degree spatial block
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,roc_auc,0.9672836318396281,0.9532573472279008,0.9773066394052452,2000,1-degree spatial block
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,pr_auc,0.9595505104926825,0.9385735275812568,0.97229635534042,2000,1-degree spatial block
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,balanced_accuracy,0.9111574552240558,0.8837873474949007,0.9314786633299714,2000,1-degree spatial block
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,f1,0.9031620553359684,0.8633643622887899,0.9281409253770814,2000,1-degree spatial block
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,brier,0.0654842646587478,0.05367260414567006,0.07981174931554744,2000,1-degree spatial block

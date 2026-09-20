@@ -1,0 +1,5 @@
+case,feature_set,model,roc_auc_mean,pr_auc_mean,balanced_accuracy_mean,f1_mean,brier_mean
+v2 fused stacked,Conventional + AlphaEarth Embeddings,Spatial-CV Stacked Ensemble,0.9524767432446996,0.9272002963958798,0.8837262114456117,0.8628534393619388,0.0822568757632919
+v2 fused xgboost,Conventional + AlphaEarth Embeddings,XGBoost,0.9500909259559388,0.9269308864177356,0.8777423630032866,0.8567075670420591,0.0857164199071181
+v3 fused stacked,Conventional v3 + AlphaEarth Embeddings,Spatial-CV Stacked Ensemble,0.971809201399908,0.956814306000559,0.913982588158108,0.8968901111441554,0.0602586885037313
+v3 fused xgboost,Conventional v3 + AlphaEarth Embeddings,XGBoost,0.9726160997887552,0.960218160776083,0.9065078520243957,0.8898077397954914,0.0617179002263785

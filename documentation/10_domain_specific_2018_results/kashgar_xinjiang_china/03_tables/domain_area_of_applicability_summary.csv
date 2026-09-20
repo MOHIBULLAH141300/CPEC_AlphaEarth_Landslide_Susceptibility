@@ -1,0 +1,4 @@
+feature_set,domain,study_area_pixels,in_area_of_applicability_pixels,in_area_of_applicability_percent,mean_transfer_confidence
+Conventional,"Kashgar (Xinjiang, China)",3745470,2725942,72.77970454976278,0.0954389423131942
+AlphaEarth Embeddings,"Kashgar (Xinjiang, China)",3745470,3672728,98.05786723695556,0.4004612863063812
+Conventional + AlphaEarth Embeddings,"Kashgar (Xinjiang, China)",3745470,3703174,98.87074252363522,0.3728346824645996

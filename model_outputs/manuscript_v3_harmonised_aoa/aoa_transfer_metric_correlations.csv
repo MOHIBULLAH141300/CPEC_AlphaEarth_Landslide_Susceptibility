@@ -1,0 +1,5 @@
+comparison,spearman_rho,p_value,n_feature_set_domain_pairs
+aoa_coverage_vs_roc_auc,0.08214285714285713,0.7710285652881773,15
+aoa_coverage_vs_pr_auc,0.13214285714285715,0.6387442188840664,15
+aoa_coverage_vs_brier,-0.25357142857142856,0.3618161038158894,15
+aoa_coverage_vs_ece_10bin,-0.4107142857142856,0.1283286460157489,15

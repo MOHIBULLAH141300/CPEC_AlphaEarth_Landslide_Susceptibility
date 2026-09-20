@@ -1,0 +1,9 @@
+factor_a,factor_a_name,factor_b,factor_b_name,spearman_r
+rain_max_3day,Maximum 3-day rainfall,rain_max_7day,Maximum 7-day rainfall,0.9594727851422545
+lst_day_mean_c,Mean daytime LST (deg C),lst_day_max_c,Maximum daytime LST (deg C),0.9516556989807993
+ndvi_median,NDVI median,evi_median,EVI median,0.9401956668934575
+rain_max_1day,Maximum 1-day rainfall,rain_max_3day,Maximum 3-day rainfall,0.9005377442494452
+rain_annual_total,Annual rainfall total,rain_max_7day,Maximum 7-day rainfall,0.8983501834861448
+rain_annual_total,Annual rainfall total,rain_max_3day,Maximum 3-day rainfall,0.8857725567983593
+elevation_m,Elevation (m),lst_day_mean_c,Mean daytime LST (deg C),-0.8786679222062135
+rain_max_1day,Maximum 1-day rainfall,rain_max_7day,Maximum 7-day rainfall,0.8574945357985837

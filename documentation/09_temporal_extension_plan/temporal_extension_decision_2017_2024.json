@@ -1,0 +1,14 @@
+{
+  "current_2018_label": "2018 dynamic-factor landslide susceptibility baseline",
+  "next_multi_year_label": "annual dynamic-factor landslide susceptibility maps, 2017-2024",
+  "avoid_claim_until_enriched": "fully validated temporal landslide susceptibility modelling",
+  "positive_samples": 1508,
+  "positive_samples_with_event_year": 1,
+  "positive_dated_percent": 0.0663129973474801,
+  "hma_inside_study_area": 185,
+  "recommendation": [
+    "Create annual predictor stacks first.",
+    "Use 2017-2019 pilot before full 2017-2024 export.",
+    "Add HMA/date enrichment before claiming temporal validation."
+  ]
+}

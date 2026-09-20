@@ -1,0 +1,13 @@
+domain,feature_set_key,feature_set,feature_group,group_mean_abs_shap,group_feature_count,group_relative_importance_percent
+"Kashgar (Xinjiang, China)",alphaearth_embeddings,AlphaEarth Embeddings,AlphaEarth embeddings,7.2860498912632465,64,100.0
+"Kashgar (Xinjiang, China)",conventional,Conventional,Topography/morphometry,3.518702819943428,8,51.18576348404679
+"Kashgar (Xinjiang, China)",conventional,Conventional,Proximity controls,2.125824123620987,2,30.923876317038417
+"Kashgar (Xinjiang, China)",conventional,Conventional,Geology/soil/seismicity,0.669165451079607,4,9.734196453455231
+"Kashgar (Xinjiang, China)",conventional,Conventional,Vegetation/land cover,0.3173604942858219,3,4.616570375771442
+"Kashgar (Xinjiang, China)",conventional,Conventional,Hydro-climate,0.24332502484321594,2,3.539593369688123
+"Kashgar (Xinjiang, China)",conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,AlphaEarth embeddings,4.854605592787266,64,53.847268970107606
+"Kashgar (Xinjiang, China)",conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Proximity controls,1.8681257963180542,2,20.721245073707234
+"Kashgar (Xinjiang, China)",conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Topography/morphometry,1.6580930622294545,8,18.391562690899597
+"Kashgar (Xinjiang, China)",conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Geology/soil/seismicity,0.3714721966534853,4,4.120368360683317
+"Kashgar (Xinjiang, China)",conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Hydro-climate,0.18617677688598633,2,2.06507218544432
+"Kashgar (Xinjiang, China)",conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Vegetation/land cover,0.07703596982173622,3,0.8544827191579227

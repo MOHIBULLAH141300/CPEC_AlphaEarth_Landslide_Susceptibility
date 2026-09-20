@@ -1,0 +1,4 @@
+feature_set,domain,study_area_pixels,in_area_of_applicability_pixels,in_area_of_applicability_percent,mean_transfer_confidence
+Conventional,Punjab-Sindh lowland corridor,6390937,103310,1.616507876701022,0.0032551314216107
+AlphaEarth Embeddings,Punjab-Sindh lowland corridor,6390937,6213600,97.22517996969772,0.4808870255947113
+Conventional + AlphaEarth Embeddings,Punjab-Sindh lowland corridor,6390937,6276306,98.20635064936488,0.4519637823104858

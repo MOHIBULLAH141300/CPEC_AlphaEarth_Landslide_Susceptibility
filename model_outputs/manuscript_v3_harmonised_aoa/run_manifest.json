@@ -1,0 +1,9 @@
+{
+  "analysis": "harmonised_leave_one_domain_out_area_of_applicability",
+  "latent_dimensions": 15,
+  "latent_method": "PCA with whitening, fitted only on source-domain training samples",
+  "reference_distance": "nearest sample from a different 1-degree source training block",
+  "threshold_quantile": 0.95,
+  "held_out_domain_buffer_km": 20.0,
+  "comparison_note": "fixed latent dimensionality and threshold definition are used for all feature sets"
+}

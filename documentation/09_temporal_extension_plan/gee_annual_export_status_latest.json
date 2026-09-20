@@ -1,0 +1,74 @@
+[
+  {
+    "year": 2017,
+    "product": "annual_dynamic_base_predictors",
+    "task_id": "JR27WL2HNIPXE7GMSCS2GO5J",
+    "drive_folder": "GEE_CPEC_ANNUAL_DYNAMIC_2017_250M",
+    "file_prefix": "cpec_2017_annual_dynamic_base_predictors_250m",
+    "state": "RUNNING",
+    "description": "cpec_2017_annual_dynamic_base_predictors_250m",
+    "error_message": "",
+    "creation_timestamp_ms": 1777827675194,
+    "update_timestamp_ms": 1777828277621
+  },
+  {
+    "year": 2017,
+    "product": "alphaearth_embeddings",
+    "task_id": "2YUR6XWXZ5X6TIPMX4ATACH6",
+    "drive_folder": "GEE_CPEC_ANNUAL_DYNAMIC_2017_250M",
+    "file_prefix": "cpec_2017_alphaearth_embeddings_250m",
+    "state": "RUNNING",
+    "description": "cpec_2017_alphaearth_embeddings_250m",
+    "error_message": "",
+    "creation_timestamp_ms": 1777827676891,
+    "update_timestamp_ms": 1777828281463
+  },
+  {
+    "year": 2018,
+    "product": "annual_dynamic_base_predictors",
+    "task_id": "KYB7YYNTYULERYQL4Q72KQ24",
+    "drive_folder": "GEE_CPEC_ANNUAL_DYNAMIC_2018_250M",
+    "file_prefix": "cpec_2018_annual_dynamic_base_predictors_250m",
+    "state": "RUNNING",
+    "description": "cpec_2018_annual_dynamic_base_predictors_250m",
+    "error_message": "",
+    "creation_timestamp_ms": 1777827681078,
+    "update_timestamp_ms": 1777828281671
+  },
+  {
+    "year": 2018,
+    "product": "alphaearth_embeddings",
+    "task_id": "6R3BYBHR5CEER32UPFJ3YAM5",
+    "drive_folder": "GEE_CPEC_ANNUAL_DYNAMIC_2018_250M",
+    "file_prefix": "cpec_2018_alphaearth_embeddings_250m",
+    "state": "RUNNING",
+    "description": "cpec_2018_alphaearth_embeddings_250m",
+    "error_message": "",
+    "creation_timestamp_ms": 1777827681603,
+    "update_timestamp_ms": 1777828280384
+  },
+  {
+    "year": 2019,
+    "product": "annual_dynamic_base_predictors",
+    "task_id": "OHSMZKZF4UYFBNQ5O667N335",
+    "drive_folder": "GEE_CPEC_ANNUAL_DYNAMIC_2019_250M",
+    "file_prefix": "cpec_2019_annual_dynamic_base_predictors_250m",
+    "state": "READY",
+    "description": "cpec_2019_annual_dynamic_base_predictors_250m",
+    "error_message": "",
+    "creation_timestamp_ms": 1777827687344,
+    "update_timestamp_ms": 1777827688658
+  },
+  {
+    "year": 2019,
+    "product": "alphaearth_embeddings",
+    "task_id": "HAE5P7EQSYNAXS5KBAKASO6S",
+    "drive_folder": "GEE_CPEC_ANNUAL_DYNAMIC_2019_250M",
+    "file_prefix": "cpec_2019_alphaearth_embeddings_250m",
+    "state": "READY",
+    "description": "cpec_2019_alphaearth_embeddings_250m",
+    "error_message": "",
+    "creation_timestamp_ms": 1777827688629,
+    "update_timestamp_ms": 1777827691700
+  }
+]

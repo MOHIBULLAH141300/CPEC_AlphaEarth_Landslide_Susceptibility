@@ -1,0 +1,91 @@
+feature_set,feature_set_name,held_out_domain,base_model,base_model_name,meta_coefficient
+conventional,Conventional,Northern high mountains,logistic_l2,Logistic Regression,0.3059644074365699
+conventional,Conventional,Northern high mountains,random_forest,Random Forest,2.103996906068058
+conventional,Conventional,Northern high mountains,extra_trees,Extra Trees,-0.477489965593288
+conventional,Conventional,Northern high mountains,xgboost,XGBoost,-0.10271506945274661
+conventional,Conventional,Northern high mountains,lightgbm,LightGBM,0.48288295897609684
+conventional,Conventional,Northern high mountains,catboost,CatBoost,0.49077716774386454
+conventional,Conventional,Western arid region,logistic_l2,Logistic Regression,0.18787017322256874
+conventional,Conventional,Western arid region,random_forest,Random Forest,1.7835682463448361
+conventional,Conventional,Western arid region,extra_trees,Extra Trees,0.45966592013538515
+conventional,Conventional,Western arid region,xgboost,XGBoost,0.602498710760696
+conventional,Conventional,Western arid region,lightgbm,LightGBM,-0.3722943412220808
+conventional,Conventional,Western arid region,catboost,CatBoost,0.8424647515518114
+conventional,Conventional,Indus lowland,logistic_l2,Logistic Regression,0.1701651158395942
+conventional,Conventional,Indus lowland,random_forest,Random Forest,2.385008424819308
+conventional,Conventional,Indus lowland,extra_trees,Extra Trees,0.06921085667999087
+conventional,Conventional,Indus lowland,xgboost,XGBoost,0.18567788973147492
+conventional,Conventional,Indus lowland,lightgbm,LightGBM,0.2982636742884905
+conventional,Conventional,Indus lowland,catboost,CatBoost,0.17076950273299257
+conventional,Conventional,Southern coastal region,logistic_l2,Logistic Regression,0.6535327671117565
+conventional,Conventional,Southern coastal region,random_forest,Random Forest,2.2449596590314
+conventional,Conventional,Southern coastal region,extra_trees,Extra Trees,0.0012534104283894714
+conventional,Conventional,Southern coastal region,xgboost,XGBoost,-1.1153303172051254
+conventional,Conventional,Southern coastal region,lightgbm,LightGBM,0.5021451423413812
+conventional,Conventional,Southern coastal region,catboost,CatBoost,0.9786881705789271
+conventional,Conventional,Transitional foothills and plateaus,logistic_l2,Logistic Regression,0.18474259346591917
+conventional,Conventional,Transitional foothills and plateaus,random_forest,Random Forest,2.1141892936542868
+conventional,Conventional,Transitional foothills and plateaus,extra_trees,Extra Trees,-0.1124294800270977
+conventional,Conventional,Transitional foothills and plateaus,xgboost,XGBoost,0.8297422338296837
+conventional,Conventional,Transitional foothills and plateaus,lightgbm,LightGBM,-0.09165250784846617
+conventional,Conventional,Transitional foothills and plateaus,catboost,CatBoost,0.32528802463200607
+alphaearth_embeddings,AlphaEarth Embeddings,Northern high mountains,logistic_l2,Logistic Regression,1.2445957419666691
+alphaearth_embeddings,AlphaEarth Embeddings,Northern high mountains,random_forest,Random Forest,-0.44491228399030885
+alphaearth_embeddings,AlphaEarth Embeddings,Northern high mountains,extra_trees,Extra Trees,1.4205724791477157
+alphaearth_embeddings,AlphaEarth Embeddings,Northern high mountains,xgboost,XGBoost,0.6330005899748241
+alphaearth_embeddings,AlphaEarth Embeddings,Northern high mountains,lightgbm,LightGBM,-0.6664632458691339
+alphaearth_embeddings,AlphaEarth Embeddings,Northern high mountains,catboost,CatBoost,0.36221969344848454
+alphaearth_embeddings,AlphaEarth Embeddings,Western arid region,logistic_l2,Logistic Regression,1.2452278121158733
+alphaearth_embeddings,AlphaEarth Embeddings,Western arid region,random_forest,Random Forest,-0.23937016204684192
+alphaearth_embeddings,AlphaEarth Embeddings,Western arid region,extra_trees,Extra Trees,1.641644221088347
+alphaearth_embeddings,AlphaEarth Embeddings,Western arid region,xgboost,XGBoost,-0.7138964753448455
+alphaearth_embeddings,AlphaEarth Embeddings,Western arid region,lightgbm,LightGBM,0.47689594100345706
+alphaearth_embeddings,AlphaEarth Embeddings,Western arid region,catboost,CatBoost,0.4695067520870338
+alphaearth_embeddings,AlphaEarth Embeddings,Indus lowland,logistic_l2,Logistic Regression,1.3039773646499544
+alphaearth_embeddings,AlphaEarth Embeddings,Indus lowland,random_forest,Random Forest,-0.7817552186562802
+alphaearth_embeddings,AlphaEarth Embeddings,Indus lowland,extra_trees,Extra Trees,1.0311306568812277
+alphaearth_embeddings,AlphaEarth Embeddings,Indus lowland,xgboost,XGBoost,0.11655643307393442
+alphaearth_embeddings,AlphaEarth Embeddings,Indus lowland,lightgbm,LightGBM,0.2001904300349699
+alphaearth_embeddings,AlphaEarth Embeddings,Indus lowland,catboost,CatBoost,0.8071354081901113
+alphaearth_embeddings,AlphaEarth Embeddings,Southern coastal region,logistic_l2,Logistic Regression,1.4018334909834542
+alphaearth_embeddings,AlphaEarth Embeddings,Southern coastal region,random_forest,Random Forest,-0.6698863140930508
+alphaearth_embeddings,AlphaEarth Embeddings,Southern coastal region,extra_trees,Extra Trees,1.3407733891019842
+alphaearth_embeddings,AlphaEarth Embeddings,Southern coastal region,xgboost,XGBoost,0.03057099823188578
+alphaearth_embeddings,AlphaEarth Embeddings,Southern coastal region,lightgbm,LightGBM,0.26596127170417383
+alphaearth_embeddings,AlphaEarth Embeddings,Southern coastal region,catboost,CatBoost,0.41874379085786495
+alphaearth_embeddings,AlphaEarth Embeddings,Transitional foothills and plateaus,logistic_l2,Logistic Regression,1.2506677742900605
+alphaearth_embeddings,AlphaEarth Embeddings,Transitional foothills and plateaus,random_forest,Random Forest,-0.57676015795163
+alphaearth_embeddings,AlphaEarth Embeddings,Transitional foothills and plateaus,extra_trees,Extra Trees,1.1942269970883086
+alphaearth_embeddings,AlphaEarth Embeddings,Transitional foothills and plateaus,xgboost,XGBoost,0.5747130370480474
+alphaearth_embeddings,AlphaEarth Embeddings,Transitional foothills and plateaus,lightgbm,LightGBM,-0.045641232221048864
+alphaearth_embeddings,AlphaEarth Embeddings,Transitional foothills and plateaus,catboost,CatBoost,0.40437122113197027
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Northern high mountains,logistic_l2,Logistic Regression,0.5915537348692036
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Northern high mountains,random_forest,Random Forest,0.9746063676894653
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Northern high mountains,extra_trees,Extra Trees,0.25817329358222985
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Northern high mountains,xgboost,XGBoost,0.12443405624117188
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Northern high mountains,lightgbm,LightGBM,0.28424714351323677
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Northern high mountains,catboost,CatBoost,0.944141891917359
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Western arid region,logistic_l2,Logistic Regression,0.42297395580872105
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Western arid region,random_forest,Random Forest,0.8738725579756647
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Western arid region,extra_trees,Extra Trees,0.8736658805072881
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Western arid region,xgboost,XGBoost,-0.2224176194276191
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Western arid region,lightgbm,LightGBM,0.30421452698680573
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Western arid region,catboost,CatBoost,1.3434256164309781
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Indus lowland,logistic_l2,Logistic Regression,0.6779766289803395
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Indus lowland,random_forest,Random Forest,1.1894137549183563
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Indus lowland,extra_trees,Extra Trees,0.4740654587147445
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Indus lowland,xgboost,XGBoost,0.38657331754652563
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Indus lowland,lightgbm,LightGBM,0.27248070143770414
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Indus lowland,catboost,CatBoost,0.4936721872968105
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Southern coastal region,logistic_l2,Logistic Regression,0.8508365308101294
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Southern coastal region,random_forest,Random Forest,0.7544788303974413
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Southern coastal region,extra_trees,Extra Trees,0.6612893067978536
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Southern coastal region,xgboost,XGBoost,0.3197159339467646
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Southern coastal region,lightgbm,LightGBM,0.06257568411147794
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Southern coastal region,catboost,CatBoost,0.8796401529054174
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Transitional foothills and plateaus,logistic_l2,Logistic Regression,0.47574069057029617
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Transitional foothills and plateaus,random_forest,Random Forest,1.449825427846718
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Transitional foothills and plateaus,extra_trees,Extra Trees,0.03756015594202038
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Transitional foothills and plateaus,xgboost,XGBoost,0.7953435892939721
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Transitional foothills and plateaus,lightgbm,LightGBM,-0.2985994335386234
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Transitional foothills and plateaus,catboost,CatBoost,0.984055951658751

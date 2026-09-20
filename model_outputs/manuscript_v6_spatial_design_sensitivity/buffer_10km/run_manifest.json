@@ -1,0 +1,9 @@
+{
+  "sensitivity_type": "buffer",
+  "setting": "1-degree blocks; 10 km buffers",
+  "block_size_deg": 1.0,
+  "outer_buffer_km": 10.0,
+  "inner_buffer_km": 10.0,
+  "elapsed_seconds": 203.58485531806946,
+  "random_seed": 141300
+}

@@ -1,0 +1,2 @@
+feature_set,feature_set_name,n,n_positive,n_negative,roc_auc,pr_auc,balanced_accuracy,f1,precision,sensitivity,specificity,brier,log_loss,ece_10bin,threshold
+conventional_alphaearth_embeddings_no_road_distance,Conventional + AlphaEarth Embeddings (road-distance ablation),3316,1508,1808,0.952135439895777,0.9407977814613725,0.8786435470998333,0.8686934023285899,0.8478535353535354,0.8905835543766578,0.8667035398230089,0.08321553624030119,0.2847752361415626,0.029090079335714916,0.4632447953158199

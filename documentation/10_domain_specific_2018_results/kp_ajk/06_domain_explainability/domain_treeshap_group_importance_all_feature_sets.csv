@@ -1,0 +1,13 @@
+domain,feature_set_key,feature_set,feature_group,group_mean_abs_shap,group_feature_count,group_relative_importance_percent
+KP-AJK,alphaearth_embeddings,AlphaEarth Embeddings,AlphaEarth embeddings,7.976811740081757,64,100.0
+KP-AJK,conventional,Conventional,Topography/morphometry,3.3591534541919827,8,49.06680473239251
+KP-AJK,conventional,Conventional,Proximity controls,1.818179726600647,2,26.557961947876553
+KP-AJK,conventional,Conventional,Vegetation/land cover,0.6832250133156776,3,9.979796628466463
+KP-AJK,conventional,Conventional,Geology/soil/seismicity,0.5456486977636814,4,7.970233712378853
+KP-AJK,conventional,Conventional,Hydro-climate,0.43987463414669037,2,6.425202978885622
+KP-AJK,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,AlphaEarth embeddings,5.200633169151843,64,57.27827181956155
+KP-AJK,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Proximity controls,1.5340070575475693,2,16.89511072161723
+KP-AJK,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Topography/morphometry,1.4934099782258272,8,16.447986214112255
+KP-AJK,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Geology/soil/seismicity,0.517811605706811,4,5.703027484985143
+KP-AJK,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Hydro-climate,0.16916148364543915,2,1.8630957282503313
+KP-AJK,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Vegetation/land cover,0.16456832736730576,3,1.8125080314734872

@@ -1,0 +1,52 @@
+{
+  "analysis": "manuscript_v3_robustness_experiments",
+  "primary_analysis": "D:\\DING PROJECT\\03_models\\manuscript_v3_nested_spatial_cv",
+  "matched_control_method": "raster-derived greedy nearest-neighbour matching without replacement",
+  "matching_predictors": [
+    "elevation_m",
+    "slope_deg",
+    "log1p_dist_road_m",
+    "log1p_dist_river_m",
+    "log1p_dist_fault_m",
+    "rain_monsoon_total"
+  ],
+  "matched_repeats": 3,
+  "typology_tests": [
+    "landslide_only",
+    "rockfall_only"
+  ],
+  "ablation": "remove log-transformed distance-to-road predictor",
+  "outer_buffer_km": 20.0,
+  "inner_buffer_km": 20.0,
+  "quick_ensemble": false,
+  "elapsed_seconds": 1011.2920989990234,
+  "matched_control_summary": {
+    "roc_auc": {
+      "roc_auc_mean": 0.9487509293200778,
+      "roc_auc_min": 0.9470951565127455,
+      "roc_auc_max": 0.9502489815590062,
+      "pr_auc_mean": NaN,
+      "pr_auc_min": NaN,
+      "pr_auc_max": NaN,
+      "brier_mean": NaN
+    },
+    "pr_auc": {
+      "roc_auc_mean": NaN,
+      "roc_auc_min": NaN,
+      "roc_auc_max": NaN,
+      "pr_auc_mean": 0.9571432364825107,
+      "pr_auc_min": 0.9558893550369194,
+      "pr_auc_max": 0.9587902218538759,
+      "brier_mean": NaN
+    },
+    "brier": {
+      "roc_auc_mean": NaN,
+      "roc_auc_min": NaN,
+      "roc_auc_max": NaN,
+      "pr_auc_mean": NaN,
+      "pr_auc_min": NaN,
+      "pr_auc_max": NaN,
+      "brier_mean": 0.08628672857548915
+    }
+  }
+}

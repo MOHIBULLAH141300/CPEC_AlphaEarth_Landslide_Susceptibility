@@ -1,0 +1,14 @@
+{
+  "asset": "projects/ee-mohibullah141300/assets/cpec_lsm_clean/samples/cpec_2018_lsm_samples_v2",
+  "factor_asset": "projects/ee-mohibullah141300/assets/cpec_lsm_clean/public/cpec_public_factors_2018_alphaearth_250m",
+  "inventory_asset": "projects/ee-mohibullah141300/assets/cpec_lsm_clean/inventory/cpec_inventory_model_candidates_v1",
+  "scale": 250,
+  "seed": 141300,
+  "positive_buffer_m": 500,
+  "negative_ratio": 1.0,
+  "negative_multiplier": 8.0,
+  "positive_train_candidate_count": 1810,
+  "target_negative_count": 1810,
+  "estimated_total_before_mask_drop": 3620,
+  "task_id": "25LJREKSX7DS46FC2OKQRJQX"
+}

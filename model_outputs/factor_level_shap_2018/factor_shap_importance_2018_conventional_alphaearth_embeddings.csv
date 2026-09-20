@@ -1,0 +1,84 @@
+feature_set,feature,feature_name,mean_abs_shap,mean_shap
+Conventional + AlphaEarth Embeddings,log1p_dist_road_m,Distance to roads,1.577559177068255,-0.3288638322260484
+Conventional + AlphaEarth Embeddings,A16,AlphaEarth A16,0.7445266741351755,-0.16172595003074033
+Conventional + AlphaEarth Embeddings,A55,AlphaEarth A55,0.43724460494103917,-4.765681299495731e-05
+Conventional + AlphaEarth Embeddings,valley_depth,Valley depth,0.42210041763418793,-0.07817260334338799
+Conventional + AlphaEarth Embeddings,profile_curvature,Profile curvature,0.3245860083166602,-0.07300010447536592
+Conventional + AlphaEarth Embeddings,elevation_m,Elevation,0.29584350975776713,0.0014470004136725508
+Conventional + AlphaEarth Embeddings,tri,Terrain ruggedness,0.2887205669826953,-0.038000434790087176
+Conventional + AlphaEarth Embeddings,A44,AlphaEarth A44,0.2616617482502231,-0.07394600085402327
+Conventional + AlphaEarth Embeddings,log1p_dist_river_m,Distance to rivers/streams,0.22737563536135055,0.031275211869763814
+Conventional + AlphaEarth Embeddings,log1p_dist_fault_m,Distance to active faults,0.21925270796276355,-0.02306260104440478
+Conventional + AlphaEarth Embeddings,plan_curvature,Plan curvature,0.1885057706281895,0.0028954166354100423
+Conventional + AlphaEarth Embeddings,A25,AlphaEarth A25,0.16277333156457574,0.0006945773765846785
+Conventional + AlphaEarth Embeddings,A13,AlphaEarth A13,0.13415368695512528,-0.034011822318211114
+Conventional + AlphaEarth Embeddings,A46,AlphaEarth A46,0.12601165442692774,-0.00311293109494036
+Conventional + AlphaEarth Embeddings,A09,AlphaEarth A09,0.12465545002973487,-0.010273073373967
+Conventional + AlphaEarth Embeddings,A26,AlphaEarth A26,0.1244716035827697,-0.007844747165290848
+Conventional + AlphaEarth Embeddings,A15,AlphaEarth A15,0.11899878400119857,-0.02637741532078069
+Conventional + AlphaEarth Embeddings,A37,AlphaEarth A37,0.11880894738310394,-0.01342135600573876
+Conventional + AlphaEarth Embeddings,A34,AlphaEarth A34,0.11847855878111792,-0.02440970463078678
+Conventional + AlphaEarth Embeddings,A14,AlphaEarth A14,0.11634715993216392,0.009327571260905923
+Conventional + AlphaEarth Embeddings,A22,AlphaEarth A22,0.11414650514258742,0.024147161825430516
+Conventional + AlphaEarth Embeddings,A60,AlphaEarth A60,0.10565652200803542,-0.0027097257651762453
+Conventional + AlphaEarth Embeddings,A47,AlphaEarth A47,0.10147920043127043,-0.01148701450625202
+Conventional + AlphaEarth Embeddings,rain_max_1day,Max 1-day rainfall,0.09958821626699275,-0.003877432252368864
+Conventional + AlphaEarth Embeddings,A52,AlphaEarth A52,0.09856340679700218,0.0026216394942170694
+Conventional + AlphaEarth Embeddings,A08,AlphaEarth A08,0.0942873651354913,0.007404316145855045
+Conventional + AlphaEarth Embeddings,A02,AlphaEarth A02,0.09108217630541718,0.015167596950009816
+Conventional + AlphaEarth Embeddings,A51,AlphaEarth A51,0.08816387611514073,-0.009255756009909973
+Conventional + AlphaEarth Embeddings,soil_type,Soil type,0.08785994689849268,-0.003807647340005676
+Conventional + AlphaEarth Embeddings,rain_monsoon_total,Monsoon rainfall,0.08385199532432744,0.003756073618929037
+Conventional + AlphaEarth Embeddings,A17,AlphaEarth A17,0.08106978069573112,-0.019176623766914057
+Conventional + AlphaEarth Embeddings,A01,AlphaEarth A01,0.07907694243785787,-0.004257717261626743
+Conventional + AlphaEarth Embeddings,A06,AlphaEarth A06,0.0783116740061633,-0.005412469997141007
+Conventional + AlphaEarth Embeddings,A30,AlphaEarth A30,0.07760519118093871,-0.013240762233043178
+Conventional + AlphaEarth Embeddings,A27,AlphaEarth A27,0.07738298422447319,0.000850131956957556
+Conventional + AlphaEarth Embeddings,twi,TWI,0.07528193616422002,0.0023293959510918257
+Conventional + AlphaEarth Embeddings,A39,AlphaEarth A39,0.0710963989044263,-0.006944379119445245
+Conventional + AlphaEarth Embeddings,ndvi_median,NDVI median,0.07050039391595049,0.008112043731950864
+Conventional + AlphaEarth Embeddings,A38,AlphaEarth A38,0.0698292495794259,0.00444121835672049
+Conventional + AlphaEarth Embeddings,A50,AlphaEarth A50,0.06326367255285067,-0.0023156653814439803
+Conventional + AlphaEarth Embeddings,A24,AlphaEarth A24,0.06067324517024783,-0.011956086691269604
+Conventional + AlphaEarth Embeddings,A56,AlphaEarth A56,0.06000574119599564,0.0033345269226155313
+Conventional + AlphaEarth Embeddings,lithology_code,Lithology/geology,0.059120107228970854,-0.005955917370746285
+Conventional + AlphaEarth Embeddings,aspect_deg,Aspect,0.0571809952820844,-0.009479486060915993
+Conventional + AlphaEarth Embeddings,A45,AlphaEarth A45,0.05473693052885789,-0.0013271274092348895
+Conventional + AlphaEarth Embeddings,A43,AlphaEarth A43,0.05420838690120398,-0.01089620063247876
+Conventional + AlphaEarth Embeddings,A36,AlphaEarth A36,0.05392709122224251,-0.005230715322918332
+Conventional + AlphaEarth Embeddings,A03,AlphaEarth A03,0.04986477683702623,-0.008728425667487607
+Conventional + AlphaEarth Embeddings,A19,AlphaEarth A19,0.04843553417876379,-0.0031142428962905346
+Conventional + AlphaEarth Embeddings,A54,AlphaEarth A54,0.04450850759560927,-0.004078302938937845
+Conventional + AlphaEarth Embeddings,A58,AlphaEarth A58,0.03903144769510762,-0.0010636157301229137
+Conventional + AlphaEarth Embeddings,A20,AlphaEarth A20,0.037048091202036525,-0.008629613556748794
+Conventional + AlphaEarth Embeddings,A48,AlphaEarth A48,0.036809941182505274,-0.0066247492173381025
+Conventional + AlphaEarth Embeddings,A05,AlphaEarth A05,0.03319885230206107,-0.006096784009611294
+Conventional + AlphaEarth Embeddings,A61,AlphaEarth A61,0.032258320035971955,-0.002956667514238417
+Conventional + AlphaEarth Embeddings,A07,AlphaEarth A07,0.0315735958249871,0.001958303569204508
+Conventional + AlphaEarth Embeddings,A21,AlphaEarth A21,0.030918806116617983,0.0007054625713825309
+Conventional + AlphaEarth Embeddings,A00,AlphaEarth A00,0.02932707994969623,-0.002868251234629311
+Conventional + AlphaEarth Embeddings,A33,AlphaEarth A33,0.02844309515957623,-0.0004937387480674246
+Conventional + AlphaEarth Embeddings,A57,AlphaEarth A57,0.028438160127470153,-0.0009002814387004028
+Conventional + AlphaEarth Embeddings,A04,AlphaEarth A04,0.028173799077056735,0.00027604979485204166
+Conventional + AlphaEarth Embeddings,A29,AlphaEarth A29,0.028149900713027202,-0.003789497974992082
+Conventional + AlphaEarth Embeddings,ndvi_amplitude,NDVI amplitude,0.027178798671362678,0.003926883021865988
+Conventional + AlphaEarth Embeddings,A41,AlphaEarth A41,0.023898356619391426,-0.001733400843924572
+Conventional + AlphaEarth Embeddings,A49,AlphaEarth A49,0.02373048098828934,-0.002669040309459701
+Conventional + AlphaEarth Embeddings,A31,AlphaEarth A31,0.02271234594438446,-0.0038681634219179567
+Conventional + AlphaEarth Embeddings,A32,AlphaEarth A32,0.02209184731355745,-0.0016201457687439005
+Conventional + AlphaEarth Embeddings,A18,AlphaEarth A18,0.01974546352671495,-0.00015247505147090095
+Conventional + AlphaEarth Embeddings,A42,AlphaEarth A42,0.018829942377882273,-0.0024759561674272857
+Conventional + AlphaEarth Embeddings,A35,AlphaEarth A35,0.017999584316529323,-0.0015253884821976483
+Conventional + AlphaEarth Embeddings,A40,AlphaEarth A40,0.016971467564335742,0.003602231245458094
+Conventional + AlphaEarth Embeddings,A53,AlphaEarth A53,0.01673034338185244,-0.0017704165357092252
+Conventional + AlphaEarth Embeddings,A28,AlphaEarth A28,0.014080731670234506,0.0027005045077670743
+Conventional + AlphaEarth Embeddings,A23,AlphaEarth A23,0.013630895684612182,-0.00014991165586507096
+Conventional + AlphaEarth Embeddings,A10,AlphaEarth A10,0.013570233602634835,-0.006334229667076575
+Conventional + AlphaEarth Embeddings,A12,AlphaEarth A12,0.012975841550622114,-0.0017625203484451033
+Conventional + AlphaEarth Embeddings,A11,AlphaEarth A11,0.012808324156954291,-0.0025950851953560304
+Conventional + AlphaEarth Embeddings,eq_density_ms5,Earthquake density > Ms5,0.012481071718940426,-3.486769137925835e-05
+Conventional + AlphaEarth Embeddings,A62,AlphaEarth A62,0.011686952287695302,0.0019379664318838862
+Conventional + AlphaEarth Embeddings,A59,AlphaEarth A59,0.010657012587698427,-7.11278344875603e-05
+Conventional + AlphaEarth Embeddings,slope_deg,Slope,0.009578293143774487,-0.0014164530841335391
+Conventional + AlphaEarth Embeddings,A63,AlphaEarth A63,0.006577304329619433,0.0006889731409781239
+Conventional + AlphaEarth Embeddings,modis_lc_type1,MODIS land cover,0.005718958192830906,-0.001086857970869458

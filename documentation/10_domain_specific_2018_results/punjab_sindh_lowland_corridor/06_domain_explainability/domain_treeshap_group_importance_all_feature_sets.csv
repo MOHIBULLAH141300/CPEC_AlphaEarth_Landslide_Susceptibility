@@ -1,0 +1,13 @@
+domain,feature_set_key,feature_set,feature_group,group_mean_abs_shap,group_feature_count,group_relative_importance_percent
+Punjab-Sindh lowland corridor,alphaearth_embeddings,AlphaEarth Embeddings,AlphaEarth embeddings,8.558602249249816,64,100.0
+Punjab-Sindh lowland corridor,conventional,Conventional,Topography/morphometry,4.066018920391798,8,57.30803463136087
+Punjab-Sindh lowland corridor,conventional,Conventional,Proximity controls,1.1906170099973679,2,16.78101410188266
+Punjab-Sindh lowland corridor,conventional,Conventional,Geology/soil/seismicity,0.8750773705542088,4,12.33367705332972
+Punjab-Sindh lowland corridor,conventional,Conventional,Vegetation/land cover,0.7137365937232971,3,10.059678086009225
+Punjab-Sindh lowland corridor,conventional,Conventional,Hydro-climate,0.24957429617643356,2,3.517596127417524
+Punjab-Sindh lowland corridor,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,AlphaEarth embeddings,5.920134810265154,64,60.55388447217216
+Punjab-Sindh lowland corridor,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Topography/morphometry,2.126154601573944,8,21.747295330242565
+Punjab-Sindh lowland corridor,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Proximity controls,1.0295438766479492,2,10.530652250937498
+Punjab-Sindh lowland corridor,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Geology/soil/seismicity,0.42336935782805085,4,4.330418141581016
+Punjab-Sindh lowland corridor,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Hydro-climate,0.1451803296804428,2,1.484971743524816
+Punjab-Sindh lowland corridor,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Vegetation/land cover,0.13225623033940792,3,1.3527780615419471

@@ -1,0 +1,2 @@
+domain,area_km2,mean_fused_probability,mean_fused_transfer_confidence,mean_reliability_aware_score,reliable_high_area_km2,reliable_high_area_percent,reliable_very_high_area_km2,uncertain_high_area_km2,uncertain_high_area_percent,outside_fused_aoa_area_km2,outside_fused_aoa_percent
+"Kashgar (Xinjiang, China)",182260.7464006562,0.0841771587729454,0.3728346824645996,0.019513638690114,168.6652711453582,0.0925406454632794,936.6096360432408,19123.849609157536,10.492577248157634,2056.1765091254138,1.1281510416979237

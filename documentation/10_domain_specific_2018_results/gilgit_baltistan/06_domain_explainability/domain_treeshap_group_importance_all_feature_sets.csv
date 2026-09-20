@@ -1,0 +1,13 @@
+domain,feature_set_key,feature_set,feature_group,group_mean_abs_shap,group_feature_count,group_relative_importance_percent
+Gilgit-Baltistan,alphaearth_embeddings,AlphaEarth Embeddings,AlphaEarth embeddings,7.393950519151986,64,100.0
+Gilgit-Baltistan,conventional,Conventional,Topography/morphometry,3.858387821353972,8,54.300858864468125
+Gilgit-Baltistan,conventional,Conventional,Proximity controls,2.104506105184555,2,29.61767823456806
+Gilgit-Baltistan,conventional,Conventional,Geology/soil/seismicity,0.4836470037698746,4,6.806585783467177
+Gilgit-Baltistan,conventional,Conventional,Vegetation/land cover,0.3805265501141548,3,5.3553244123294785
+Gilgit-Baltistan,conventional,Conventional,Hydro-climate,0.27850672602653503,2,3.9195527051671557
+Gilgit-Baltistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,AlphaEarth embeddings,5.014496528543532,64,55.482616439882946
+Gilgit-Baltistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Proximity controls,1.7759173512458801,2,19.649538227265854
+Gilgit-Baltistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Topography/morphometry,1.5844393549486995,8,17.530940644285877
+Gilgit-Baltistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Geology/soil/seismicity,0.39795380365103483,4,4.4031376077502005
+Gilgit-Baltistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Hydro-climate,0.18910681456327438,2,2.092361775276706
+Gilgit-Baltistan,conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,Vegetation/land cover,0.07604587264358997,3,0.8414053055384146

@@ -1,0 +1,16 @@
+factor,factor_name,r2_against_other_factors,vif,decision,decision_reason
+ndvi_max,NDVI maximum,0.9690252199864589,32.28432936611117,drop,Dropped: high VIF and redundancy with NDVI median/amplitude.
+lst_day_mean_c,Mean daytime LST (deg C),0.9661050439107512,29.502914751295197,keep,Kept in selected conventional set.
+rain_annual_total,Annual rainfall total,0.9578363627708194,23.71711896116781,drop,Dropped: redundant with monsoon and extreme rainfall information in this sample table.
+ndvi_amplitude,NDVI amplitude,0.9469080561501172,18.83524933326033,keep,Kept in selected conventional set.
+rain_max_3day,Maximum 3-day rainfall,0.9458584270908497,18.4700950908464,drop,Dropped: very high rainfall-family correlation; 1-day maximum kept for sharper triggering signal.
+ndvi_median,NDVI median,0.9405962279314862,16.83394783157276,keep,Kept in selected conventional set.
+lst_day_max_c,Maximum daytime LST (deg C),0.9354270285134918,15.486355621855482,drop,Dropped: high correlation with mean daytime LST; mean daytime LST retained.
+evi_median,EVI median,0.9344243687920767,15.249567279486177,drop,Dropped: high correlation with NDVI median; NDVI median retained for a simpler vegetation signal.
+rain_monsoon_total,Monsoon rainfall total,0.9300176432714315,14.289315861118698,keep,Kept in selected conventional set.
+rain_max_7day,Maximum 7-day rainfall,0.9274559144936683,13.784721290789706,drop,Dropped: very high rainfall-family correlation; monsoon total and 1-day maximum retained.
+elevation_m,Elevation (m),0.9060678521355041,10.645982474951754,keep,Kept in selected conventional set.
+rain_max_1day,Maximum 1-day rainfall,0.8643123429406281,7.369867102668277,keep,Kept in selected conventional set.
+slope_deg,Slope (degrees),0.34554423845836957,1.5279871593526941,keep,Kept in selected conventional set.
+modis_lc_type1,MODIS land-cover class,0.32969461813485823,1.4918573340668615,keep,Kept in selected conventional set.
+aspect_deg,Aspect (degrees),0.1293341930892089,1.1485463102635207,keep,Kept in selected conventional set.

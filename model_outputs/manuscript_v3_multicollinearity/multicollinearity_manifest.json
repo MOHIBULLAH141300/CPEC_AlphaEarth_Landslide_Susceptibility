@@ -1,0 +1,16 @@
+{
+  "input_table": "D:\\DING PROJECT\\01_clean_data\\manuscript_v3_corrected_terrain\\cpec_baseline_samples_corrected_terrain_lithology.csv",
+  "categorical_predictors_excluded_from_vif": [
+    "modis_lc_type1",
+    "lithology_code",
+    "soil_type",
+    "eq_density_ms5"
+  ],
+  "aspect_representation_for_modelling": [
+    "aspect_sin",
+    "aspect_cos"
+  ],
+  "maximum_vif": 3.6800423763065386,
+  "maximum_vif_factor": "rain_monsoon_total",
+  "decision": "retain all 19 conceptual conventional factors; encode categorical factors nominally and aspect cyclically"
+}

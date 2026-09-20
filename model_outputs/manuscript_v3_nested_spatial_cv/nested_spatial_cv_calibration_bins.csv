@@ -1,0 +1,31 @@
+feature_set,feature_set_name,bin,n,mean_score,observed_positive_fraction
+conventional,Conventional,1,332,0.03234627284072108,0.012048192771084338
+conventional,Conventional,2,332,0.04528489077481998,0.006024096385542169
+conventional,Conventional,3,331,0.06451683925140714,0.027190332326283987
+conventional,Conventional,4,332,0.10176249660797171,0.06927710843373494
+conventional,Conventional,5,331,0.21193143349429644,0.18126888217522658
+conventional,Conventional,6,332,0.518275866517497,0.5602409638554217
+conventional,Conventional,7,331,0.8489644148018468,0.8277945619335347
+conventional,Conventional,8,332,0.9715656617378289,0.9096385542168675
+conventional,Conventional,9,331,0.9907865270111764,0.9577039274924471
+conventional,Conventional,10,332,0.9958189911303161,0.9969879518072289
+alphaearth_embeddings,AlphaEarth Embeddings,1,332,0.04002230939799536,0.018072289156626505
+alphaearth_embeddings,AlphaEarth Embeddings,2,332,0.05400407835227943,0.009036144578313253
+alphaearth_embeddings,AlphaEarth Embeddings,3,331,0.0647777504312167,0.02416918429003021
+alphaearth_embeddings,AlphaEarth Embeddings,4,332,0.09578227303143827,0.1144578313253012
+alphaearth_embeddings,AlphaEarth Embeddings,5,331,0.23148752649659815,0.22356495468277945
+alphaearth_embeddings,AlphaEarth Embeddings,6,332,0.5746391327183893,0.5180722891566265
+alphaearth_embeddings,AlphaEarth Embeddings,7,331,0.850220313993183,0.797583081570997
+alphaearth_embeddings,AlphaEarth Embeddings,8,332,0.9383552920544291,0.9036144578313253
+alphaearth_embeddings,AlphaEarth Embeddings,9,331,0.9664280912258385,0.9577039274924471
+alphaearth_embeddings,AlphaEarth Embeddings,10,332,0.9784362349627265,0.9819277108433735
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,1,332,0.02094800006697115,0.0030120481927710845
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,2,332,0.03129677113377392,0.02710843373493976
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,3,331,0.04430408725846846,0.012084592145015106
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,4,332,0.06534855797702302,0.04819277108433735
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,5,331,0.15946260254799302,0.16314199395770393
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,6,332,0.542808691098958,0.49698795180722893
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,7,331,0.9199899984942084,0.8882175226586103
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,8,332,0.9761511564120752,0.9457831325301205
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,9,331,0.9886319611823048,0.9788519637462235
+conventional_alphaearth_embeddings,Conventional + AlphaEarth Embeddings,10,332,0.9941969661546479,0.9849397590361446

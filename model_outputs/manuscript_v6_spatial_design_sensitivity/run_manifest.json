@@ -1,0 +1,18 @@
+{
+  "analysis": "manuscript_v6_spatial_design_sensitivity",
+  "feature_set": "Conventional + AlphaEarth Embeddings",
+  "buffer_values_km": [
+    0,
+    10,
+    20,
+    40
+  ],
+  "block_sizes_degrees": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "model": "fully nested six-learner spatial-CV stack",
+  "alternative_fold_assignment": "deterministic greedy allocation balancing sample size and both classes",
+  "random_seed": 141300
+}

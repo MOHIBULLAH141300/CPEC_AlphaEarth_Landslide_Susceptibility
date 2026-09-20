@@ -1,0 +1,29 @@
+﻿field_name,readable_name,temporal_role,source,2017,2018,2019,2020,2021,2022,2023,2024
+elevation_m,Elevation,Static,Existing V3/local stack,fixed,fixed,fixed,fixed,fixed,fixed,fixed,fixed
+slope_deg,Slope,Static,Existing V3/local stack,fixed,fixed,fixed,fixed,fixed,fixed,fixed,fixed
+aspect_deg,Aspect,Static,Existing V3/local stack,fixed,fixed,fixed,fixed,fixed,fixed,fixed,fixed
+profile_curvature,Profile curvature,Static,Local CPEC raster,fixed,fixed,fixed,fixed,fixed,fixed,fixed,fixed
+plan_curvature,Plan curvature,Static,Local CPEC raster,fixed,fixed,fixed,fixed,fixed,fixed,fixed,fixed
+tri,Terrain ruggedness index,Static,Local CPEC raster,fixed,fixed,fixed,fixed,fixed,fixed,fixed,fixed
+twi,Topographic wetness index,Static,Local CPEC raster,fixed,fixed,fixed,fixed,fixed,fixed,fixed,fixed
+valley_depth,Valley depth,Static,Local CPEC raster,fixed,fixed,fixed,fixed,fixed,fixed,fixed,fixed
+lithology_code,Lithology,Static,Local CPEC vector/raster,fixed,fixed,fixed,fixed,fixed,fixed,fixed,fixed
+soil_type,Soil type,Static,Local CPEC raster,fixed,fixed,fixed,fixed,fixed,fixed,fixed,fixed
+log1p_dist_fault_m,Distance to active faults,Static,Local official fault vector,fixed,fixed,fixed,fixed,fixed,fixed,fixed,fixed
+log1p_dist_river_m,Distance to rivers/streams,Semi-static,Local official hydrography vector,fixed,fixed,fixed,fixed,fixed,fixed,fixed,fixed
+log1p_dist_road_m,Distance to roads,Semi-static,Local official 2018 road vector,fixed,fixed,fixed,fixed,fixed,fixed,fixed,fixed
+modis_lc_type1,Land-cover class,Annual,MODIS/061/MCD12Q1,available,available,available,available,available,available,available,verify in GEE
+rain_monsoon_total,Monsoon rainfall total,Annual,UCSB-CHG/CHIRPS/DAILY,available,available,available,available,available,available,available,available
+rain_max_1day,Maximum 1-day rainfall,Annual,UCSB-CHG/CHIRPS/DAILY,available,available,available,available,available,available,available,available
+rain_annual_total,Annual rainfall total,Annual,UCSB-CHG/CHIRPS/DAILY,available,available,available,available,available,available,available,available
+rain_max_3day,Maximum 3-day rainfall,Annual,UCSB-CHG/CHIRPS/DAILY,available,available,available,available,available,available,available,available
+rain_max_7day,Maximum 7-day rainfall,Annual,UCSB-CHG/CHIRPS/DAILY,available,available,available,available,available,available,available,available
+ndvi_median,Median NDVI,Annual,MODIS/061/MOD13Q1,available,available,available,available,available,available,available,available
+ndvi_amplitude,NDVI amplitude,Annual,MODIS/061/MOD13Q1,available,available,available,available,available,available,available,available
+ndvi_max,Maximum NDVI,Annual,MODIS/061/MOD13Q1,available,available,available,available,available,available,available,available
+evi_median,Median EVI,Annual,MODIS/061/MOD13Q1,available,available,available,available,available,available,available,available
+eq_density_ms5,Earthquake density,Semi-dynamic,Local 1970-2015 earthquake data; USGS/GEM optional,fixed until seismic catalog updated,fixed until seismic catalog updated,fixed until seismic catalog updated,fixed until seismic catalog updated,fixed until seismic catalog updated,fixed until seismic catalog updated,fixed until seismic catalog updated,fixed until seismic catalog updated
+A00-A63,AlphaEarth Embeddings,Annual,GOOGLE/SATELLITE_EMBEDDING/V1/ANNUAL,available,available,available,available,available,available,available,available
+dynamic_world_probabilities,Dynamic World land-cover probabilities,Annual/near-real-time,GOOGLE/DYNAMICWORLD/V1,available,available,available,available,available,available,available,available
+lst_day_mean_c,Mean daytime LST,Annual,MODIS/061/MOD11A2,available,available,available,available,available,available,available,available
+lst_day_max_c,Maximum daytime LST,Annual,MODIS/061/MOD11A2,available,available,available,available,available,available,available,available

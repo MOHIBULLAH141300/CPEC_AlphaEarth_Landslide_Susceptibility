@@ -1,0 +1,20 @@
+﻿Raw field,Readable label,Group
+rain_monsoon_total,Monsoon rainfall total,Climate
+rain_max_1day,Maximum 1-day rainfall,Climate
+ndvi_median,Median NDVI,Vegetation
+ndvi_amplitude,NDVI amplitude,Vegetation
+elevation_m,Elevation,Topography
+slope_deg,Slope,Topography
+aspect_deg,Aspect,Topography
+valley_depth,Valley depth,Topography
+tri,Terrain ruggedness index,Topography
+twi,Topographic wetness index,Hydrology/topography
+profile_curvature,Profile curvature,Topography
+plan_curvature,Plan curvature,Topography
+log1p_dist_road_m,Distance to roads,Proximity/infrastructure
+log1p_dist_river_m,Distance to rivers/streams,Proximity/hydrology
+log1p_dist_fault_m,Distance to active faults,Proximity/tectonics
+lithology_code,Lithology,Geology
+soil_type,Soil type,Soil/geology
+modis_lc_type1,Land-cover class,Land cover
+eq_density_ms5,Earthquake density,Seismicity
